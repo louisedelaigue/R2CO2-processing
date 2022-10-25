@@ -1,0 +1,120 @@
+0	1	0	reset all valves		*** ALK interpretor starts reading from here ***
+0	7	0	reset all valves
+0	8	0	reset all valves
+0	2	0	reset all ALK valves
+0	3	0	reset all ALK valves
+0	4	0	reset all ALK valves
+0	5	0	reset all ALK valves
+0	12	0	reset all ALK valves
+0	6	0	reset all DIC valves
+0	9	0	reset all DIC valves
+0	10	0	reset all DIC valves
+0	11	0	reset all DIC valves
+0	13	0	reset all DIC valves
+0	14	0	reset all DIC valves
+0	15	0	reset all DIC valves
+0	17	0	reset stirrer
+0	18	0	reset cell valve
+0	19	0	reset pump 2
+0	20	0	reset pump 2
+0	21	0	reset pump 1 (not used)
+0	22	0	reset pump 1 (not used)
+0	23	0	reset some other stuff 
+0	34	15	CELL draining. Display "rinsing titration cell"
+1	18	1	CELL draining. Open cell valve
+1	18	0	close cell valve
+1	18	1	CELL draining. Open cell valve
+1	18	0	close cell valve
+1	18	1	CELL draining. Open cell valve
+0	20	1	CELL draining. Pump OUT ON			*** CELL DRAIN 1 START. WHILE DRAINING, BLOWOUT PIPS, ADD ACID, FLUSH LINES, 
+5	8	1	line rinse DIC (connect SMP>8>1>9>WST)		*** DIC LINE RINSE
+0	9	1	DIC pipette rinse (connect SMP>8>1>9>10>SPB) *** DIC pipette rinse 1
+2	11	1	relieve pressure at top of DIC pipette
+1	8	0	DIC pipette rinse stop
+0	6	1	gas to top of DIC pipette
+10	11	0	gas to top of DIC pipette
+0	6	0	gas off
+0	11	1	relieve pressure
+2	8	1	sample in *** DIC pipette rinse 2
+1	8	0	DIC pipette rinse stop
+0	6	1	gas to top of DIC pipette
+10	11	0	gas to top of DIC pipette
+0	6	0	gas off
+0	11	1	relieve pressure
+0	6	0	gas off
+5	8	1	sample in *** fill DIC pipette for reals
+1	20	0	stop draining cell
+1	12	1	connect cell to NaCl
+7	19	1	start filling cell with NaCl
+5	17	1	stirrer on
+0	8	0	valve to pressure
+1	9	0	done filling pipette
+1	11	0	DIC pipette top to gas
+995	11	0	DIC pipette is filled - can resume DIC section below
+1	1	1	switch to ALK
+5	8	1	line rinse ALK *** ALK LINE RINSE
+0	2	1	ALK pipette rinse *** ALK pipette rinse 1
+3	4	1	relieve pressure at top of DIC pipette
+1	8	0	ALK pipette rinse stop
+0	5	1	gas to top of ALK pipette
+0	4	0	gas to top of ALK pipette
+1	17	0	stirrer off
+1	19	0	stop pumping NaCl to cell
+1	12	0	switch from NaCl to waste
+5	20	1	drain cell
+0	5	0	gas off
+0	4	1	relieve pressure
+2	8	1	sample in *** ALK pipette rinse 2
+1	8	0	ALK pipette rinse stop
+0	5	1	gas to top of ALK pipette
+8	4	0	gas to top of ALK pipette
+0	5	0	gas off
+1	4	1	relieve pressure
+13	8	1	pump sample into ALK pipette *** fill ALK pipette for real
+1	20	0	stop draining cell
+1	12	1	switch from waste to NaCl				
+7	19	1	pump IN on *** extra time so stirrer doesn't splash water				
+18	17	1	stirrer on (adjust time!)				
+1	17	0	stirrer off				
+1	19	0	wait until cell full, pump off	
+1	12	0	switch from NaCl to waste
+35	20	1	drain cell
+10	20	0	cell drain complete
+1	18	0	close cell valve
+1	18	1	CELL draining. Open cell valve
+1	18	0	close cell valve
+1	8	0	stop pumping
+1	4	0	pressure at top of pipette
+1	1	0	back to DIC
+1	3	1	pipette to cell
+1	2	0	finished with valve 2
+44	5	1	open N2
+1	5	0	pipette should be empty, close N2
+0	3	0	finished with valve 3
+1	17	1	stirrer on
+0	34	17	TITRATE ALK. Display "titrating AT"
+0	28	0	TITRATE ALK. Start TITRATION
+0	34	0	Display: ""
+0	30	0	ALK part complete
+777			DIC part begins
+0	16	10	DIC ADD ACID. Add 10 drops			*** This is effectively 10 seconds
+20	16	0	DIC ADD ACID. Acid pump off, wait 20 seconds
+995	14	0	DIC preparation. Wait until the ALK interpretor sets the global "ALK sample handling done"-flag to TRUE
+0	34	9	TITRATE DIC. Display "titrating DIC"
+0	36	0	reset coulometer
+0	31	0	TITRATE DIC. Start DIC titration 
+1	10	1	pipette into stripper
+18	6	1	N2 to top of DIC pipette
+5	10	0	pipette back to waste
+1	6	0	gas back to stripper
+1	15	1	extra N2 through waste tube on
+1	32	0	TITRATE DIC. Wait for titration done
+1	15	0	extra N2 through waste tube off
+0	34	6	"draining stripper"
+30	13	1	V13 to waste
+1	13	0	V13 to condenser
+5	14	1	open condenser
+1	14	0	close
+0	11	1	relieve pressure
+0	34	0	clear display
+0	30	0	DIC part complete
