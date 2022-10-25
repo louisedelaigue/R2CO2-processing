@@ -14,6 +14,26 @@ logfile = ks.read_logfile(
 
 dbs = ks.read_dbs("data/64PE503_SO289_2022.dbs", logfile=logfile)
 
+# Fix datetime issue in .dbs
+dbs.loc[dbs["bottle"]=="64PE503-28-5-8", "analysis_datetime"] = "2022-10-21 12:12:00"
+dbs.loc[dbs["bottle"]=="NUTSLAB03", "analysis_datetime"] = "2022-10-21 12:28:00"
+dbs.loc[dbs["bottle"]=="64PE503-68-6-5", "analysis_datetime"] = "2022-10-21 12:44:00"
+dbs.loc[dbs["bottle"]=="SO289-40698", "analysis_datetime"] = "2022-10-21 13:00:00"
+dbs.loc[dbs["bottle"]=="64PE503-12-7-2", "analysis_datetime"] = "2022-10-21 13:14:00"
+dbs.loc[dbs["bottle"]=="64PE503-46-4-8", "analysis_datetime"] = "2022-10-21 13:30:00"
+dbs.loc[dbs["bottle"]=="64PE503-56-4-2", "analysis_datetime"] = "2022-10-21 13:46:00"
+dbs.loc[dbs["bottle"]=="NUTSLAB04", "analysis_datetime"] = "2022-10-21 14:02:00"
+dbs.loc[dbs["bottle"]=="SO289-40611", "analysis_datetime"] = "2022-10-21 14:18:00"
+dbs.loc[dbs["bottle"]=="SO289-40499", "analysis_datetime"] = "2022-10-21 14:33:00"
+dbs.loc[dbs["bottle"]=="64PE503-58-4-5", "analysis_datetime"] = "2022-10-21 14:50:00"
+dbs.loc[dbs["bottle"]=="64PE503-66-5-8", "analysis_datetime"] = "2022-10-21 15:09:00"
+dbs.loc[dbs["bottle"]=="64PE503-14-4-11", "analysis_datetime"] = "2022-10-21 15:24:00"
+dbs.loc[dbs["bottle"]=="64PE503-47-4-11", "analysis_datetime"] = "2022-10-21 15:39:00"
+dbs.loc[dbs["bottle"]=="64PE503-26-5-8", "analysis_datetime"] = "2022-10-21 15:55:00"
+dbs.loc[dbs["bottle"]=="NUTSLAB05", "analysis_datetime"] = "2022-10-21 16:11:00"
+dbs.loc[dbs["bottle"]=="CRM-189-0526-01", "analysis_datetime"] = "2022-10-21 16:28:00"
+dbs.loc[dbs["bottle"]=="CRM-189-0526-02", "analysis_datetime"] = "2022-10-21 17:17:00"
+
 # Create empty metadata columns
 for meta in [
     "salinity",
@@ -65,9 +85,11 @@ dbs['file_good'] = True
 dbs["analyte_volume"] = 95.939  # TA pipette volume in ml
 dbs["file_path"] = "data/64PE503_SO289_2022/"
 
-# Assign TA acid batches
-dbs["analysis_batch"] = 0
-dbs.loc[dbs['analysis_datetime'].dt.month == 10, 'analysis_batch'] = 1
+#%% Assign TA acid batches
+dbs.loc[dbs['analysis_datetime'].dt.month == 8, 'analysis_batch'] = 0
+dbs.loc[dbs['analysis_datetime'].dt.month == 9, 'analysis_batch'] = 1
+dbs.loc[(dbs['analysis_datetime'].dt.month == 10) & (dbs["analysis_datetime"].dt.day <= 19), 'analysis_batch'] = 1
+dbs.loc[(dbs['analysis_datetime'].dt.month == 10) & (dbs["analysis_datetime"].dt.day >= 20), 'analysis_batch'] = 2
 
 # Select which TA CRMs to use/avoid for calibration
 dbs["reference_good"] = ~np.isnan(dbs.alkalinity_certified)
@@ -87,7 +109,7 @@ dbs['blank_good'] = True
 dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.endswith("-01")
 
 # Get blanks and apply correction
-dbs.get_blank_corrections()
+dbs.get_blank_corrections() # =======HERE
 dbs.plot_blanks(figure_path="figs/dic_blanks/")
 
 # Calibrate DIC and plot calibration
