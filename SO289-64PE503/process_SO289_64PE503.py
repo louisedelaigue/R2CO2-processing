@@ -1,5 +1,6 @@
 import copy
 import numpy as np, pandas as pd
+import matplotlib.dates as dates
 from matplotlib import pyplot as plt
 import itertools
 import koolstof as ks, calkulate as calk
@@ -14,15 +15,14 @@ logfile = ks.read_logfile(
 
 dbs = ks.read_dbs("data/64PE503_SO289_2022.dbs", logfile=logfile)
 
-# Fix datetime issue in .dbs
+# Fix datetime issue in .dbs samples
+dbs.loc[dbs["bottle"]=="SO289-41297", "analysis_datetime"] = "2022-10-21 11:58:00"
 dbs.loc[dbs["bottle"]=="64PE503-28-5-8", "analysis_datetime"] = "2022-10-21 12:12:00"
-dbs.loc[dbs["bottle"]=="NUTSLAB03", "analysis_datetime"] = "2022-10-21 12:28:00"
 dbs.loc[dbs["bottle"]=="64PE503-68-6-5", "analysis_datetime"] = "2022-10-21 12:44:00"
 dbs.loc[dbs["bottle"]=="SO289-40698", "analysis_datetime"] = "2022-10-21 13:00:00"
 dbs.loc[dbs["bottle"]=="64PE503-12-7-2", "analysis_datetime"] = "2022-10-21 13:14:00"
 dbs.loc[dbs["bottle"]=="64PE503-46-4-8", "analysis_datetime"] = "2022-10-21 13:30:00"
 dbs.loc[dbs["bottle"]=="64PE503-56-4-2", "analysis_datetime"] = "2022-10-21 13:46:00"
-dbs.loc[dbs["bottle"]=="NUTSLAB04", "analysis_datetime"] = "2022-10-21 14:02:00"
 dbs.loc[dbs["bottle"]=="SO289-40611", "analysis_datetime"] = "2022-10-21 14:18:00"
 dbs.loc[dbs["bottle"]=="SO289-40499", "analysis_datetime"] = "2022-10-21 14:33:00"
 dbs.loc[dbs["bottle"]=="64PE503-58-4-5", "analysis_datetime"] = "2022-10-21 14:50:00"
@@ -30,9 +30,26 @@ dbs.loc[dbs["bottle"]=="64PE503-66-5-8", "analysis_datetime"] = "2022-10-21 15:0
 dbs.loc[dbs["bottle"]=="64PE503-14-4-11", "analysis_datetime"] = "2022-10-21 15:24:00"
 dbs.loc[dbs["bottle"]=="64PE503-47-4-11", "analysis_datetime"] = "2022-10-21 15:39:00"
 dbs.loc[dbs["bottle"]=="64PE503-26-5-8", "analysis_datetime"] = "2022-10-21 15:55:00"
-dbs.loc[dbs["bottle"]=="NUTSLAB05", "analysis_datetime"] = "2022-10-21 16:11:00"
 dbs.loc[dbs["bottle"]=="CRM-189-0526-01", "analysis_datetime"] = "2022-10-21 16:28:00"
 dbs.loc[dbs["bottle"]=="CRM-189-0526-02", "analysis_datetime"] = "2022-10-21 17:17:00"
+
+# Fix datetime issue in .dbs nuts
+L = (dbs["bottle"] == "NUTSLAB03") & (dbs["analysis_datetime"].isnull())
+dbs.loc[L, "analysis_datetime"] = "2022-10-21 12:28:00"
+L = (dbs["bottle"] == "NUTSLAB04") & (dbs["analysis_datetime"].isnull())
+dbs.loc[L, "analysis_datetime"] = "2022-10-21 14:02:00"
+L = (dbs["bottle"] == "NUTSLAB05") & (dbs["analysis_datetime"].isnull())
+dbs.loc[L, "analysis_datetime"] = "2022-10-21 16:11:00"
+
+# Convert datetime to datenum
+dbs["analysis_datenum"] = dates.date2num(dbs["analysis_datetime"])
+
+# Add a column to locate real analysis days
+dbs["real_day"] = True
+dbs.loc[dbs["dic_cell_id"]=="C_Aug26-22_0808", "real_day"] = False
+dbs.loc[dbs["dic_cell_id"]=="C_Aug28-22_0808", "real_day"] = False
+# dbs.loc[dbs["dic_cell_id"]=="C_Aug29-22_0808", "real_day"] = False
+dbs.loc[dbs["dic_cell_id"]=="C_Aug30-22_0808", "real_day"] = False
 
 # Create empty metadata columns
 for meta in [
@@ -82,14 +99,13 @@ dbs['file_good'] = True
 
 # === ALKALINITY
 # Assign alkalinity metadata
-dbs["analyte_volume"] = 95.939  # TA pipette volume in ml
+dbs["analyte_volume"] = 98.865  # TA pipette volume in ml
 dbs["file_path"] = "data/64PE503_SO289_2022/"
 
-#%% Assign TA acid batches
-dbs.loc[dbs['analysis_datetime'].dt.month == 8, 'analysis_batch'] = 0
-dbs.loc[dbs['analysis_datetime'].dt.month == 9, 'analysis_batch'] = 1
-dbs.loc[(dbs['analysis_datetime'].dt.month == 10) & (dbs["analysis_datetime"].dt.day <= 19), 'analysis_batch'] = 1
-dbs.loc[(dbs['analysis_datetime'].dt.month == 10) & (dbs["analysis_datetime"].dt.day >= 20), 'analysis_batch'] = 2
+# Assign TA acid batches
+dbs["analysis_batch"] = 0
+dbs.loc[(dbs['analysis_datetime'].dt.day >= 11) & (dbs['analysis_datetime'].dt.month == 10), 'analysis_batch'] = 1
+dbs.loc[(dbs['analysis_datetime'].dt.day >= 20) & (dbs['analysis_datetime'].dt.month == 10), 'analysis_batch'] = 2
 
 # Select which TA CRMs to use/avoid for calibration
 dbs["reference_good"] = ~np.isnan(dbs.alkalinity_certified)
@@ -109,7 +125,7 @@ dbs['blank_good'] = True
 dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.endswith("-01")
 
 # Get blanks and apply correction
-dbs.get_blank_corrections() # =======HERE
+dbs.get_blank_corrections()
 dbs.plot_blanks(figure_path="figs/dic_blanks/")
 
 # Calibrate DIC and plot calibration
@@ -122,7 +138,7 @@ dbs.plot_dic_offset(figure_path="figs/")
 # Demote dbs to a standard DataFrame
 dbs = pd.DataFrame(dbs)
 
-# === PLOT NUTS FOR EACH ANALYSIS DAY
+# === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
 # Prepare colours and markers
 markers = itertools.cycle(("o", "^", "s", "v", "D", "<", ">"))
 colors = itertools.cycle(
@@ -144,9 +160,10 @@ L = dbs["bottle"].str.startswith("NUTS")
 nuts = dbs[L]
 
 # Only keep real analysis days
-real_days = ["C_Aug27-22_0908", "C_Oct17-22_0910", "C_Oct18-22_0810"]
-L = nuts["dic_cell_id"].isin(real_days)
+L = nuts["real_day"] == True
 nuts = nuts[L]
+
+real_days = list(nuts["dic_cell_id"].unique())
 
 # Create an hour column
 nuts["hour"] = nuts["analysis_datetime"].dt.hour
@@ -160,6 +177,7 @@ for r in real_days:
     data = nuts[L]
     m = next(markers)
     c = next(colors)
+    l = r.split("_")[1].replace("-22", "")
     ax.scatter(
         x="hour",
         y="dic",
@@ -167,10 +185,11 @@ for r in real_days:
         marker=m,
         color=c,
         alpha=0.3,
-        label=r,
+        label=l,
     )
     
-ax.legend()
+ax.legend(loc="upper left", ncol=2) # bbox_to_anchor=(1, 0.5)
+# ax.set_ylim(2000, 2200)
 ax.grid(alpha=0.3)
 ax.set_xlabel("Time (hrs)")
 ax.set_ylabel("$DIC$ / μmol · $kg^{-1}$")
