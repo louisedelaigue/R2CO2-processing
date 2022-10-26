@@ -20,7 +20,6 @@ dbs.loc[dbs["bottle"]=="SO289-41297", "analysis_datetime"] = "2022-10-21 11:58:0
 dbs.loc[dbs["bottle"]=="64PE503-28-5-8", "analysis_datetime"] = "2022-10-21 12:12:00"
 dbs.loc[dbs["bottle"]=="64PE503-68-6-5", "analysis_datetime"] = "2022-10-21 12:44:00"
 dbs.loc[dbs["bottle"]=="SO289-40698", "analysis_datetime"] = "2022-10-21 13:00:00"
-dbs.loc[dbs["bottle"]=="64PE503-12-7-2", "analysis_datetime"] = "2022-10-21 13:14:00"
 dbs.loc[dbs["bottle"]=="64PE503-46-4-8", "analysis_datetime"] = "2022-10-21 13:30:00"
 dbs.loc[dbs["bottle"]=="64PE503-56-4-2", "analysis_datetime"] = "2022-10-21 13:46:00"
 dbs.loc[dbs["bottle"]=="SO289-40611", "analysis_datetime"] = "2022-10-21 14:18:00"
@@ -32,6 +31,12 @@ dbs.loc[dbs["bottle"]=="64PE503-47-4-11", "analysis_datetime"] = "2022-10-21 15:
 dbs.loc[dbs["bottle"]=="64PE503-26-5-8", "analysis_datetime"] = "2022-10-21 15:55:00"
 dbs.loc[dbs["bottle"]=="CRM-189-0526-01", "analysis_datetime"] = "2022-10-21 16:28:00"
 dbs.loc[dbs["bottle"]=="CRM-189-0526-02", "analysis_datetime"] = "2022-10-21 17:17:00"
+
+# Fix datetime issue in .dbs for sample "64PE503-12-7-2" // because there's a duplicate
+L = (dbs["dic_cell_id"] == "C_Oct21-22_0810") & (dbs["bottle"]=="64PE503-12-7-2")
+dbs.loc[L, "analysis_datetime"] = "2022-10-21 13:14:00"
+
+
 
 # Fix datetime issue in .dbs nuts
 L = (dbs["bottle"] == "NUTSLAB03") & (dbs["analysis_datetime"].isnull())
@@ -120,6 +125,8 @@ calk.plot.alkalinity_offset(dbs, figure_fname="figs/alkalinity_offset.png", show
 # === DIC
 # Add optional column "blank_good
 dbs['blank_good'] = True
+dbs.loc[dbs["bottle"]=="CRM-189-0526-02", "blank_good"] = False
+dbs.loc[(dbs["bottle"]=="JUNK01") & (dbs["dic_cell_id"]=="C_Oct24-22_0810"), "blank_good"] = False
 
 # Select which DIC CRMs to use/avoid for calibration --- only fresh bottles
 dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.endswith("-01")
