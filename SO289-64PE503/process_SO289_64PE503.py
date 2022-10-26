@@ -138,6 +138,9 @@ dbs.plot_dic_offset(figure_path="figs/")
 # Demote dbs to a standard DataFrame
 dbs = pd.DataFrame(dbs)
 
+# Save to .csv
+dbs.to_csv("data/SO289-64PE503_results.csv")
+
 # === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
 # Prepare colours and markers
 markers = itertools.cycle(("o", "^", "s", "v", "D", "<", ">"))
