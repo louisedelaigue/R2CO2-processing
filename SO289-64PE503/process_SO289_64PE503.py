@@ -228,7 +228,7 @@ dbs = pd.DataFrame(dbs)
 # Save to .csv
 dbs.to_csv("data/SO289-64PE503_results.csv")
 
-# === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
+#%% === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
 # Prepare colours and markers
 markers = itertools.cycle(("o", "^", "s", "v", "D", "<", ">"))
 colors = itertools.cycle(
@@ -255,8 +255,7 @@ nuts = nuts[L]
 
 real_days = list(nuts["dic_cell_id"].unique())
 
-# Create an hour column
-# nuts["hour"] = nuts["analysis_datetime"].dt.hour
+# Create a column with hours and minutes
 nuts["datetime"] = nuts["analysis_datetime"].dt.strftime("%H:%M")
 nuts["datetime"] = pd.to_datetime(nuts["datetime"])
 
@@ -279,6 +278,17 @@ for r in real_days:
         alpha=0.3,
         label=l,
     )
+    
+    # Fit a polynomial
+    a, b, d, e, f = np.polyfit(data["analysis_datenum"], data["dic"], 4)
+    data["new_dic"] = (a * (data["analysis_datenum"] ** 4) 
+                       + b * (data["analysis_datenum"] ** 3)
+                       + d * (data["analysis_datenum"] ** 2)
+                       + e * data["analysis_datenum"]
+                       +f)
+    
+    # Plot polynomial
+    ax.plot(data["datetime"], data["new_dic"], color=c, alpha=0.3)     
 
 myFmt = mdates.DateFormatter("%H")
 ax.xaxis.set_major_formatter(myFmt)
@@ -288,6 +298,7 @@ ax.legend(loc="upper left", ncol=2)  # bbox_to_anchor=(1, 0.5)
 ax.grid(alpha=0.3)
 ax.set_xlabel("Time (hrs)")
 ax.set_ylabel("$DIC$ / μmol · $kg^{-1}$")
+
 
 # Save plot
 plt.tight_layout()
