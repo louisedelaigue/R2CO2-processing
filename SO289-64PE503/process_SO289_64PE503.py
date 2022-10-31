@@ -278,17 +278,19 @@ for r in real_days:
         alpha=0.3,
         label=l,
     )
-    
+
     # Fit a polynomial
     a, b, d, e, f = np.polyfit(data["analysis_datenum"], data["dic"], 4)
-    data["new_dic"] = (a * (data["analysis_datenum"] ** 4) 
-                       + b * (data["analysis_datenum"] ** 3)
-                       + d * (data["analysis_datenum"] ** 2)
-                       + e * data["analysis_datenum"]
-                       +f)
-    
+    data["new_dic"] = (
+        a * (data["analysis_datenum"] ** 4)
+        + b * (data["analysis_datenum"] ** 3)
+        + d * (data["analysis_datenum"] ** 2)
+        + e * data["analysis_datenum"]
+        + f
+    )
+
     # Plot polynomial
-    ax.plot(data["datetime"], data["new_dic"], color=c, alpha=0.3)     
+    ax.plot(data["datetime"], data["new_dic"], color=c, alpha=0.3)
 
 myFmt = mdates.DateFormatter("%H")
 ax.xaxis.set_major_formatter(myFmt)
