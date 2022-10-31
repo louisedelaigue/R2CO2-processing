@@ -1,5 +1,6 @@
 import copy
 import numpy as np, pandas as pd
+from pandas.tseries.offsets import DateOffset
 import matplotlib.dates as dates
 from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
@@ -44,6 +45,10 @@ L = (dbs["bottle"] == "NUTSLAB04") & (dbs["analysis_datetime"].isnull())
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 14:02:00"
 L = (dbs["bottle"] == "NUTSLAB05") & (dbs["analysis_datetime"].isnull())
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 16:11:00"
+
+# Fix datetime for 31 October 2022 (time change in real life)
+L = (dbs["analysis_datetime"].dt.month == 10) & (dbs["analysis_datetime"].dt.day == 31)
+dbs.loc[L, "analysis_datetime"] = dbs["analysis_datetime"] - DateOffset(hours=1)
 
 # Convert datetime to datenum
 dbs["analysis_datenum"] = dates.date2num(dbs["analysis_datetime"])
@@ -130,7 +135,7 @@ L = (
     & (dbs["analysis_datetime"].dt.month == 10)
     & (dbs["analysis_datetime"].dt.day == 25)
 )
-dbs.loc[L, "file_good"] = 2
+dbs.loc[L, "flag"] = 2
 
 dbs.loc[dbs["bottle"] == "64PE503-10-5-2", "flag"] = 3  # weird DIC
 dbs.loc[dbs["bottle"] == "SO289-41003", "flag"] = 3  # weird DIC
@@ -289,7 +294,7 @@ for r in real_days:
 myFmt = mdates.DateFormatter("%H")
 ax.xaxis.set_major_formatter(myFmt)
 
-ax.legend(loc="upper left", ncol=2)  # bbox_to_anchor=(1, 0.5)
+ax.legend(loc="upper left", ncol=3)  # bbox_to_anchor=(1, 0.5)
 # ax.set_ylim(2000, 2200)
 ax.grid(alpha=0.3)
 ax.set_xlabel("Time (hrs)")
