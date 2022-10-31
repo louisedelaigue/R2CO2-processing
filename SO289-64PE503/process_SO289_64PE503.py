@@ -2,6 +2,7 @@ import copy
 import numpy as np, pandas as pd
 import matplotlib.dates as dates
 from matplotlib import pyplot as plt
+import matplotlib.dates as mdates
 import itertools
 import koolstof as ks, calkulate as calk
 
@@ -157,6 +158,7 @@ calk.dataset.calibrate(dbs)
 calk.dataset.solve(dbs)
 calk.plot.titrant_molinity(dbs, figure_fname="figs/titrant_molinity.png", show_bad=False)
 calk.plot.alkalinity_offset(dbs, figure_fname="figs/alkalinity_offset.png", show_bad=False)
+
 # === DIC
 # Add optional column "blank_good
 dbs['blank_good'] = True
@@ -177,7 +179,7 @@ dbs.loc[dbs.crm & dbs.bottle.str.endswith("-02"), "k_dic_good"] = False # remove
 dbs.get_blank_corrections()
 dbs.plot_blanks(figure_path="figs/dic_blanks/")
 
-# Calibrate DIC and plot calibration
+# Calibrate DIC and calibration
 dbs.calibrate_dic()
 dic_sessions = copy.deepcopy(dbs.sessions)
 dbs.plot_k_dic(figure_path="figs/")
@@ -211,8 +213,8 @@ colors = itertools.cycle(
     )
 )
 
-# Only keep nuts bottles
-L = dbs["bottle"].str.startswith("NUTS")
+#%% Only keep nuts bottles that have file_good
+L = (dbs["bottle"].str.startswith("NUTS")) & (dbs["file_good"]==True)
 nuts = dbs[L]
 
 # Only keep real analysis days
@@ -222,7 +224,9 @@ nuts = nuts[L]
 real_days = list(nuts["dic_cell_id"].unique())
 
 # Create an hour column
-nuts["hour"] = nuts["analysis_datetime"].dt.hour
+# nuts["hour"] = nuts["analysis_datetime"].dt.hour
+nuts["datetime"] = nuts['analysis_datetime'].dt.strftime('%H:%M')
+nuts["datetime"] = pd.to_datetime(nuts["datetime"])
 
 # Create figure
 fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
@@ -235,7 +239,7 @@ for r in real_days:
     c = next(colors)
     l = r.split("_")[1].replace("-22", "")
     ax.scatter(
-        x="hour",
+        x="datetime",
         y="dic",
         data=data,
         marker=m,
@@ -244,6 +248,9 @@ for r in real_days:
         label=l,
     )
     
+myFmt = mdates.DateFormatter('%H')
+ax.xaxis.set_major_formatter(myFmt)    
+
 ax.legend(loc="upper left", ncol=2) # bbox_to_anchor=(1, 0.5)
 # ax.set_ylim(2000, 2200)
 ax.grid(alpha=0.3)
