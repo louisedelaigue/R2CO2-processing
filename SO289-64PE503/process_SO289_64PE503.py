@@ -135,6 +135,7 @@ dbs.loc[dbs["bottle"]=="SO289-40060", "flag"] = 3 # bottle popped, DIC only 1 x 
 
 # Correct bottle name typos
 dbs.loc[dbs["bottle"]=="CRM-189-0897", "bottle"] = "CRM-189-0897-01"
+dbs.loc[dbs["bottle"]=="64PE503-65-2-1", "bottle"] = "64PE503-65-1-2"
 
 # Flag any nan
 if dbs["counts"].isnull().any():
@@ -173,7 +174,7 @@ dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.endswith("-01")
 # Get blanks and apply correction
 dbs.get_blank_corrections()
 dbs.plot_blanks(figure_path="figs/dic_blanks/")
-
+#%%
 # Calibrate DIC and plot calibration
 dbs.calibrate_dic()
 dic_sessions = copy.deepcopy(dbs.sessions)
