@@ -149,6 +149,7 @@ dbs["file_path"] = "data/64PE503_SO289_2022/"
 dbs["analysis_batch"] = 0
 dbs.loc[(dbs['analysis_datetime'].dt.day >= 11) & (dbs['analysis_datetime'].dt.month == 10), 'analysis_batch'] = 1
 dbs.loc[(dbs['analysis_datetime'].dt.day >= 20) & (dbs['analysis_datetime'].dt.month == 10), 'analysis_batch'] = 2
+dbs.loc[(dbs['analysis_datetime'].dt.day >= 28) & (dbs['analysis_datetime'].dt.month == 10), 'analysis_batch'] = 3
 
 # Select which TA CRMs to use/avoid for calibration
 dbs["reference_good"] = ~np.isnan(dbs.alkalinity_certified)
