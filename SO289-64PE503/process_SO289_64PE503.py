@@ -157,15 +157,21 @@ calk.dataset.calibrate(dbs)
 calk.dataset.solve(dbs)
 calk.plot.titrant_molinity(dbs, figure_fname="figs/titrant_molinity.png", show_bad=False)
 calk.plot.alkalinity_offset(dbs, figure_fname="figs/alkalinity_offset.png", show_bad=False)
-
 # === DIC
 # Add optional column "blank_good
 dbs['blank_good'] = True
 dbs.loc[dbs["bottle"]=="CRM-189-0526-02", "blank_good"] = False
+dbs.loc[dbs["bottle"]=="64PE503-10-5-2", "blank_good"] = False
+dbs.loc[dbs["bottle"]=="SO289-41003", "blank_good"] = False
+dbs.loc[dbs["bottle"]=="SO289-41003", "blank_good"] = False
+
 dbs.loc[(dbs["bottle"]=="JUNK01") & (dbs["dic_cell_id"]=="C_Oct24-22_0810"), "blank_good"] = False
+dbs.loc[(dbs["bottle"]=="JUNK04") & (dbs["dic_cell_id"]=="C_Oct28-22_0910"), "blank_good"] = False
+dbs.loc[(dbs["bottle"]=="NUTSLAB05") & (dbs["dic_cell_id"]=="C_Oct28-22_0910"), "blank_good"] = False
 
 # Select which DIC CRMs to use/avoid for calibration --- only fresh bottles
-dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.endswith("-01")
+dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.startswith("CRM")
+dbs.loc[dbs.crm & dbs.bottle.str.endswith("-02"), "k_dic_good"] = False # remove CRMs used twice for DIC calibration
 
 # Get blanks and apply correction
 dbs.get_blank_corrections()

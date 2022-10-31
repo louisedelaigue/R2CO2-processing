@@ -27339,16 +27339,3 @@ Begin titration at 11:31
 	11	202079	36	3
  	CT	Salt	pip. T	blank	density	TCT	comment	
  	2040.98	2350.78	35.000	25.00	50.00	1.02334	3.6	
-
-
-3C standard.mth run started 10/31/22  11:46
-bottle	SO289-40855	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
-Begin titration at 11:47
- 	Time	Counts	Inc	EP
-	1	65938	65938	0
-	2	166740	100802	0
-	3	192674	25934	0
-	4	194097	1423	0
-	5	194169	72	0
-	6	194228	59	0
-	7	194303	75	0
