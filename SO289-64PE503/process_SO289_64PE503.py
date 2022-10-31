@@ -1,11 +1,8 @@
-import copy
-import numpy as np, pandas as pd
+import copy, itertools
+import numpy as np, pandas as pd, koolstof as ks, calkulate as calk
 from pandas.tseries.offsets import DateOffset
-import matplotlib.dates as dates
-from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
-import itertools
-import koolstof as ks, calkulate as calk
+from matplotlib import pyplot as plt
 
 # Import logfile and dbs file
 logfile = ks.read_logfile(
@@ -47,7 +44,7 @@ L = (dbs["bottle"] == "NUTSLAB05") & (dbs["analysis_datetime"].isnull())
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 16:11:00"
 
 # Convert datetime to datenum
-dbs["analysis_datenum"] = dates.date2num(dbs["analysis_datetime"])
+dbs["analysis_datenum"] = mdates.date2num(dbs["analysis_datetime"])
 
 # Add a column to locate real analysis days
 dbs["real_day"] = True
@@ -142,8 +139,12 @@ dbs.loc[dbs["bottle"] == "64PE503-53-4-9", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-57-3-2", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-53-4-2", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "SO289-40060", "flag"] = 3  # bottle popped, DIC only 1 x rinse
-dbs.loc[dbs["bottle"] == "SO289-40975", "flag"] = 3  # not so great TA curve during analysis
-dbs.loc[dbs["bottle"] == "SO289-41296", "flag"] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-40975", "flag"
+] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-41296", "flag"
+] = 3  # not so great TA curve during analysis
 
 # Flag any nan
 if dbs["counts"].isnull().any():
