@@ -36,8 +36,6 @@ dbs.loc[dbs["bottle"]=="CRM-189-0526-02", "analysis_datetime"] = "2022-10-21 17:
 L = (dbs["dic_cell_id"] == "C_Oct21-22_0810") & (dbs["bottle"]=="64PE503-12-7-2")
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 13:14:00"
 
-
-
 # Fix datetime issue in .dbs nuts
 L = (dbs["bottle"] == "NUTSLAB03") & (dbs["analysis_datetime"].isnull())
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 12:28:00"
@@ -53,7 +51,6 @@ dbs["analysis_datenum"] = dates.date2num(dbs["analysis_datetime"])
 dbs["real_day"] = True
 dbs.loc[dbs["dic_cell_id"]=="C_Aug26-22_0808", "real_day"] = False
 dbs.loc[dbs["dic_cell_id"]=="C_Aug28-22_0808", "real_day"] = False
-# dbs.loc[dbs["dic_cell_id"]=="C_Aug29-22_0808", "real_day"] = False
 dbs.loc[dbs["dic_cell_id"]=="C_Aug30-22_0808", "real_day"] = False
 
 # Create empty metadata columns
@@ -138,6 +135,10 @@ dbs.loc[dbs["bottle"]=="SO289-40060", "flag"] = 3 # bottle popped, DIC only 1 x 
 
 # Correct bottle name typos
 dbs.loc[dbs["bottle"]=="CRM-189-0897", "bottle"] = "CRM-189-0897-01"
+
+# Flag any nan
+if dbs["counts"].isnull().any():
+    print("ERROR: DIC counts include nan values.")
 
 # === ALKALINITY
 # Assign alkalinity metadata
