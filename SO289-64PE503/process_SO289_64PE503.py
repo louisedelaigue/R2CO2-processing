@@ -100,7 +100,44 @@ dbs['total_silicate'] = dbs['total_silicate'].fillna(0)
 dbs['total_ammonium'] = dbs['total_ammonium'].fillna(0)
 
 # Add optional column "file_good"
-dbs['file_good'] = True
+dbs["file_good"] = True
+
+L = ((dbs["bottle"]=="NUTSLAB05") 
+     & (dbs["analysis_datetime"].dt.month==10)
+     & (dbs["analysis_datetime"].dt.day==28))
+dbs.loc[L, "file_good"] = False
+
+L = ((dbs["bottle"]=="NUTSLAB03") 
+     & (dbs["analysis_datetime"].dt.month==10)
+     & (dbs["analysis_datetime"].dt.day==25))
+dbs.loc[L, "file_good"] = False
+
+# Add a flag column
+# where good = 4, questionable = 3, bad = 2
+dbs["flag"] = 4
+
+L = ((dbs["bottle"]=="NUTSLAB05") 
+     & (dbs["analysis_datetime"].dt.month==10)
+     & (dbs["analysis_datetime"].dt.day==28))
+dbs.loc[L, "flag"] = 2
+
+L = ((dbs["bottle"]=="NUTSLAB03") 
+     & (dbs["analysis_datetime"].dt.month==10)
+     & (dbs["analysis_datetime"].dt.day==25))
+dbs.loc[L, "file_good"] = 2
+
+dbs.loc[dbs["bottle"]=="64PE503-10-5-2", "flag"] = 3 # weird DIC
+dbs.loc[dbs["bottle"]=="SO289-41003", "flag"] = 3 # weird DIC
+dbs.loc[dbs["bottle"]=="64PE503-53-9-3", "flag"] = 3 # red tape
+dbs.loc[dbs["bottle"]=="64PE503-53-4-5", "flag"] = 3 # red tape
+dbs.loc[dbs["bottle"]=="64PE503-53-4-6", "flag"] = 3 # red tape
+dbs.loc[dbs["bottle"]=="64PE503-53-4-9", "flag"] = 3 # red tape
+dbs.loc[dbs["bottle"]=="64PE503-57-3-2", "flag"] = 3 # red tape
+dbs.loc[dbs["bottle"]=="64PE503-53-4-2", "flag"] = 3 # red tape
+dbs.loc[dbs["bottle"]=="SO289-40060", "flag"] = 3 # bottle popped, DIC only 1 x rinse
+
+# Correct bottle name typos
+dbs.loc[dbs["bottle"]=="CRM-189-0897", "bottle"] = "CRM-189-0897-01"
 
 # === ALKALINITY
 # Assign alkalinity metadata
