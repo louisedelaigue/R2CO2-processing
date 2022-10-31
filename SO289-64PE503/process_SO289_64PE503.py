@@ -142,6 +142,8 @@ dbs.loc[dbs["bottle"] == "64PE503-53-4-9", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-57-3-2", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-53-4-2", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "SO289-40060", "flag"] = 3  # bottle popped, DIC only 1 x rinse
+dbs.loc[dbs["bottle"] == "SO289-40975", "flag"] = 3  # not so great TA curve during analysis
+dbs.loc[dbs["bottle"] == "SO289-41296", "flag"] = 3  # not so great TA curve during analysis
 
 # Flag any nan
 if dbs["counts"].isnull().any():
