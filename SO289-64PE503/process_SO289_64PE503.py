@@ -145,6 +145,9 @@ dbs.loc[
 dbs.loc[
     dbs["bottle"] == "SO289-41296", "flag"
 ] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-41304", "flag"
+] = 3  # not so great TA curve during analysis
 
 # Flag any nan
 if dbs["counts"].isnull().any():
@@ -302,7 +305,6 @@ ax.legend(loc="upper left", ncol=3)  # bbox_to_anchor=(1, 0.5)
 ax.grid(alpha=0.3)
 ax.set_xlabel("Time (hrs)")
 ax.set_ylabel("$DIC$ / μmol · $kg^{-1}$")
-
 
 # Save plot
 plt.tight_layout()
