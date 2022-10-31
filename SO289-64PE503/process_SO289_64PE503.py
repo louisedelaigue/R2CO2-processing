@@ -228,7 +228,7 @@ dbs = pd.DataFrame(dbs)
 # Save to .csv
 dbs.to_csv("data/SO289-64PE503_results.csv")
 
-#%% === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
+# === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
 # Prepare colours and markers
 markers = itertools.cycle(("o", "^", "s", "v", "D", "<", ">"))
 colors = itertools.cycle(
@@ -281,11 +281,7 @@ for r in real_days:
 
     # Fit a polynomial
     a, b, d = np.polyfit(data["analysis_datenum"], data["dic"], 2)
-    new_dic = ( 
-        a * (data["analysis_datenum"] ** 2)
-        + b * (data["analysis_datenum"])
-        + d 
-    )
+    new_dic = a * (data["analysis_datenum"] ** 2) + b * (data["analysis_datenum"]) + d
 
     # Plot polynomial
     ax.plot(data["datetime"], new_dic, color=c, alpha=0.3)
