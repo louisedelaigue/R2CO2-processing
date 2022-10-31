@@ -46,10 +46,6 @@ dbs.loc[L, "analysis_datetime"] = "2022-10-21 14:02:00"
 L = (dbs["bottle"] == "NUTSLAB05") & (dbs["analysis_datetime"].isnull())
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 16:11:00"
 
-# Fix datetime for 31 October 2022 (time change in real life)
-L = (dbs["analysis_datetime"].dt.month == 10) & (dbs["analysis_datetime"].dt.day == 31)
-dbs.loc[L, "analysis_datetime"] = dbs["analysis_datetime"] - DateOffset(hours=1)
-
 # Convert datetime to datenum
 dbs["analysis_datenum"] = dates.date2num(dbs["analysis_datetime"])
 
@@ -223,6 +219,10 @@ dbs.plot_k_dic(figure_path="figs/")
 dbs.plot_dic_offset(figure_path="figs/")
 
 # === ENTIRE DATASET
+# Fix datetime for 31 October 2022 (time change in real life)
+L = (dbs["analysis_datetime"].dt.month == 10) & (dbs["analysis_datetime"].dt.day == 31)
+dbs.loc[L, "analysis_datetime"] = dbs["analysis_datetime"] - DateOffset(hours=1)
+
 # Correct bottle name typos
 dbs.loc[dbs["bottle"] == "CRM-189-0897", "bottle"] = "CRM-189-0897-01"
 dbs.loc[dbs["bottle"] == "64PE503-65-2-1", "bottle"] = "64PE503-65-1-2"
