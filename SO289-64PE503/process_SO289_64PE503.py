@@ -3,6 +3,7 @@ import copy, itertools
 from pandas.tseries.offsets import DateOffset
 import matplotlib.dates as mdates
 from matplotlib import pyplot as plt
+from scipy.interpolate import PchipInterpolator
 
 # Import logfile and dbs file
 logfile = ks.read_logfile(
@@ -214,7 +215,7 @@ dbs.loc[
     dbs.crm & dbs.bottle.str.endswith("-02"), "k_dic_good"
 ] = False  # remove CRMs used twice for DIC calibration
 
-# Get blanks and apply correction
+# Get blanks
 dbs.get_blank_corrections()
 dbs.plot_blanks(figure_path="figs/dic_blanks/")
 

@@ -7,28 +7,84 @@ import matplotlib.dates as mdates
 df = pd.read_csv("data/SO289-64PE503_results.csv")
 
 # For now only keep Oct 31
-L = df["dic_cell_id"] == "C_Oct31-22_0910"
-df = df[L]
+analysis_days = list(df.loc[df["real_day"]==True, "dic_cell_id"].unique()) 
 
-# Calculate nuts offset throughout the day
-first_nuts = df.loc[df["bottle"]=="NUTSLAB01", "dic"].values
-L= df["bottle"].str.startswith("NUTS")
-df.loc[L, "nuts_offset"] = abs(df.loc[L, "dic"] - first_nuts)
+# Calculate DIC offset for each analysis day
+for d in analysis_days:
+    
+    L = df["dic_cell_id"] == d
+    data = df[L]
 
-# Use a PCHIP to interpolate the offset throughout the day
-L = df["nuts_offset"].notnull()
-interp_obj = PchipInterpolator(df.loc[L, 'analysis_datenum'], df.loc[L, 'nuts_offset'], extrapolate=False)
-df['offset_pchip'] = interp_obj(df['analysis_datenum'])
+    # Calculate nuts offset throughout the day
+    first_nuts = data.loc[data.loc[data.bottle.str.contains("NUTS")].index[0], "dic"]
+    L= data["bottle"].str.startswith("NUTS")
+    data.loc[L, "nuts_offset"] = abs(data.loc[L, "dic"] - first_nuts)
+    
+    # Use a PCHIP to interpolate the offset throughout the day
+    L = data["nuts_offset"].notnull()
+    interp_obj = PchipInterpolator(data.loc[L, 'analysis_datenum'], data.loc[L, 'nuts_offset'], extrapolate=False)
+    data['offset_pchip'] = interp_obj(data['analysis_datenum'])
+    
+    # Correct DIC for samples
+    data["dic_corrected"] = data["dic"] + data["offset_pchip"]
+    
+    # Add corrected DIC to original df
+    samples = list(data["bottle"])
+    
+    for s in samples:
+        df.loc[df["bottle"]==s, "dic_corrected"] = data.loc[data["bottle"]==s, "dic_corrected"]
+    
+    # === PLOT
+    # Create a column with hours and minutes
+    data["analysis_datetime"] = pd.to_datetime(data["analysis_datetime"])
+    data["datetime"] = data["analysis_datetime"].dt.strftime("%H:%M")
+    data["datetime"] = pd.to_datetime(data["datetime"])
+    
+    # Create figure
+    fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
+    
+    L = data["dic_corrected"].notnull()
+    
+    # Scatter original DIC
+    ax.scatter(
+        x="datetime",
+        y="dic",
+        data=data[L],
+        alpha=0.3,
+        label="Initial"
+    )    
+    
+    # Scatter corrected DIC
+    ax.scatter(
+        x="datetime",
+        y="dic_corrected",
+        data=data[L],
+        alpha=0.3,
+        label="Corrected"
+    )               
+    
+    # Improve plot
+    myFmt = mdates.DateFormatter("%H")
+    ax.xaxis.set_major_formatter(myFmt)
+    
+    ax.grid(alpha=0.3)
+    ax.set_xlabel("Time / hrs")
+    ax.set_ylabel("$DIC$ / μmol · $kg^{-1}$")
+    
+    ax.set_title(d)
+    
+    ax.legend()
+    
+    # Save plot
+    plt.tight_layout()
+    plt.savefig("./figs/drift_correction/correct_DIC_drift_{}.png".format(d))
 
-# Correct DIC for samples
-df["dic_corrected"] = df["dic"] + df["offset_pchip"]
-
-# === PLOT
+#%% ==== PLOT ALL SAMPLES
 # Create a column with hours and minutes
 df["analysis_datetime"] = pd.to_datetime(df["analysis_datetime"])
 df["datetime"] = df["analysis_datetime"].dt.strftime("%H:%M")
 df["datetime"] = pd.to_datetime(df["datetime"])
-
+    
 # Create figure
 fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
 
@@ -64,4 +120,4 @@ ax.legend()
 
 # Save plot
 plt.tight_layout()
-plt.savefig("./figs/correct_DIC_drift.png")
+plt.savefig("./figs/drift_correction/correct_DIC_drift_all.png")
