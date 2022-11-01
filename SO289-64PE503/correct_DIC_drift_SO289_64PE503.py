@@ -57,11 +57,11 @@ myFmt = mdates.DateFormatter("%H")
 ax.xaxis.set_major_formatter(myFmt)
 
 ax.grid(alpha=0.3)
-ax.set_xlabel("Time (hrs)")
+ax.set_xlabel("Time / hrs")
 ax.set_ylabel("$DIC$ / μmol · $kg^{-1}$")
 
 ax.legend()
 
 # Save plot
 plt.tight_layout()
-plt.savefig("./figs/correct_drift.png")
+plt.savefig("./figs/correct_DIC_drift.png")

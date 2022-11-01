@@ -303,7 +303,7 @@ ax.xaxis.set_major_formatter(myFmt)
 ax.legend(loc="upper left", ncol=3)  # bbox_to_anchor=(1, 0.5)
 # ax.set_ylim(2000, 2200)
 ax.grid(alpha=0.3)
-ax.set_xlabel("Time (hrs)")
+ax.set_xlabel("Time / hrs")
 ax.set_ylabel("$DIC$ / μmol · $kg^{-1}$")
 
 # Save plot
