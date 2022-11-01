@@ -2,11 +2,16 @@ import pandas as pd
 from scipy.interpolate import PchipInterpolator
 from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
+import seaborn as sns
 
 # Import dataframe
 df = pd.read_csv("data/SO289-64PE503_results.csv")
 
-# For now only keep Oct 31
+# Only keep flag = 2
+L = df["flag"] == 4
+df = df[L]
+
+# Create a list of analysis days
 analysis_days = list(df.loc[df["real_day"]==True, "dic_cell_id"].unique()) 
 
 # Calculate DIC offset for each analysis day
@@ -79,7 +84,7 @@ for d in analysis_days:
     plt.tight_layout()
     plt.savefig("./figs/drift_correction/correct_DIC_drift_{}.png".format(d))
 
-#%% ==== PLOT ALL SAMPLES
+# ==== PLOT ALL SAMPLES
 # Create a column with hours and minutes
 df["analysis_datetime"] = pd.to_datetime(df["analysis_datetime"])
 df["datetime"] = df["analysis_datetime"].dt.strftime("%H:%M")
