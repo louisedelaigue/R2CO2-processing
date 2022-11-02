@@ -119,22 +119,22 @@ L = (
 dbs.loc[L, "file_good"] = False
 
 # Add a flag column
-# where good = 4, questionable = 3, bad = 2
-dbs["flag"] = 4
+# where good = 2, questionable = 3, bad = 4
+dbs["flag"] = 2
 
 L = (
     (dbs["bottle"] == "NUTSLAB05")
     & (dbs["analysis_datetime"].dt.month == 10)
     & (dbs["analysis_datetime"].dt.day == 28)
 )
-dbs.loc[L, "flag"] = 2
+dbs.loc[L, "flag"] = 4
 
 L = (
     (dbs["bottle"] == "NUTSLAB03")
     & (dbs["analysis_datetime"].dt.month == 10)
     & (dbs["analysis_datetime"].dt.day == 25)
 )
-dbs.loc[L, "flag"] = 2
+dbs.loc[L, "flag"] = 4
 
 # 64PE503 CRUISE
 dbs.loc[dbs["bottle"] == "64PE503-10-5-2", "flag"] = 3  # weird DIC
@@ -149,19 +149,31 @@ dbs.loc[dbs["bottle"] == "64PE503-66-5-8", "flag"] = 3  # red tape
 
 # SO289 CRUISE
 dbs.loc[dbs["bottle"] == "SO289-41003", "flag"] = 3  # weird DIC
-
 dbs.loc[dbs["bottle"] == "SO289-40060", "flag"] = 3  # bottle popped, DIC only 1 x rinse
-dbs.loc[
-    dbs["bottle"] == "SO289-40975", "flag"
-] = 3  # not so great TA curve during analysis
-dbs.loc[
-    dbs["bottle"] == "SO289-41296", "flag"
-] = 3  # not so great TA curve during analysis
-dbs.loc[
-    dbs["bottle"] == "SO289-41304", "flag"
-] = 3  # not so great TA curve during analysis
-
+dbs.loc[dbs["bottle"] == "SO289-40975", "flag"] = 3  # not so great TA curve during analysis
+dbs.loc[dbs["bottle"] == "SO289-41296", "flag"] = 3  # not so great TA curve during analysis
+dbs.loc[dbs["bottle"] == "SO289-41304", "flag"] = 3  # not so great TA curve during analysis
 dbs.loc[dbs["bottle"] == "SO289-40326", "flag"] = 3  # electrical tape off
+
+# Add lab book notes as column
+dbs["notes"] = np.nan
+
+dbs.loc[dbs["bottle"] == "64PE503-10-5-2", "notes"] = "weird DIC"
+dbs.loc[dbs["bottle"] == "64PE503-53-9-3", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-53-4-5", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-53-4-6", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-53-4-9", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-57-3-2", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-53-4-2", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-42-4-2", "notes"] = "red tape"
+dbs.loc[dbs["bottle"] == "64PE503-66-5-8", "notes"] = "red tape"
+
+dbs.loc[dbs["bottle"] == "SO289-41003", "notes"] = "weird DIC"
+dbs.loc[dbs["bottle"] == "SO289-40060", "notes"] = "bottle popped, DIC only 1 x rinse"
+dbs.loc[dbs["bottle"] == "SO289-40975", "notes"] = "not so great TA curve during analysis"
+dbs.loc[dbs["bottle"] == "SO289-41296", "notes"] = "not so great TA curve during analysis"
+dbs.loc[dbs["bottle"] == "SO289-41304", "notes"] = "not so great TA curve during analysis"
+dbs.loc[dbs["bottle"] == "SO289-40326", "notes"] = "electrical tape off"
 
 # Flag any nan
 if dbs["counts"].isnull().any():
