@@ -2,7 +2,6 @@ import pandas as pd
 from scipy.interpolate import PchipInterpolator
 from matplotlib import pyplot as plt
 import matplotlib.dates as mdates
-import seaborn as sns
 
 # Import dataframe
 df = pd.read_csv("data/SO289-64PE503_results.csv")

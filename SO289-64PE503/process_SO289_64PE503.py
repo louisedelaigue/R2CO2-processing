@@ -3,7 +3,6 @@ import copy, itertools
 from pandas.tseries.offsets import DateOffset
 import matplotlib.dates as mdates
 from matplotlib import pyplot as plt
-from scipy.interpolate import PchipInterpolator
 
 # Import logfile and dbs file
 logfile = ks.read_logfile(
@@ -193,7 +192,6 @@ calk.plot.alkalinity_offset(
 dbs["blank_good"] = True
 dbs.loc[dbs["bottle"] == "CRM-189-0526-02", "blank_good"] = False
 dbs.loc[dbs["bottle"] == "64PE503-10-5-2", "blank_good"] = False
-dbs.loc[dbs["bottle"] == "SO289-41003", "blank_good"] = False
 dbs.loc[dbs["bottle"] == "SO289-41003", "blank_good"] = False
 
 dbs.loc[
