@@ -6,7 +6,7 @@ import matplotlib.dates as mdates
 # Import dataframe
 df = pd.read_csv("data/SO289-64PE503_results.csv")
 
-L = df["dic_cell_id"] == "C_Oct28-22_0910"
+L = df["dic_cell_id"] == "C_Nov01-22_0811"
 df = df[L]
 
 # Calculate nuts offset throughout the day

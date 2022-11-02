@@ -31,9 +31,15 @@ dbs.loc[dbs["bottle"] == "64PE503-26-5-8", "analysis_datetime"] = "2022-10-21 15
 dbs.loc[dbs["bottle"] == "CRM-189-0526-01", "analysis_datetime"] = "2022-10-21 16:28:00"
 dbs.loc[dbs["bottle"] == "CRM-189-0526-02", "analysis_datetime"] = "2022-10-21 17:17:00"
 
-# Fix datetime issue in .dbs for sample "64PE503-12-7-2" // because there's a duplicate
+# Fix datetime issue for duplicate samples
 L = (dbs["dic_cell_id"] == "C_Oct21-22_0810") & (dbs["bottle"] == "64PE503-12-7-2")
 dbs.loc[L, "analysis_datetime"] = "2022-10-21 13:14:00"
+
+L = (dbs["dic_cell_id"] == "C_Nov01-22_0811") & (dbs["bottle"] == "64PE503-66-5-8")
+dbs.loc[L, "analysis_datetime"] = "2022-11-01 16:01:00"
+
+L = (dbs["dic_cell_id"] == "C_Nov01-22_0811") & (dbs["bottle"] == "64PE503-41-4-5")
+dbs.loc[L, "analysis_datetime"] = "2022-11-01 11:09:00"
 
 # Fix datetime issue in .dbs nuts
 L = (dbs["bottle"] == "NUTSLAB03") & (dbs["analysis_datetime"].isnull())
@@ -130,14 +136,20 @@ L = (
 )
 dbs.loc[L, "flag"] = 2
 
+# 64PE503 CRUISE
 dbs.loc[dbs["bottle"] == "64PE503-10-5-2", "flag"] = 3  # weird DIC
-dbs.loc[dbs["bottle"] == "SO289-41003", "flag"] = 3  # weird DIC
 dbs.loc[dbs["bottle"] == "64PE503-53-9-3", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-53-4-5", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-53-4-6", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-53-4-9", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-57-3-2", "flag"] = 3  # red tape
 dbs.loc[dbs["bottle"] == "64PE503-53-4-2", "flag"] = 3  # red tape
+dbs.loc[dbs["bottle"] == "64PE503-42-4-2", "flag"] = 3  # red tape
+dbs.loc[dbs["bottle"] == "64PE503-66-5-8", "flag"] = 3  # red tape
+
+# SO289 CRUISE
+dbs.loc[dbs["bottle"] == "SO289-41003", "flag"] = 3  # weird DIC
+
 dbs.loc[dbs["bottle"] == "SO289-40060", "flag"] = 3  # bottle popped, DIC only 1 x rinse
 dbs.loc[
     dbs["bottle"] == "SO289-40975", "flag"
@@ -148,6 +160,8 @@ dbs.loc[
 dbs.loc[
     dbs["bottle"] == "SO289-41304", "flag"
 ] = 3  # not so great TA curve during analysis
+
+dbs.loc[dbs["bottle"] == "SO289-40326", "flag"] = 3  # electrical tape off
 
 # Flag any nan
 if dbs["counts"].isnull().any():
@@ -169,7 +183,7 @@ dbs.loc[
     "analysis_batch",
 ] = 2
 dbs.loc[
-    (dbs["analysis_datetime"].dt.day >= 28) & (dbs["analysis_datetime"].dt.month == 10),
+    (dbs["analysis_datetime"].dt.day >= 28) & (dbs["analysis_datetime"].dt.month >= 10),
     "analysis_batch",
 ] = 3
 
@@ -231,6 +245,7 @@ dbs.loc[L, "analysis_datetime"] = dbs["analysis_datetime"] - DateOffset(hours=1)
 # Correct bottle name typos
 dbs.loc[dbs["bottle"] == "CRM-189-0897", "bottle"] = "CRM-189-0897-01"
 dbs.loc[dbs["bottle"] == "64PE503-65-2-1", "bottle"] = "64PE503-65-1-2"
+dbs.loc[dbs["bottle"] == "46PE503-20-4-5", "bottle"] = "64PE503-20-4-5"
 
 # Demote dbs to a standard DataFrame
 dbs = pd.DataFrame(dbs)
