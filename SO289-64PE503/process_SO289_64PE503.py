@@ -150,9 +150,15 @@ dbs.loc[dbs["bottle"] == "64PE503-66-5-8", "flag"] = 3  # red tape
 # SO289 CRUISE
 dbs.loc[dbs["bottle"] == "SO289-41003", "flag"] = 3  # weird DIC
 dbs.loc[dbs["bottle"] == "SO289-40060", "flag"] = 3  # bottle popped, DIC only 1 x rinse
-dbs.loc[dbs["bottle"] == "SO289-40975", "flag"] = 3  # not so great TA curve during analysis
-dbs.loc[dbs["bottle"] == "SO289-41296", "flag"] = 3  # not so great TA curve during analysis
-dbs.loc[dbs["bottle"] == "SO289-41304", "flag"] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-40975", "flag"
+] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-41296", "flag"
+] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-41304", "flag"
+] = 3  # not so great TA curve during analysis
 dbs.loc[dbs["bottle"] == "SO289-40326", "flag"] = 3  # electrical tape off
 
 # Add lab book notes as column
@@ -170,9 +176,15 @@ dbs.loc[dbs["bottle"] == "64PE503-66-5-8", "notes"] = "red tape"
 
 dbs.loc[dbs["bottle"] == "SO289-41003", "notes"] = "weird DIC"
 dbs.loc[dbs["bottle"] == "SO289-40060", "notes"] = "bottle popped, DIC only 1 x rinse"
-dbs.loc[dbs["bottle"] == "SO289-40975", "notes"] = "not so great TA curve during analysis"
-dbs.loc[dbs["bottle"] == "SO289-41296", "notes"] = "not so great TA curve during analysis"
-dbs.loc[dbs["bottle"] == "SO289-41304", "notes"] = "not so great TA curve during analysis"
+dbs.loc[
+    dbs["bottle"] == "SO289-40975", "notes"
+] = "not so great TA curve during analysis"
+dbs.loc[
+    dbs["bottle"] == "SO289-41296", "notes"
+] = "not so great TA curve during analysis"
+dbs.loc[
+    dbs["bottle"] == "SO289-41304", "notes"
+] = "not so great TA curve during analysis"
 dbs.loc[dbs["bottle"] == "SO289-40326", "notes"] = "electrical tape off"
 
 # Flag any nan
@@ -326,7 +338,7 @@ for r in real_days:
 myFmt = mdates.DateFormatter("%H")
 ax.xaxis.set_major_formatter(myFmt)
 
-ax.legend(loc="upper left", ncol=3)  # bbox_to_anchor=(1, 0.5)
+ax.legend(loc="upper left", ncol=4)  # bbox_to_anchor=(1, 0.5)
 # ax.set_ylim(2000, 2200)
 ax.grid(alpha=0.3)
 ax.set_xlabel("Time / hrs")
