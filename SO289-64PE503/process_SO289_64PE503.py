@@ -160,6 +160,19 @@ dbs.loc[
     dbs["bottle"] == "SO289-41304", "flag"
 ] = 3  # not so great TA curve during analysis
 dbs.loc[dbs["bottle"] == "SO289-40326", "flag"] = 3  # electrical tape off
+dbs.loc[
+    dbs["bottle"] == "SO289-40760", "flag"
+] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-40832", "flag"
+] = 3  # not so great TA curve during analysis
+dbs.loc[
+    dbs["bottle"] == "SO289-41047", "flag"
+] = 3  # not so great TA curve during analysis
+dbs.loc[dbs["bottle"] == "SO289-40887", "flag"] = 3  # electrical tape off
+dbs.loc[
+    dbs["bottle"] == "SO289-41045", "flag"
+] = 3  # not so great TA curve during analysis
 
 # Add lab book notes as column
 dbs["notes"] = np.nan
@@ -186,6 +199,19 @@ dbs.loc[
     dbs["bottle"] == "SO289-41304", "notes"
 ] = "not so great TA curve during analysis"
 dbs.loc[dbs["bottle"] == "SO289-40326", "notes"] = "electrical tape off"
+dbs.loc[
+    dbs["bottle"] == "SO289-40760", "notes"
+] = "not so great TA curve during analysis"
+dbs.loc[
+    dbs["bottle"] == "SO289-40832", "notes"
+] = "not so great TA curve during analysis"
+dbs.loc[
+    dbs["bottle"] == "SO289-41047", "notes"
+] = "not so great TA curve during analysis"
+dbs.loc[dbs["bottle"] == "SO289-40887", "notes"] = "electrical tape off"
+dbs.loc[
+    dbs["bottle"] == "SO289-41045", "notes"
+] = "not so great TA curve during analysis"
 
 # Flag any nan
 if dbs["counts"].isnull().any():
