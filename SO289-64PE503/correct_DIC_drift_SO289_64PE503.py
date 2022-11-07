@@ -7,7 +7,7 @@ import matplotlib.dates as mdates
 df = pd.read_csv("data/SO289-64PE503_results.csv")
 
 # Only keep flag = 2
-L = df["flag"] == 4
+L = df["flag"] == 2
 df = df[L]
 
 # Create a list of analysis days
@@ -125,3 +125,6 @@ ax.legend()
 # Save plot
 plt.tight_layout()
 plt.savefig("./figs/drift_correction/correct_DIC_drift_all.png")
+
+# Save nuts as csv
+nuts.to_csv("data/nuts.csv", index=False)
