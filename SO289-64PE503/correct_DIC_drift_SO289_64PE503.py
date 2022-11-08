@@ -19,9 +19,11 @@ analysis_days = list(df.loc[df["real_day"] == True, "dic_cell_id"].unique())
 
 # Calculate DIC offset for each analysis day
 for d in analysis_days:
+    
+    data = df.copy()
 
-    L = df["dic_cell_id"] == d
-    data = df[L]
+    L = data["dic_cell_id"] == d
+    data = data[L]
 
     # Calculate nuts offset throughout the day
     first_nuts = data.loc[data.loc[data.bottle.str.contains("NUTS")].index[0], "dic"]
