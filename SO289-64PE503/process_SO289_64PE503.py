@@ -71,7 +71,7 @@ for meta in [
 
 # Assign metadata values for CRMs
 dbs["crm"] = dbs.bottle.str.startswith("CRM")
-crm_batches = [189, 195]
+crm_batches = [189, 195, 198]
 
 for b in crm_batches:
     if b == 189:
@@ -91,6 +91,15 @@ for b in crm_batches:
         dbs.loc[L, "total_phosphate"] = 0.49  # micromol/kg-sw
         dbs.loc[L, "total_silicate"] = 3.6  # micromol/kg-sw
         dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw
+        
+    if b == 198:
+        L = dbs["bottle"].str.startswith("CRM-{}".format(b))
+        dbs.loc[L, "dic_certified"] = 2033.64  # micromol/kg-sw
+        dbs.loc[L, "alkalinity_certified"] = 2200.67  # micromol/kg-sw
+        dbs.loc[L, "salinity"] = 33.504
+        dbs.loc[L, "total_phosphate"] = 0.67  # micromol/kg-sw
+        dbs.loc[L, "total_silicate"] = 3.8  # micromol/kg-sw
+        dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw      
 
 # Assign temperature = 25.0 for VINDTA analysis temperature
 dbs["temperature_override"] = 25.0
