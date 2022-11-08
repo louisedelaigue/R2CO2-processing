@@ -63,8 +63,8 @@ for s in samples:
 # === PLOT
 # Create a column with hours and minutes
 df["analysis_datetime"] = pd.to_datetime(df["analysis_datetime"])
-df["datetime"] = df["analysis_datetime"].dt.strftime("%H:%M")
-df["datetime"] = pd.to_datetime(df["datetime"])
+df["datetime_for_plotting_only"] = df["analysis_datetime"].dt.strftime("%H:%M")
+df["datetime_for_plotting_only"] = pd.to_datetime(df["datetime_for_plotting_only"])
 
 for d in analysis_days:
 
@@ -74,11 +74,17 @@ for d in analysis_days:
     L = df["dic_cell_id"] == d
 
     # Scatter original DIC
-    ax.scatter(x="datetime", y="dic", data=df[L], alpha=0.3, label="Initial")
+    ax.scatter(
+        x="datetime_for_plotting_only", y="dic", data=df[L], alpha=0.3, label="Initial"
+    )
 
     # Scatter corrected DIC
     ax.scatter(
-        x="datetime", y="dic_corrected", data=df[L], alpha=0.3, label="Corrected"
+        x="datetime_for_plotting_only",
+        y="dic_corrected",
+        data=df[L],
+        alpha=0.3,
+        label="Corrected",
     )
 
     # Improve plot
@@ -100,8 +106,8 @@ for d in analysis_days:
 # ==== PLOT ALL SAMPLES
 # Create a column with hours and minutes
 df["analysis_datetime"] = pd.to_datetime(df["analysis_datetime"])
-df["datetime"] = df["analysis_datetime"].dt.strftime("%H:%M")
-df["datetime"] = pd.to_datetime(df["datetime"])
+df["datetime_for_plotting_only"] = df["analysis_datetime"].dt.strftime("%H:%M")
+df["datetime_for_plotting_only"] = pd.to_datetime(df["datetime_for_plotting_only"])
 
 # Create figure
 fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
@@ -109,10 +115,18 @@ fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
 L = df["dic_corrected"].notnull()
 
 # Scatter original DIC
-ax.scatter(x="datetime", y="dic", data=df[L], alpha=0.3, label="Initial")
+ax.scatter(
+    x="datetime_for_plotting_only", y="dic", data=df[L], alpha=0.3, label="Initial"
+)
 
 # Scatter corrected DIC
-ax.scatter(x="datetime", y="dic_corrected", data=df[L], alpha=0.3, label="Corrected")
+ax.scatter(
+    x="datetime_for_plotting_only",
+    y="dic_corrected",
+    data=df[L],
+    alpha=0.3,
+    label="Corrected",
+)
 
 # Improve plot
 myFmt = mdates.DateFormatter("%H")
