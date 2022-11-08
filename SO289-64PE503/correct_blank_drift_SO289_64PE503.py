@@ -10,14 +10,16 @@ L = df["dic_cell_id"] == "C_Nov01-22_0811"
 df = df[L]
 
 # Calculate nuts offset throughout the day
-first_nuts = df.loc[df["bottle"]=="NUTSLAB01", "blank"].values
-L= df["bottle"].str.startswith("NUTS")
+first_nuts = df.loc[df["bottle"] == "NUTSLAB01", "blank"].values
+L = df["bottle"].str.startswith("NUTS")
 df.loc[L, "nuts_offset"] = abs(df.loc[L, "blank"] - first_nuts)
 
 # Use a PCHIP to interpolate the offset throughout the day
 L = df["nuts_offset"].notnull()
-interp_obj = PchipInterpolator(df.loc[L, 'analysis_datenum'], df.loc[L, 'nuts_offset'], extrapolate=False)
-df['offset_pchip'] = interp_obj(df['analysis_datenum'])
+interp_obj = PchipInterpolator(
+    df.loc[L, "analysis_datenum"], df.loc[L, "nuts_offset"], extrapolate=False
+)
+df["offset_pchip"] = interp_obj(df["analysis_datenum"])
 
 # Correct blank for samples
 df["blank_corrected"] = df["blank"] + df["offset_pchip"]
@@ -34,22 +36,10 @@ fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
 L = df["blank_corrected"].notnull()
 
 # Scatter original blank
-ax.scatter(
-    x="datetime",
-    y="blank",
-    data=df[L],
-    alpha=0.3,
-    label="Initial"
-)    
+ax.scatter(x="datetime", y="blank", data=df[L], alpha=0.3, label="Initial")
 
 # Scatter corrected blank
-ax.scatter(
-    x="datetime",
-    y="blank_corrected",
-    data=df[L],
-    alpha=0.3,
-    label="Corrected"
-)               
+ax.scatter(x="datetime", y="blank_corrected", data=df[L], alpha=0.3, label="Corrected")
 
 # Improve plot
 myFmt = mdates.DateFormatter("%H")

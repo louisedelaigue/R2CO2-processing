@@ -104,8 +104,6 @@ for b in crm_batches:
 # Assign metadata values for SO289 cruise samples
 so289_metadata = pd.read_csv("data/SO289_CTD_data.csv")
 so289_metadata["bottle"] = ["SO289-" + str(s) for s in so289_metadata["bottle"]]
-
-# so289_samples = list(dbs.loc[dbs["bottle"].str.startswith("SO289-"), "bottle"].unique())
 so289_samples = list(so289_metadata["bottle"])
 
 for s in so289_samples:
