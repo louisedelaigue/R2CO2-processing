@@ -91,7 +91,7 @@ for b in crm_batches:
         dbs.loc[L, "total_phosphate"] = 0.49  # micromol/kg-sw
         dbs.loc[L, "total_silicate"] = 3.6  # micromol/kg-sw
         dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw
-        
+
     if b == 198:
         L = dbs["bottle"].str.startswith("CRM-{}".format(b))
         dbs.loc[L, "dic_certified"] = 2033.64  # micromol/kg-sw
@@ -99,7 +99,23 @@ for b in crm_batches:
         dbs.loc[L, "salinity"] = 33.504
         dbs.loc[L, "total_phosphate"] = 0.67  # micromol/kg-sw
         dbs.loc[L, "total_silicate"] = 3.8  # micromol/kg-sw
-        dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw      
+        dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw
+
+# Assign metadata values for SO289 cruise samples
+so289_metadata = pd.read_csv("data/SO289_CTD_data.csv")
+so289_samples = list(dbs.loc[dbs["bottle"].str.startswith("SO289-"), "bottle"])
+so289_samples = [i.split("-")[1] for i in so289_samples]
+
+for s in so289_samples:
+    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata.loc[
+        so289_metadata["sample"] == s, "salinity"
+    ]
+    dbs.loc[dbs["bottle"] == s, "phosphate"] = so289_metadata.loc[
+        so289_metadata["sample"] == s, "phosphate"
+    ]
+    dbs.loc[dbs["bottle"] == s, "silicate"] = so289_metadata.loc[
+        so289_metadata["sample"] == s, "silicate"
+    ]
 
 # Assign temperature = 25.0 for VINDTA analysis temperature
 dbs["temperature_override"] = 25.0
