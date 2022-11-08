@@ -22,7 +22,7 @@ corrected_dic = pd.DataFrame()
 
 # Calculate DIC offset for each analysis day
 for d in analysis_days:
-    
+
     L = df["dic_cell_id"] == d
     data = df[L].copy()
 
@@ -44,7 +44,6 @@ for d in analysis_days:
     # Store results
     corrected_dic = pd.concat([corrected_dic, data])
 
-
 # Add corrected DIC to original df
 samples = list(df["bottle"])
 
@@ -52,11 +51,11 @@ for s in samples:
     df.loc[df["bottle"] == s, "nuts_offset"] = corrected_dic.loc[
         corrected_dic["bottle"] == s, "nuts_offset"
     ]
-    
+
     df.loc[df["bottle"] == s, "offset_pchip"] = corrected_dic.loc[
         corrected_dic["bottle"] == s, "offset_pchip"
     ]
-            
+
     df.loc[df["bottle"] == s, "dic_corrected"] = corrected_dic.loc[
         corrected_dic["bottle"] == s, "dic_corrected"
     ]
@@ -72,7 +71,7 @@ for d in analysis_days:
     # Create figure
     fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
 
-    L = df["dic_cell_id"]==d
+    L = df["dic_cell_id"] == d
 
     # Scatter original DIC
     ax.scatter(x="datetime", y="dic", data=df[L], alpha=0.3, label="Initial")
