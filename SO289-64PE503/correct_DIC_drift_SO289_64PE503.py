@@ -17,13 +17,14 @@ df = df[~L]
 # Create a list of analysis days
 analysis_days = list(df.loc[df["real_day"] == True, "dic_cell_id"].unique())
 
+# Create df to store corrected values
+corrected_dic = pd.DataFrame()
+
 # Calculate DIC offset for each analysis day
 for d in analysis_days:
     
-    data = df.copy()
-
-    L = data["dic_cell_id"] == d
-    data = data[L]
+    L = df["dic_cell_id"] == d
+    data = df[L].copy()
 
     # Calculate nuts offset throughout the day
     first_nuts = data.loc[data.loc[data.bottle.str.contains("NUTS")].index[0], "dic"]
@@ -40,31 +41,45 @@ for d in analysis_days:
     # Correct DIC for samples
     data["dic_corrected"] = data["dic"] + data["offset_pchip"]
 
-    # Add corrected DIC to original df
-    samples = list(data["bottle"])
+    # Store results
+    corrected_dic = pd.concat([corrected_dic, data])
 
-    for s in samples:
-        df.loc[df["bottle"] == s, "dic_corrected"] = data.loc[
-            data["bottle"] == s, "dic_corrected"
-        ]
 
-    # === PLOT
-    # Create a column with hours and minutes
-    data["analysis_datetime"] = pd.to_datetime(data["analysis_datetime"])
-    data["datetime"] = data["analysis_datetime"].dt.strftime("%H:%M")
-    data["datetime"] = pd.to_datetime(data["datetime"])
+# Add corrected DIC to original df
+samples = list(df["bottle"])
+
+for s in samples:
+    df.loc[df["bottle"] == s, "nuts_offset"] = corrected_dic.loc[
+        corrected_dic["bottle"] == s, "nuts_offset"
+    ]
+    
+    df.loc[df["bottle"] == s, "offset_pchip"] = corrected_dic.loc[
+        corrected_dic["bottle"] == s, "offset_pchip"
+    ]
+            
+    df.loc[df["bottle"] == s, "dic_corrected"] = corrected_dic.loc[
+        corrected_dic["bottle"] == s, "dic_corrected"
+    ]
+
+# === PLOT
+# Create a column with hours and minutes
+df["analysis_datetime"] = pd.to_datetime(df["analysis_datetime"])
+df["datetime"] = df["analysis_datetime"].dt.strftime("%H:%M")
+df["datetime"] = pd.to_datetime(df["datetime"])
+
+for d in analysis_days:
 
     # Create figure
     fig, ax = plt.subplots(dpi=300, figsize=(6, 4))
 
-    L = data["dic_corrected"].notnull()
+    L = df["dic_cell_id"]==d
 
     # Scatter original DIC
-    ax.scatter(x="datetime", y="dic", data=data[L], alpha=0.3, label="Initial")
+    ax.scatter(x="datetime", y="dic", data=df[L], alpha=0.3, label="Initial")
 
     # Scatter corrected DIC
     ax.scatter(
-        x="datetime", y="dic_corrected", data=data[L], alpha=0.3, label="Corrected"
+        x="datetime", y="dic_corrected", data=df[L], alpha=0.3, label="Corrected"
     )
 
     # Improve plot
