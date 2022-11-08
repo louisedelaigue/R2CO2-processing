@@ -10,6 +10,10 @@ df = pd.read_csv("data/SO289-64PE503_results.csv")
 L = df["flag"] == 2
 df = df[L]
 
+# Only keep NUTS and samples
+L = df["bottle"].str.startswith(("CRM-", "JUNK"))
+df = df[~L]
+
 # Create a list of analysis days
 analysis_days = list(df.loc[df["real_day"]==True, "dic_cell_id"].unique()) 
 
@@ -127,4 +131,4 @@ plt.tight_layout()
 plt.savefig("./figs/drift_correction/correct_DIC_drift_all.png")
 
 # Save nuts as csv
-nuts.to_csv("data/nuts.csv", index=False)
+# nuts.to_csv("data/nuts.csv", index=False)
