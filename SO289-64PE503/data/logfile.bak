@@ -31922,3 +31922,4447 @@ Begin titration at 16:19
  	1931.75	2185.60	35.000	25.00	50.00	1.02334	15.8	
 
 
+Cell "C_Nov09-22_0811" started Nov09-22_0811
+
+3C standard.mth run started 11/09/22  08:26
+bottle	JUNK01	9	11	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:27
+ 	Time	Counts	Inc	EP
+	1	65509	65509	0
+	2	176078	110569	0
+	3	204983	28905	0
+	4	206533	1550	0
+	5	206645	112	0
+	6	206786	141	0
+	7	206878	92	0
+	8	206963	85	0
+	9	207041	78	0
+	10	207095	54	0
+	11	207192	97	0
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2092.76	2323.46	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/09/22  08:42
+bottle	JUNK02	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:43
+ 	Time	Counts	Inc	EP
+	1	67131	67131	0
+	2	177654	110523	0
+	3	204929	27275	0
+	4	206322	1393	0
+	5	206421	99	0
+	6	206546	125	0
+	7	206615	69	0
+	8	206689	74	0
+	9	206743	54	0
+	10	206823	80	0
+	11	206844	21	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2089.24	2322.70	35.000	25.00	50.00	1.02334	1.0	
+
+
+3C standard.mth run started 11/09/22  08:57
+bottle	JUNK03	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:58
+ 	Time	Counts	Inc	EP
+	1	67025	67025	0
+	2	175187	108162	0
+	3	204461	29274	0
+	4	206261	1800	0
+	5	206344	83	0
+	6	206436	92	0
+	7	206502	66	0
+	8	206528	26	1
+	9	206601	73	1
+	10	206644	43	2
+	11	206687	43	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2087.65	2323.50	35.000	25.00	50.00	1.02334	1.5	
+
+
+3C standard.mth run started 11/09/22  09:13
+bottle	JUNK04	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:14
+ 	Time	Counts	Inc	EP
+	1	65785	65785	0
+	2	173780	107995	0
+	3	203973	30193	0
+	4	206020	2047	0
+	5	206099	79	0
+	6	206162	63	0
+	7	206236	74	0
+	8	206314	78	0
+	9	206350	36	1
+	10	206419	69	1
+	11	206453	34	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2085.28	2325.35	35.000	25.00	50.00	1.02334	2.1	
+
+
+3C standard.mth run started 11/09/22  09:31
+bottle	CRM-198-0924-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:32
+ 	Time	Counts	Inc	EP
+	1	63807	63807	0
+	2	164336	100529	0
+	3	189937	25601	0
+	4	191541	1604	0
+	5	191590	49	1
+	6	191671	81	1
+	7	191722	51	1
+	8	191784	62	1
+	9	191790	6	2
+	10	191854	64	2
+	11	191875	21	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1937.64	2184.17	35.000	25.00	50.00	1.02334	2.5	
+
+
+3C standard.mth run started 11/09/22  09:47
+bottle	NUTSLAB01	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:48
+ 	Time	Counts	Inc	EP
+	1	62237	62237	0
+	2	167375	105138	0
+	3	198568	31193	0
+	4	201314	2746	0
+	5	201391	77	0
+	6	201441	50	1
+	7	201480	39	2
+	8	201503	23	3
+	9	201553	50	4
+	10	201600	47	5
+	11	201618	18	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2036.31	2346.90	35.000	25.00	50.00	1.02334	3.0	
+
+
+3C standard.mth run started 11/09/22  10:04
+bottle	64PE503-1-2-5	1	2	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:05
+ 	Time	Counts	Inc	EP
+	1	63820	63820	0
+	2	168464	104644	0
+	3	199954	31490	0
+	4	203015	3061	0
+	5	203088	73	0
+	6	203139	51	0
+	7	203197	58	0
+	8	203243	46	1
+	9	203282	39	2
+	10	203332	50	3
+	11	203373	41	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2054.08	2305.83	35.000	25.00	50.00	1.02334	3.6	
+
+
+3C standard.mth run started 11/09/22  10:20
+bottle	SO289-41106	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:21
+ 	Time	Counts	Inc	EP
+	1	65106	65106	0
+	2	173800	108694	0
+	3	211558	37758	0
+	4	216311	4753	0
+	5	216438	127	0
+	6	216465	27	1
+	7	216544	79	1
+	8	216603	59	1
+	9	216637	34	2
+	10	216683	46	3
+	11	216713	30	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2189.18	2351.51	35.000	25.00	50.00	1.02334	4.1	
+
+
+3C standard.mth run started 11/09/22  10:34
+bottle	64PE503-12-5-2	12	5	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:35
+ 	Time	Counts	Inc	EP
+	1	62812	62812	0
+	2	166232	103420	0
+	3	199043	32811	0
+	4	202831	3788	0
+	5	202902	71	0
+	6	202946	44	1
+	7	203015	69	1
+	8	203048	33	2
+	9	203116	68	2
+	10	203147	31	3
+	11	203178	31	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2052.11	2299.68	35.000	25.00	50.00	1.02334	4.6	
+
+
+3C standard.mth run started 11/09/22  10:49
+bottle	64PE503-48-4-11	48	4	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:50
+ 	Time	Counts	Inc	EP
+	1	61827	61827	0
+	2	161227	99400	0
+	3	192605	31378	0
+	4	196466	3861	0
+	5	196533	67	0
+	6	196576	43	1
+	7	196629	53	1
+	8	196698	69	1
+	9	196716	18	2
+	10	196755	39	3
+	11	196799	44	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1987.51	2291.40	35.000	25.00	50.00	1.02334	5.1	
+
+
+3C standard.mth run started 11/09/22  11:04
+bottle	64PE503-41-4-11	41	4	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:05
+ 	Time	Counts	Inc	EP
+	1	61760	61760	0
+	2	162426	100666	0
+	3	195018	32592	0
+	4	199323	4305	0
+	5	199393	70	0
+	6	199446	53	0
+	7	199501	55	0
+	8	199545	44	1
+	9	199585	40	2
+	10	199641	56	2
+	11	199673	32	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2016.61	2295.91	35.000	25.00	50.00	1.02334	5.6	
+
+
+3C standard.mth run started 11/09/22  11:20
+bottle	NUTSLAB02	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:21
+ 	Time	Counts	Inc	EP
+	1	60058	60058	0
+	2	161546	101488	0
+	3	196067	34521	0
+	4	201126	5059	0
+	5	201189	63	0
+	6	201259	70	0
+	7	201287	28	1
+	8	201339	52	1
+	9	201383	44	2
+	10	201417	34	3
+	11	201448	31	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.59	2348.15	35.000	25.00	50.00	1.02334	6.1	
+
+
+3C standard.mth run started 11/09/22  11:35
+bottle	SO289-41164	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:36
+ 	Time	Counts	Inc	EP
+	1	61540	61540	0
+	2	162419	100879	0
+	3	198705	36286	0
+	4	204549	5844	0
+	5	204586	37	1
+	6	204637	51	1
+	7	204696	59	1
+	8	204720	24	2
+	9	204770	50	3
+	10	204814	44	4
+	11	204844	30	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2068.98	2277.99	35.000	25.00	50.00	1.02334	6.6	
+
+
+3C standard.mth run started 11/09/22  11:51
+bottle	SO289-40224	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:52
+ 	Time	Counts	Inc	EP
+	1	62697	62697	0
+	2	168420	105723	0
+	3	209051	40631	0
+	4	216439	7388	0
+	5	216549	110	0
+	6	216582	33	1
+	7	216653	71	1
+	8	216669	16	2
+	9	216713	44	3
+	10	216750	37	4
+	11	216798	48	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2190.05	2345.16	35.000	25.00	50.00	1.02334	7.1	
+
+
+3C standard.mth run started 11/09/22  12:05
+bottle	SO289-40015	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:06
+ 	Time	Counts	Inc	EP
+	1	61717	61717	0
+	2	160427	98710	0
+	3	195699	35272	0
+	4	202060	6361	0
+	5	202151	91	0
+	6	202176	25	1
+	7	202218	42	2
+	8	202264	46	3
+	9	202315	51	3
+	10	202362	47	4
+	11	202375	13	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2043.98	2272.00	35.000	25.00	50.00	1.02334	7.6	
+
+
+3C standard.mth run started 11/09/22  12:20
+bottle	SO289-40260	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:21
+ 	Time	Counts	Inc	EP
+	1	59164	59164	0
+	2	152996	93832	0
+	3	186199	33203	0
+	4	192040	5841	0
+	5	192105	65	0
+	6	192149	44	1
+	7	192197	48	2
+	8	192246	49	3
+	9	192271	25	4
+	10	192321	50	5
+	11	192334	13	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1942.29	2274.46	35.000	25.00	50.00	1.02334	8.1	
+
+
+3C standard.mth run started 11/09/22  12:36
+bottle	SO289-41149	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:37
+ 	Time	Counts	Inc	EP
+	1	59999	59999	0
+	2	164623	104624	0
+	3	207883	43260	0
+	4	217888	10005	0
+	5	218248	360	0
+	6	218263	15	1
+	7	218335	72	1
+	8	218341	6	2
+	9	218389	48	3
+	10	218419	30	4
+	11	218472	53	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2207.00	2280.08	35.000	25.00	50.00	1.02334	8.7	
+
+
+3C standard.mth run started 11/09/22  12:51
+bottle	NUTSLAB03	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:52
+ 	Time	Counts	Inc	EP
+	1	57193	57193	0
+	2	156403	99210	0
+	3	193444	37041	0
+	4	201202	7758	0
+	5	201282	80	0
+	6	201311	29	1
+	7	201360	49	2
+	8	201399	39	3
+	9	201413	14	4
+	10	201434	21	5
+	11	201479	45	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.90	2346.17	35.000	25.00	50.00	1.02334	9.2	
+
+
+3C standard.mth run started 11/09/22  13:06
+bottle	SO289-41165	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:07
+ 	Time	Counts	Inc	EP
+	1	58036	58036	0
+	2	154768	96732	0
+	3	191562	36794	0
+	4	199795	8233	0
+	5	199937	142	0
+	6	199967	30	1
+	7	200007	40	2
+	8	200032	25	3
+	9	200084	52	3
+	10	200092	8	4
+	11	200094	2	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2020.88	2295.67	35.000	25.00	50.00	1.02334	9.7	
+
+
+3C standard.mth run started 11/09/22  13:21
+bottle	SO289-40318	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:22
+ 	Time	Counts	Inc	EP
+	1	58663	58663	0
+	2	157105	98442	0
+	3	196785	39680	0
+	4	206122	9337	0
+	5	206425	303	0
+	6	206442	17	1
+	7	206491	49	2
+	8	206519	28	3
+	9	206550	31	4
+	10	206582	32	5
+	11	206612	30	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2086.89	2261.40	35.000	25.00	50.00	1.02334	10.2	
+
+
+3C standard.mth run started 11/09/22  13:35
+bottle	SO289-40534	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:37
+ 	Time	Counts	Inc	EP
+	1	59161	59161	0
+	2	159798	100637	0
+	3	202009	42211	0
+	4	212587	10578	0
+	5	213186	599	0
+	6	213242	56	0
+	7	213262	20	1
+	8	213284	22	2
+	9	213341	57	2
+	10	213345	4	3
+	11	213359	14	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2155.22	2285.96	35.000	25.00	50.00	1.02334	10.7	
+
+
+3C standard.mth run started 11/09/22  13:50
+bottle	SO289-40232	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:51
+ 	Time	Counts	Inc	EP
+	1	56953	56953	0
+	2	150637	93684	0
+	3	186548	35911	0
+	4	195456	8908	0
+	5	195730	274	0
+	6	195783	53	0
+	7	195794	11	1
+	8	195843	49	2
+	9	195887	44	3
+	10	195935	48	4
+	11	195939	4	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1978.80	2249.48	35.000	25.00	50.00	1.02334	11.2	
+
+
+3C standard.mth run started 11/09/22  14:05
+bottle	SO289-40252	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:06
+ 	Time	Counts	Inc	EP
+	1	58174	58174	0
+	2	158741	100567	0
+	3	200216	41475	0
+	4	211208	10992	0
+	5	212077	869	0
+	6	212117	40	1
+	7	212139	22	2
+	8	212198	59	2
+	9	212234	36	3
+	10	212248	14	4
+	11	212253	5	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2144.02	2260.09	35.000	25.00	50.00	1.02334	11.7	
+
+
+3C standard.mth run started 11/09/22  14:20
+bottle	NUTSLAB04	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:21
+ 	Time	Counts	Inc	EP
+	1	54306	54306	0
+	2	149711	95405	0
+	3	189671	39960	0
+	4	200263	10592	0
+	5	201034	771	0
+	6	201034	0	0
+	7	201081	47	1
+	8	201123	42	2
+	9	201150	27	3
+	10	201185	35	4
+	11	201222	37	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2032.30	2346.00	35.000	25.00	50.00	1.02334	12.2	
+
+
+3C standard.mth run started 11/09/22  14:36
+bottle	SO289-41258	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:37
+ 	Time	Counts	Inc	EP
+	1	58644	58644	0
+	2	158805	100161	0
+	3	202652	43847	0
+	4	214988	12336	0
+	5	216413	1425	0
+	6	216457	44	1
+	7	216457	0	1
+	8	216508	51	1
+	9	216517	9	2
+	10	216530	13	3
+	11	216593	63	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2187.97	2378.99	35.000	25.00	50.00	1.02334	12.8	
+
+
+3C standard.mth run started 11/09/22  14:50
+bottle	SO289-40542	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:51
+ 	Time	Counts	Inc	EP
+	1	55472	55472	0
+	2	145385	89913	0
+	3	182560	37175	0
+	4	192757	10197	0
+	5	193466	709	0
+	6	193467	1	1
+	7	193479	12	2
+	8	193540	61	2
+	9	193573	33	3
+	10	193584	11	4
+	11	193609	25	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1955.20	2308.04	35.000	25.00	50.00	1.02334	13.3	
+
+
+3C standard.mth run started 11/09/22  15:05
+bottle	SO289-41163	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:06
+ 	Time	Counts	Inc	EP
+	1	57244	57244	0
+	2	152507	95263	0
+	3	193707	41200	0
+	4	205606	11899	0
+	5	207016	1410	0
+	6	207016	0	0
+	7	207029	13	1
+	8	207069	40	2
+	9	207113	44	3
+	10	207133	20	4
+	11	207181	48	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2092.65	2281.60	35.000	25.00	50.00	1.02334	13.8	
+
+
+3C standard.mth run started 11/09/22  15:20
+bottle	SO289-40299	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:21
+ 	Time	Counts	Inc	EP
+	1	57664	57664	0
+	2	155422	97758	0
+	3	200275	44853	0
+	4	213903	13628	0
+	5	216095	2192	0
+	6	216120	25	1
+	7	216131	11	2
+	8	216186	55	2
+	9	216208	22	3
+	10	216249	41	4
+	11	216276	27	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2184.76	2370.93	35.000	25.00	50.00	1.02334	14.3	
+
+
+3C standard.mth run started 11/09/22  15:35
+bottle	SO289-40219	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:36
+ 	Time	Counts	Inc	EP
+	1	57557	57557	0
+	2	155685	98128	0
+	3	200826	45141	0
+	4	215003	14177	0
+	5	217405	2402	0
+	6	217405	0	0
+	7	217405	0	0
+	8	217409	4	1
+	9	217455	46	2
+	10	217486	31	3
+	11	217529	43	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2197.45	2384.39	35.000	25.00	50.00	1.02334	14.9	
+
+
+3C standard.mth run started 11/09/22  15:51
+bottle	NUTSLAB05	9	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:52
+ 	Time	Counts	Inc	EP
+	1	52606	52606	0
+	2	144926	92320	0
+	3	186096	41170	0
+	4	199009	12913	0
+	5	200921	1912	0
+	6	200921	0	0
+	7	200921	0	0
+	8	200936	15	1
+	9	200965	29	2
+	10	201015	50	3
+	11	201023	8	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2030.28	2346.57	35.000	25.00	50.00	1.02334	15.4	
+
+
+3C standard.mth run started 11/09/22  16:06
+bottle	CRM-198-0988-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:07
+ 	Time	Counts	Inc	EP
+	1	53016	53016	0
+	2	140267	87251	0
+	3	177801	37534	0
+	4	189525	11724	0
+	5	191161	1636	0
+	6	191180	19	1
+	7	191180	0	1
+	8	191195	15	2
+	9	191195	0	2
+	10	191230	35	3
+	11	191260	30	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1931.41	2183.81	35.000	25.00	50.00	1.02334	15.8	
+
+
+3C stirrer off.mth run started 11/09/22  16:22
+Cell "C_Nov11-22_0811" started Nov11-22_0811
+
+3C standard.mth run started 11/11/22  08:30
+bottle	JUNK01	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:31
+ 	Time	Counts	Inc	EP
+	1	65298	65298	0
+	2	174985	109687	0
+	3	203237	28252	0
+	4	204418	1181	0
+	5	204509	91	0
+	6	204594	85	0
+	7	204641	47	1
+	8	204738	97	1
+	9	204771	33	2
+	10	204828	57	2
+	11	204882	54	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2069.37	2325.86	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/11/22  08:45
+bottle	JUNK02	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:46
+ 	Time	Counts	Inc	EP
+	1	63954	63954	0
+	2	171744	107790	0
+	3	202760	31016	0
+	4	204361	1601	0
+	5	204461	100	0
+	6	204513	52	0
+	7	204560	47	1
+	8	204595	35	2
+	9	204632	37	3
+	10	204678	46	4
+	11	204715	37	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2067.68	2319.33	35.000	25.00	50.00	1.02334	1.0	
+
+
+3C standard.mth run started 11/11/22  09:00
+bottle	JUNK03	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:01
+ 	Time	Counts	Inc	EP
+	1	62933	62933	0
+	2	168655	105722	0
+	3	200884	32229	0
+	4	202999	2115	0
+	5	203098	99	0
+	6	203160	62	0
+	7	203218	58	0
+	8	203271	53	0
+	9	203313	42	1
+	10	203338	25	2
+	11	203368	30	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2054.03	2322.44	35.000	25.00	50.00	1.02334	1.5	
+
+
+3C standard.mth run started 11/11/22  09:16
+bottle	JUNK04	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:17
+ 	Time	Counts	Inc	EP
+	1	61169	61169	0
+	2	166309	105140	0
+	3	201259	34950	0
+	4	204393	3134	0
+	5	204490	97	0
+	6	204526	36	1
+	7	204604	78	1
+	8	204632	28	2
+	9	204682	50	3
+	10	204719	37	4
+	11	204762	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2068.15	2321.98	35.000	25.00	50.00	1.02334	2.0	
+
+
+3C standard.mth run started 11/11/22  09:31
+bottle	JUNK05	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:32
+ 	Time	Counts	Inc	EP
+	1	60598	60598	0
+	2	162565	101967	0
+	3	198953	36388	0
+	4	202587	3634	0
+	5	202671	84	0
+	6	202734	63	0
+	7	202823	89	0
+	8	202861	38	1
+	9	202913	52	1
+	10	202915	2	2
+	11	202959	44	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2049.89	2320.20	35.000	25.00	50.00	1.02334	2.5	
+
+
+3C standard.mth run started 11/11/22  09:51
+bottle	JUNK06	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:52
+ 	Time	Counts	Inc	EP
+	1	2512	2512	0
+3C reset.mth run started 11/11/22  09:55
+3C standard.mth run started 11/11/22  09:59
+bottle	JUNK07	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:00
+ 	Time	Counts	Inc	EP
+	1	58170	58170	0
+	2	159063	100893	0
+	3	194947	35884	0
+	4	198877	3930	0
+	5	198987	110	0
+	6	199041	54	0
+	7	199095	54	0
+	8	199143	48	1
+	9	199184	41	2
+	10	199228	44	3
+	11	199255	27	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2012.38	2323.60	35.000	25.00	50.00	1.02334	3.0	
+
+
+3C standard.mth run started 11/11/22  10:19
+bottle	JUNK08	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:20
+ 	Time	Counts	Inc	EP
+	1	57471	57471	0
+	2	157274	99803	0
+	3	196547	39273	0
+	4	201827	5280	0
+	5	201955	128	0
+	6	201997	42	1
+	7	202048	51	1
+	8	202096	48	2
+	9	202119	23	3
+	10	202138	19	4
+	11	202181	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2042.01	2324.39	35.000	25.00	50.00	1.02334	3.6	
+
+
+3C standard.mth run started 11/11/22  10:35
+bottle	JUNK09	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:36
+ 	Time	Counts	Inc	EP
+	1	56152	56152	0
+	2	154491	98339	0
+	3	194791	40300	0
+	4	201031	6240	0
+	5	201190	159	0
+	6	201264	74	0
+	7	201301	37	1
+	8	201340	39	2
+	9	201376	36	3
+	10	201408	32	4
+	11	201457	49	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.68	2323.53	35.000	25.00	50.00	1.02334	4.1	
+
+
+3C standard.mth run started 11/11/22  10:51
+bottle	JUNK10	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:52
+ 	Time	Counts	Inc	EP
+	1	61648	61648	0
+	2	163790	102142	0
+	3	200782	36992	0
+	4	205937	5155	0
+	5	205937	0	0
+	6	205937	0	0
+	7	205937	0	0
+	8	205937	0	0
+	9	205937	0	0
+	10	205937	0	0
+	11	205937	0	0
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2080.05	2324.41	35.000	25.00	50.00	1.02334	4.6	
+
+
+3C standard.mth run started 11/11/22  11:10
+bottle	JUNK11	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:12
+ 	Time	Counts	Inc	EP
+	1	51690	51690	0
+	2	145247	93557	0
+	3	188270	43023	0
+	4	197526	9256	0
+	5	197836	310	0
+	6	197888	52	0
+	7	197929	41	1
+	8	198022	93	1
+	9	198060	38	2
+	10	198131	71	2
+	11	198148	17	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2001.17	2322.67	35.000	25.00	50.00	1.02334	5.1	
+
+
+3C DIC drain pipette.mth run started 11/11/22  11:35
+3C DIC drain stripper.mth run started 11/11/22  11:35
+3C DIC drain pipette.mth run started 11/11/22  11:39
+3C DIC drain pipette.mth run started 11/11/22  11:42
+3C DIC drain pipette.mth run started 11/11/22  11:48
+3C DIC drain stripper.mth run started 11/11/22  11:49
+3C standard.mth run started 11/11/22  11:50
+bottle	JUNK12	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:51
+ 	Time	Counts	Inc	EP
+3C reset.mth run started 11/11/22  11:52
+3C DIC drain pipette.mth run started 11/11/22  11:53
+3C DIC drain stripper.mth run started 11/11/22  11:53
+3C empty pipette into cell.mth run started 11/11/22  11:54
+3C reset.mth run started 11/11/22  11:55
+3C standard.mth run started 11/11/22  11:56
+bottle	JUNK13	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:57
+ 	Time	Counts	Inc	EP
+	1	48538	48538	0
+3C reset.mth run started 11/11/22  11:59
+3C DIC drain pipette.mth run started 11/11/22  11:59
+3C DIC drain stripper.mth run started 11/11/22  12:00
+3C reset.mth run started 11/11/22  12:01
+3C empty pipette into cell.mth run started 11/11/22  12:01
+3C standard.mth run started 11/11/22  12:03
+bottle	JUNK14	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:04
+ 	Time	Counts	Inc	EP
+	1	39626	39626	0
+	2	131387	91761	0
+	3	184698	53311	0
+	4	201224	16526	0
+	5	203268	2044	0
+	6	203350	82	0
+	7	203397	47	1
+	8	203457	60	1
+	9	203484	27	2
+	10	203492	8	3
+	11	203496	4	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2055.33	2327.71	35.000	25.00	50.00	1.02334	6.4	
+
+
+3C standard.mth run started 11/11/22  12:20
+bottle	JUNK15	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:21
+ 	Time	Counts	Inc	EP
+	1	42803	42803	0
+	2	134856	92053	0
+	3	188501	53645	0
+	4	205912	17411	0
+	5	208318	2406	0
+	6	208390	72	0
+	7	208473	83	0
+	8	208501	28	1
+	9	208537	36	2
+	10	208560	23	3
+	11	208570	10	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2106.72	2344.67	35.000	25.00	50.00	1.02334	7.0	
+
+
+3C standard.mth run started 11/11/22  12:35
+bottle	JUNK16	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:36
+ 	Time	Counts	Inc	EP
+	1	43950	43950	0
+	2	134415	90465	0
+	3	188165	53750	0
+	4	205774	17609	0
+	5	208500	2726	0
+	6	208578	78	0
+	7	208629	51	0
+	8	208649	20	1
+	9	208667	18	2
+	10	208678	11	3
+	11	208679	1	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2107.82	2345.99	35.000	25.00	50.00	1.02334	7.5	
+
+
+3C standard.mth run started 11/11/22  12:50
+bottle	JUNK17	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:51
+ 	Time	Counts	Inc	EP
+	1	51704	51704	0
+	2	139006	87302	0
+	3	189056	50050	0
+	4	205262	16206	0
+	5	208019	2757	0
+	6	208077	58	0
+	7	208117	40	1
+	8	208161	44	2
+	9	208186	25	3
+	10	208198	12	4
+	11	208241	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2103.38	2344.02	35.000	25.00	50.00	1.02334	8.0	
+
+
+3C DIC fill pipette.mth run started 11/11/22  13:05
+3C DIC drain pipette.mth run started 11/11/22  13:06
+3C DIC drain stripper.mth run started 11/11/22  13:07
+3C reset.mth run started 11/11/22  13:07
+3C DIC fill pipette.mth run started 11/11/22  13:08
+3C DIC drain pipette.mth run started 11/11/22  13:10
+3C DIC drain stripper.mth run started 11/11/22  13:11
+3C DIC drain stripper.mth run started 11/11/22  13:12
+3C reset.mth run started 11/11/22  13:13
+3C standard.mth run started 11/11/22  13:17
+bottle	JUNK18	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:18
+ 	Time	Counts	Inc	EP
+	1	48093	48093	0
+	2	137802	89709	0
+	3	188561	50759	0
+	4	205545	16984	0
+	5	208520	2975	0
+	6	208591	71	0
+	7	208643	52	0
+	8	208676	33	1
+	9	208700	24	2
+	10	208732	32	3
+	11	208789	57	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2108.93	2346.03	35.000	25.00	50.00	1.02334	9.4	
+
+
+3C standard.mth run started 11/11/22  13:32
+bottle	JUNK19	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:33
+ 	Time	Counts	Inc	EP
+	1	47900	47900	0
+	2	137063	89163	0
+	3	187799	50736	0
+	4	205106	17307	0
+	5	208286	3180	0
+	6	208293	7	1
+	7	208319	26	2
+	8	208374	55	2
+	9	208421	47	3
+	10	208444	23	4
+	11	208466	22	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2105.66	2344.33	35.000	25.00	50.00	1.02334	10.0	
+
+
+3C standard.mth run started 11/11/22  13:47
+bottle	JUNK20	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:48
+ 	Time	Counts	Inc	EP
+	1	46457	46457	0
+	2	135124	88667	0
+	3	186402	51278	0
+	4	204664	18262	0
+	5	208213	3549	0
+	6	208293	80	0
+	7	208370	77	0
+	8	208387	17	1
+	9	208406	19	2
+	10	208406	0	2
+	11	208425	19	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2105.25	2343.19	35.000	25.00	50.00	1.02334	10.5	
+
+
+3C standard.mth run started 11/11/22  14:02
+bottle	JUNK21	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:04
+ 	Time	Counts	Inc	EP
+	1	48960	48960	0
+	2	135347	86387	0
+	3	185137	49790	0
+	4	202736	17599	0
+	5	206353	3617	0
+	6	206447	94	0
+	7	206541	94	0
+	8	206555	14	1
+	9	206616	61	1
+	10	206668	52	1
+	11	206676	8	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2087.54	2343.97	35.000	25.00	50.00	1.02334	11.0	
+
+
+3C DIC drain pipette.mth run started 11/11/22  14:18
+3C DIC drain pipette.mth run started 11/11/22  14:18
+3C DIC drain pipette.mth run started 11/11/22  14:19
+3C standard.mth run started 11/11/22  14:22
+bottle	JUNK22	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:23
+ 	Time	Counts	Inc	EP
+	1	49024	49024	0
+	2	135581	86557	0
+	3	185584	50003	0
+	4	203847	18263	0
+	5	207862	4015	0
+	6	207934	72	0
+	7	207961	27	1
+	8	208014	53	1
+	9	208054	40	2
+	10	208067	13	3
+	11	208115	48	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2102.11	2345.39	35.000	25.00	50.00	1.02334	11.5	
+
+
+3C standard.mth run started 11/11/22  14:37
+bottle	JUNK23	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:38
+ 	Time	Counts	Inc	EP
+	1	48389	48389	0
+	2	134172	85783	0
+	3	182915	48743	0
+	4	202457	19542	0
+	5	207217	4760	0
+	6	207324	107	0
+	7	207357	33	1
+	8	207382	25	2
+	9	207385	3	3
+	10	207385	0	3
+	11	207409	24	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2094.96	2344.08	35.000	25.00	50.00	1.02334	12.0	
+
+
+3C standard.mth run started 11/11/22  14:53
+bottle	JUNK24	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:54
+ 	Time	Counts	Inc	EP
+	1	46820	46820	0
+	2	129927	83107	0
+	3	180831	50904	0
+	4	201778	20947	0
+	5	207734	5956	0
+	6	208030	296	0
+	7	208244	214	0
+	8	208247	3	1
+	9	208283	36	2
+	10	208334	51	2
+	11	208356	22	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2104.55	2343.33	35.000	25.00	50.00	1.02334	12.6	
+
+
+3C standard.mth run started 11/11/22  15:07
+bottle	JUNK25	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:08
+ 	Time	Counts	Inc	EP
+	1	45642	45642	0
+	2	128185	82543	0
+	3	179359	51174	0
+	4	201154	21795	0
+	5	207686	6532	0
+	6	207869	183	0
+	7	207926	57	0
+	8	207957	31	1
+	9	207995	38	2
+	10	208053	58	2
+	11	208078	25	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2101.73	2342.59	35.000	25.00	50.00	1.02334	13.1	
+
+
+3C standard.mth run started 11/11/22  15:24
+bottle	JUNK26	11	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:25
+ 	Time	Counts	Inc	EP
+	1	46455	46455	0
+	2	128751	82296	0
+	3	179643	50892	0
+	4	201221	21578	0
+	5	207845	6624	0
+	6	208143	298	0
+	7	208167	24	1
+	8	208212	45	2
+	9	208220	8	3
+	10	208283	63	3
+	11	208301	18	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2103.99	2342.40	35.000	25.00	50.00	1.02334	13.6	
+
+
+3C stirrer off.mth run started 11/11/22  15:39
+Cell "C_Nov12-22_0811" started Nov12-22_0811
+
+3C standard.mth run started 11/12/22  08:52
+bottle	JUNK01	12	1	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:53
+ 	Time	Counts	Inc	EP
+	1	70737	70737	0
+	2	187598	116861	0
+	3	209937	22339	0
+	4	210158	221	0
+	5	210238	80	0
+	6	210307	69	0
+	7	210361	54	0
+	8	210416	55	0
+	9	210453	37	1
+	10	210498	45	2
+	11	210556	58	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2126.83	2312.81	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/12/22  09:07
+bottle	JUNK02	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:08
+ 	Time	Counts	Inc	EP
+	1	71105	71105	0
+	2	187033	115928	0
+	3	209428	22395	0
+	4	209750	322	0
+	5	209836	86	0
+	6	209899	63	0
+	7	209941	42	1
+	8	209990	49	2
+	9	210024	34	3
+	10	210061	37	4
+	11	210093	32	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2122.14	2290.50	35.000	25.00	50.00	1.02334	1.0	
+
+
+3C standard.mth run started 11/12/22  09:22
+bottle	JUNK03	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:23
+ 	Time	Counts	Inc	EP
+	1	70418	70418	0
+	2	185975	115557	0
+	3	209166	23191	0
+	4	209674	508	0
+	5	209763	89	0
+	6	209833	70	0
+	7	209833	0	0
+	8	209899	66	0
+	9	209934	35	1
+	10	209998	64	1
+	11	210027	29	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2121.47	2288.11	35.000	25.00	50.00	1.02334	1.6	
+
+
+3C standard.mth run started 11/12/22  09:37
+bottle	JUNK04	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:38
+ 	Time	Counts	Inc	EP
+	1	70261	70261	0
+	2	184053	113792	0
+	3	208933	24880	0
+	4	209663	730	0
+	5	209750	87	0
+	6	209796	46	1
+	7	209856	60	1
+	8	209907	51	1
+	9	209965	58	1
+	10	209982	17	2
+	11	210035	53	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2121.55	2286.45	35.000	25.00	50.00	1.02334	2.1	
+
+
+3C standard.mth run started 11/12/22  09:59
+bottle	CRM-195-0224-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:00
+ 	Time	Counts	Inc	EP
+	1	66518	66518	0
+	2	170713	104195	0
+	3	190498	19785	0
+	4	190940	442	0
+	5	190964	24	1
+	6	191044	80	1
+	7	191103	59	1
+	8	191169	66	1
+	9	191176	7	2
+	10	191252	76	2
+	11	191284	32	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1931.65	2140.71	35.000	25.00	50.00	1.02334	2.6	
+
+
+3C standard.mth run started 11/12/22  10:14
+bottle	NUTSLAB01	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:15
+ 	Time	Counts	Inc	EP
+	1	66595	66595	0
+	2	176436	109841	0
+	3	200449	24013	0
+	4	201344	895	0
+	5	201414	70	0
+	6	201456	42	1
+	7	201516	60	1
+	8	201560	44	2
+	9	201577	17	3
+	10	201627	50	4
+	11	201669	42	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2036.83	2284.06	35.000	25.00	50.00	1.02334	3.1	
+
+
+3C standard.mth run started 11/12/22  12:22
+bottle	JUNK05	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:23
+ 	Time	Counts	Inc	EP
+	1	67633	67633	0
+	2	179217	111584	0
+	3	207758	28541	0
+	4	209416	1658	0
+	5	209489	73	0
+	6	209527	38	1
+	7	209592	65	1
+	8	209597	5	2
+	9	209621	24	3
+	10	209644	23	4
+	11	209685	41	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2118.01	2285.30	35.000	25.00	50.00	1.02334	3.6	
+
+
+3C standard.mth run started 11/12/22  12:35
+bottle	JUNK06	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:36
+ 	Time	Counts	Inc	EP
+	1	67865	67865	0
+	2	178740	110875	0
+	3	207711	28971	0
+	4	209577	1866	0
+	5	209650	73	0
+	6	209712	62	0
+	7	209749	37	1
+	8	209766	17	2
+	9	209805	39	3
+	10	209822	17	4
+	11	209876	54	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2119.94	2283.78	35.000	25.00	50.00	1.02334	4.1	
+
+
+3C standard.mth run started 11/12/22  12:49
+bottle	JUNK07	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:50
+ 	Time	Counts	Inc	EP
+	1	67683	67683	0
+	2	177343	109660	0
+	3	207409	30066	0
+	4	209596	2187	0
+	5	209674	78	0
+	6	209705	31	1
+	7	209765	60	1
+	8	209783	18	2
+	9	209827	44	3
+	10	209861	34	4
+	11	209880	19	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2119.98	2284.07	35.000	25.00	50.00	1.02334	4.7	
+
+
+3C standard.mth run started 11/12/22  13:04
+bottle	NUTSLAB02	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:05
+ 	Time	Counts	Inc	EP
+	1	64677	64677	0
+	2	170615	105938	0
+	3	198981	28366	0
+	4	201129	2148	0
+	5	201199	70	0
+	6	201245	46	1
+	7	201264	19	2
+	8	201315	51	2
+	9	201348	33	3
+	10	201380	32	4
+	11	201426	46	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.37	1724.68	35.000	25.00	50.00	1.02334	5.2	
+
+
+3C standard.mth run started 11/12/22  13:17
+bottle	JUNK08	12	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:18
+ 	Time	Counts	Inc	EP
+	1	66422	66422	0
+	2	174586	108164	0
+	3	206384	31798	0
+	4	209293	2909	0
+	5	209362	69	0
+	6	209411	49	1
+	7	209441	30	2
+	8	209462	21	3
+	9	209525	63	3
+	10	209539	14	4
+	11	209576	37	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2116.90	2287.62	35.000	25.00	50.00	1.02334	5.7	
+
+
+3C stirrer off.mth run started 11/12/22  13:31
+3C DIC add acid.mth run started 11/15/22  08:53
+3C DIC add acid.mth run started 11/15/22  08:53
+3C DIC add acid.mth run started 11/15/22  08:54
+3C DIC add acid.mth run started 11/15/22  08:54
+3C DIC add acid.mth run started 11/15/22  08:54
+3C DIC drain stripper.mth run started 11/15/22  08:55
+Cell "C_Nov15-22_0811" started Nov15-22_0811
+
+3C standard.mth run started 11/15/22  08:58
+bottle	JUNK01	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:59
+ 	Time	Counts	Inc	EP
+	1	69637	69637	0
+	2	186143	116506	0
+	3	211162	25019	0
+	4	211743	581	0
+	5	211811	68	0
+	6	211901	90	0
+	7	211974	73	0
+	8	212032	58	0
+	9	212091	59	0
+	10	212157	66	0
+	11	212203	46	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2143.51	2299.05	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/15/22  09:13
+bottle	JUNK02	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:14
+ 	Time	Counts	Inc	EP
+	1	70236	70236	0
+	2	184777	114541	0
+	3	210759	25982	0
+	4	211460	701	0
+	5	211542	82	0
+	6	211613	71	0
+	7	211679	66	0
+	8	211716	37	1
+	9	211765	49	2
+	10	211819	54	2
+	11	211877	58	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2140.21	2297.60	35.000	25.00	50.00	1.02334	1.1	
+
+
+3C standard.mth run started 11/15/22  09:29
+bottle	JUNK03	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:30
+ 	Time	Counts	Inc	EP
+	1	69595	69595	0
+	2	183414	113819	0
+	3	210507	27093	0
+	4	211533	1026	0
+	5	211618	85	0
+	6	211667	49	1
+	7	211714	47	2
+	8	211785	71	2
+	9	211804	19	3
+	10	211857	53	3
+	11	211891	34	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2140.35	2299.23	35.000	25.00	50.00	1.02334	1.6	
+
+
+3C standard.mth run started 11/15/22  09:44
+bottle	JUNK04	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:45
+ 	Time	Counts	Inc	EP
+	1	68353	68353	0
+	2	181107	112754	0
+	3	209744	28637	0
+	4	211152	1408	0
+	5	211240	88	0
+	6	211296	56	0
+	7	211333	37	1
+	8	211370	37	2
+	9	211420	50	3
+	10	211455	35	4
+	11	211497	42	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.36	2298.48	35.000	25.00	50.00	1.02334	2.1	
+
+
+3C standard.mth run started 11/15/22  09:59
+bottle	JUNK05	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:00
+ 	Time	Counts	Inc	EP
+	1	68434	68434	0
+	2	179892	111458	0
+	3	209563	29671	0
+	4	211284	1721	0
+	5	211362	78	0
+	6	211415	53	0
+	7	211420	5	1
+	8	211512	92	1
+	9	211512	0	1
+	10	211546	34	2
+	11	211596	50	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2137.36	2300.06	35.000	25.00	50.00	1.02334	2.6	
+
+
+3C standard.mth run started 11/15/22  10:14
+bottle	JUNK06	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:15
+ 	Time	Counts	Inc	EP
+	1	67627	67627	0
+	2	178457	110830	0
+	3	209072	30615	0
+	4	211225	2153	0
+	5	211287	62	0
+	6	211335	48	1
+	7	211394	59	1
+	8	211454	60	1
+	9	211458	4	2
+	10	211527	69	2
+	11	211529	2	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.68	2297.34	35.000	25.00	50.00	1.02334	3.2	
+
+
+3C standard.mth run started 11/15/22  10:39
+bottle	JUNK07	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:40
+ 	Time	Counts	Inc	EP
+	1	66693	66693	0
+	2	176097	109404	0
+	3	208326	32229	0
+	4	211191	2865	0
+	5	211290	99	0
+	6	211350	60	0
+	7	211406	56	0
+	8	211420	14	1
+	9	211474	54	1
+	10	211505	31	2
+	11	211561	56	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2137.01	2301.96	35.000	25.00	50.00	1.02334	3.7	
+
+
+3C standard.mth run started 11/15/22  10:55
+bottle	NUTSLAB01	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:56
+ 	Time	Counts	Inc	EP
+	1	63123	63123	0
+	2	168708	105585	0
+	3	198483	29775	0
+	4	201153	2670	0
+	5	201213	60	0
+	6	201249	36	1
+	7	201290	41	2
+	8	201328	38	3
+	9	201384	56	3
+	10	201402	18	4
+	11	201411	9	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.21	2282.49	35.000	25.00	50.00	1.02334	4.2	
+
+
+3C standard.mth run started 11/15/22  11:13
+bottle	JUNK08	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:14
+ 	Time	Counts	Inc	EP
+	1	66647	66647	0
+	2	174280	107633	0
+	3	207511	33231	0
+	4	211221	3710	0
+	5	211234	13	1
+	6	211298	64	1
+	7	211346	48	2
+	8	211402	56	2
+	9	211430	28	3
+	10	211461	31	4
+	11	211512	51	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.51	2295.91	35.000	25.00	50.00	1.02334	4.7	
+
+
+3C standard.mth run started 11/15/22  11:29
+bottle	CRM-195-0343-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:30
+ 	Time	Counts	Inc	EP
+	1	61435	61435	0
+	2	160556	99121	0
+	3	188011	27455	0
+	4	190738	2727	0
+	5	190805	67	0
+	6	190806	1	1
+	7	190871	65	1
+	8	190874	3	2
+	9	190937	63	2
+	10	190945	8	3
+	11	190982	37	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1928.59	2137.68	35.000	25.00	50.00	1.02334	5.2	
+
+
+3C standard.mth run started 11/15/22  11:46
+bottle	NUTSLAB02	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:47
+ 	Time	Counts	Inc	EP
+	1	60811	60811	0
+	2	164896	104085	0
+	3	196859	31963	0
+	4	200802	3943	0
+	5	200802	0	0
+	6	200804	2	1
+	7	200831	27	2
+	8	200902	71	2
+	9	200930	28	3
+	10	200930	0	3
+	11	200935	5	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2029.39	2284.85	35.000	25.00	50.00	1.02334	5.7	
+
+
+3C standard.mth run started 11/15/22  12:02
+bottle	SO289-41067	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:03
+ 	Time	Counts	Inc	EP
+	1	63778	63778	0
+	2	172218	108440	0
+	3	210143	37925	0
+	4	215832	5689	0
+	5	215860	28	1
+	6	215923	63	1
+	7	215950	27	2
+	8	215987	37	3
+	9	216011	24	4
+	10	216047	36	5
+	11	216059	12	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2182.56	2298.73	35.000	25.00	50.00	1.02334	6.2	
+
+
+3C standard.mth run started 11/15/22  12:17
+bottle	SO289-41019	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:18
+ 	Time	Counts	Inc	EP
+	1	61315	61315	0
+	2	160187	98872	0
+	3	189631	29444	0
+	4	193663	4032	0
+	5	193666	3	1
+	6	193726	60	1
+	7	193778	52	1
+	8	193787	9	2
+	9	193817	30	3
+	10	193857	40	4
+	11	193900	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1958.15	2261.67	35.000	25.00	50.00	1.02334	6.7	
+
+
+3C standard.mth run started 11/15/22  12:33
+bottle	64PE503-48-4-8	48	4	8	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:34
+ 	Time	Counts	Inc	EP
+	1	61008	61008	0
+	2	159652	98644	0
+	3	189492	29840	0
+	4	193984	4492	0
+	5	193987	3	1
+	6	194048	61	1
+	7	194076	28	2
+	8	194129	53	2
+	9	194157	28	3
+	10	194164	7	4
+	11	194200	36	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1961.18	2228.22	35.000	25.00	50.00	1.02334	7.2	
+
+
+3C standard.mth run started 11/15/22  12:48
+bottle	64PE503-42-4-11	42	4	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:49
+ 	Time	Counts	Inc	EP
+	1	61268	61268	0
+	2	160545	99277	0
+	3	193406	32861	0
+	4	198802	5396	0
+	5	198874	72	0
+	6	198926	52	0
+	7	198983	57	0
+	8	199011	28	1
+	9	199034	23	2
+	10	199090	56	2
+	11	199135	45	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2011.16	2058.98	35.000	25.00	50.00	1.02334	7.7	
+
+
+3C standard.mth run started 11/15/22  13:18
+bottle	64PE503-35-6-2	35	6	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:19
+ 	Time	Counts	Inc	EP
+	1	61152	61152	0
+	2	162312	101160	0
+	3	196926	34614	0
+	4	202855	5929	0
+	5	202932	77	0
+	6	202989	57	0
+	7	203054	65	0
+	8	203063	9	1
+	9	203125	62	1
+	10	203203	78	1
+	11	203217	14	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2052.50	2238.00	35.000	25.00	50.00	1.02334	8.2	
+
+
+3C standard.mth run started 11/15/22  13:34
+bottle	NUTSLAB03	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:35
+ 	Time	Counts	Inc	EP
+	1	58893	58893	0
+	2	159221	100328	0
+	3	194267	35046	0
+	4	200904	6637	0
+	5	200907	3	1
+	6	200986	79	1
+	7	201027	41	2
+	8	201055	28	3
+	9	201094	39	4
+	10	201142	48	5
+	11	201171	29	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2031.78	2283.80	35.000	25.00	50.00	1.02334	8.7	
+
+
+3C standard.mth run started 11/15/22  13:49
+bottle	64PE503-49-1-5	49	1	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:50
+ 	Time	Counts	Inc	EP
+	1	61566	61566	0
+	2	161764	100198	0
+	3	196862	35098	0
+	4	203981	7119	0
+	5	203981	0	0
+	6	203981	0	0
+	7	204019	38	1
+	8	204064	45	2
+	9	204104	40	3
+	10	204127	23	4
+	11	204174	47	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2062.20	2238.30	35.000	25.00	50.00	1.02334	9.2	
+
+
+3C standard.mth run started 11/15/22  14:05
+bottle	64PE503-20-4-8	20	4	8	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:06
+ 	Time	Counts	Inc	EP
+	1	59728	59728	0
+	2	157333	97605	0
+	3	191696	34363	0
+	4	198739	7043	0
+	5	198790	51	0
+	6	198808	18	1
+	7	198895	87	1
+	8	198897	2	2
+	9	198914	17	3
+	10	198977	63	3
+	11	199014	37	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2009.94	2232.64	35.000	25.00	50.00	1.02334	9.7	
+
+
+3C standard.mth run started 11/15/22  14:20
+bottle	SO28-40997	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:21
+ 	Time	Counts	Inc	EP
+	1	58600	58600	0
+	2	153242	94642	0
+	3	184616	31374	0
+	4	191201	6585	0
+	5	191216	15	1
+	6	191283	67	1
+	7	191334	51	1
+	8	191347	13	2
+	9	191404	57	2
+	10	191421	17	3
+	11	191485	64	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1933.69	2254.14	35.000	25.00	50.00	1.02334	10.2	
+
+
+3C standard.mth run started 11/15/22  14:36
+bottle	SO28-41007	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:37
+ 	Time	Counts	Inc	EP
+	1	61545	61545	0
+	2	166032	104487	0
+	3	207447	41415	0
+	4	217324	9877	0
+	5	217643	319	0
+	6	217715	72	0
+	7	217769	54	0
+	8	217814	45	1
+	9	217857	43	2
+	10	217908	51	2
+	11	217933	25	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2201.54	2320.23	35.000	25.00	50.00	1.02334	10.7	
+
+
+3C standard.mth run started 11/15/22  14:55
+bottle	SO28-41279	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:56
+ 	Time	Counts	Inc	EP
+	1	60327	60327	0
+	2	160729	100402	0
+	3	199846	39117	0
+	4	209428	9582	0
+	5	209715	287	0
+	6	209776	61	0
+	7	209841	65	0
+	8	209881	40	1
+	9	209928	47	2
+	10	209958	30	3
+	11	209988	30	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2121.08	2224.45	35.000	25.00	50.00	1.02334	11.3	
+
+
+3C standard.mth run started 11/15/22  15:10
+bottle	NUTSLAB04	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:11
+ 	Time	Counts	Inc	EP
+	1	56721	56721	0
+	2	154525	97804	0
+	3	191465	36940	0
+	4	200630	9165	0
+	5	200846	216	0
+	6	200857	11	1
+	7	200872	15	2
+	8	200933	61	2
+	9	200944	11	3
+	10	200999	55	3
+	11	201005	6	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2030.10	2282.69	35.000	25.00	50.00	1.02334	11.8	
+
+
+3C standard.mth run started 11/15/22  15:25
+bottle	SO289-40985	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:26
+ 	Time	Counts	Inc	EP
+	1	59626	59626	0
+	2	161650	102024	0
+	3	204109	42459	0
+	4	215126	11017	0
+	5	215927	801	0
+	6	215954	27	1
+	7	216006	52	1
+	8	216020	14	2
+	9	216071	51	2
+	10	216118	47	3
+	11	216132	14	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2183.30	2299.27	35.000	25.00	50.00	1.02334	12.3	
+
+
+3C standard.mth run started 11/15/22  15:40
+bottle	SO289-41002	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:41
+ 	Time	Counts	Inc	EP
+	1	59352	59352	0
+	2	161869	102517	0
+	3	205182	43313	0
+	4	216875	11693	0
+	5	217983	1108	0
+	6	217991	8	1
+	7	218038	47	2
+	8	218064	26	3
+	9	218111	47	4
+	10	218126	15	5
+	11	218159	33	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2203.83	2296.28	35.000	25.00	50.00	1.02334	12.9	
+
+
+3C standard.mth run started 11/15/22  15:55
+bottle	64PE503-9-5-5	9	5	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:56
+ 	Time	Counts	Inc	EP
+	1	57783	57783	0
+	2	154215	96432	0
+	3	192732	38517	0
+	4	203251	10519	0
+	5	204076	825	0
+	6	204087	11	1
+	7	204125	38	2
+	8	204185	60	2
+	9	204193	8	3
+	10	204217	24	4
+	11	204281	64	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2063.28	2232.47	35.000	25.00	50.00	1.02334	13.4	
+
+
+3C standard.mth run started 11/15/22  16:10
+bottle	SO289-41062	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:11
+ 	Time	Counts	Inc	EP
+	1	59224	59224	0
+	2	160309	101085	0
+	3	203797	43488	0
+	4	216059	12262	0
+	5	217516	1457	0
+	6	217516	0	0
+	7	217516	0	0
+	8	217539	23	1
+	9	217602	63	1
+	10	217619	17	2
+	11	217641	22	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2198.58	2322.45	35.000	25.00	50.00	1.02334	13.9	
+
+
+3C standard.mth run started 11/15/22  16:25
+bottle	SO289-40986	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:26
+ 	Time	Counts	Inc	EP
+	1	58863	58863	0
+	2	157770	98907	0
+	3	200137	42367	0
+	4	212360	12223	0
+	5	213928	1568	0
+	6	213928	0	0
+	7	213928	0	0
+	8	213931	3	1
+	9	213941	10	2
+	10	214012	71	2
+	11	214022	10	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2161.93	2280.85	35.000	25.00	50.00	1.02334	14.4	
+
+
+3C standard.mth run started 11/15/22  16:40
+bottle	NUTSLAB05	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:41
+ 	Time	Counts	Inc	EP
+	1	54598	54598	0
+	2	149416	94818	0
+	3	188424	39008	0
+	4	199657	11233	0
+	5	200882	1225	0
+	6	200896	14	1
+	7	200896	0	1
+	8	200896	0	1
+	9	200929	33	2
+	10	200988	59	2
+	11	200993	5	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2029.98	2283.21	35.000	25.00	50.00	1.02334	14.9	
+
+
+3C standard.mth run started 11/15/22  16:55
+bottle	SO289-41052	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:56
+ 	Time	Counts	Inc	EP
+	1	57484	57484	0
+	2	156791	99307	0
+	3	200322	43531	0
+	4	213486	13164	0
+	5	215561	2075	0
+	6	215561	0	0
+	7	215561	0	0
+	8	215565	4	1
+	9	215617	52	1
+	10	215651	34	2
+	11	215695	44	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2178.87	2260.22	35.000	25.00	50.00	1.02334	15.5	
+
+
+3C standard.mth run started 11/15/22  17:09
+bottle	SO289-40993	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 17:10
+ 	Time	Counts	Inc	EP
+	1	55444	55444	0
+	2	147588	92144	0
+	3	185735	38147	0
+	4	197202	11467	0
+	5	198589	1387	0
+	6	198598	9	1
+	7	198598	0	1
+	8	198602	4	2
+	9	198630	28	3
+	10	198691	61	3
+	11	198722	31	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2006.98	2247.21	35.000	25.00	50.00	1.02334	16.0	
+
+
+3C standard.mth run started 11/15/22  17:24
+bottle	SO289-41012	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 17:26
+ 	Time	Counts	Inc	EP
+	1	56517	56517	0
+	2	152470	95953	0
+	3	193325	40855	0
+	4	206163	12838	0
+	5	208229	2066	0
+	6	208229	0	0
+	7	208229	0	0
+	8	208252	23	1
+	9	208295	43	2
+	10	208340	45	3
+	11	208370	30	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2104.69	1961.05	35.000	25.00	50.00	1.02334	16.5	
+
+
+3C drain cell.mth run started 11/15/22  17:38
+3C fill cell with NaCl NS.mth run started 11/15/22  17:39
+3C drain cell.mth run started 11/15/22  17:40
+3C standard.mth run started 11/15/22  17:51
+bottle	SO289-41021	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 17:52
+ 	Time	Counts	Inc	EP
+	1	54014	54014	0
+	2	141270	87256	0
+	3	175991	34721	0
+	4	186921	10930	0
+	5	188404	1483	0
+	6	188404	0	0
+	7	188404	0	0
+	8	188448	44	1
+	9	188512	64	1
+	10	188518	6	2
+	11	188547	29	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1903.93	2223.44	35.000	25.00	50.00	1.02334	17.0	
+
+
+3C standard.mth run started 11/15/22  18:07
+bottle	SO289-41217	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 18:08
+ 	Time	Counts	Inc	EP
+	1	56200	56200	0
+	2	150910	94710	0
+	3	192815	41905	0
+	4	206270	13455	0
+	5	208829	2559	0
+	6	208853	24	1
+	7	208864	11	2
+	8	208873	9	3
+	9	208917	44	4
+	10	208968	51	4
+	11	209010	42	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2111.17	2220.60	35.000	25.00	50.00	1.02334	17.5	
+
+
+3C abc testing.mth run started 11/15/22  18:23
+3C abc testing.mth run started 11/15/22  18:23
+3C abc testing.mth run started 11/15/22  18:24
+3C drain cell.mth run started 11/15/22  18:25
+3C fill cell with NaCl NS.mth run started 11/15/22  18:25
+3C abc testing.mth run started 11/15/22  18:26
+3C standard.mth run started 11/15/22  18:27
+bottle	NUTSLAB06	15	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 18:28
+ 	Time	Counts	Inc	EP
+	1	52463	52463	0
+	2	145343	92880	0
+	3	185362	40019	0
+	4	198373	13011	0
+	5	200890	2517	0
+	6	200890	0	0
+	7	200890	0	0
+	8	200890	0	0
+	9	200898	8	1
+	10	200931	33	2
+	11	200973	42	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2029.78	2274.72	35.000	25.00	50.00	1.02334	18.0	
+
+
+3C standard.mth run started 11/15/22  18:45
+bottle	CRM-195-0327-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 18:46
+ 	Time	Counts	Inc	EP
+	1	51776	51776	0
+	2	139122	87346	0
+	3	176070	36948	0
+	4	188254	12184	0
+	5	190417	2163	0
+	6	190417	0	0
+	7	190417	0	0
+	8	190418	1	1
+	9	190423	5	2
+	10	190501	78	2
+	11	190524	23	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1923.96	2137.17	35.000	25.00	50.00	1.02334	18.5	
+
+
+Cell "C_Nov16-22_0811" started Nov16-22_0811
+
+3C abc testing.mth run started 11/16/22  08:46
+3C standard.mth run started 11/16/22  08:46
+bottle	JUNK01	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:47
+ 	Time	Counts	Inc	EP
+	1	64358	64358	0
+	2	155764	91406	0
+	3	167539	11775	0
+	4	167688	149	0
+	5	167806	118	0
+	6	167875	69	0
+	7	167927	52	0
+	8	168013	86	0
+	9	168064	51	0
+	10	168120	56	0
+	11	168156	36	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1697.43	2288.45	35.000	25.00	50.00	1.02334	0.4	
+
+
+3C standard.mth run started 11/16/22  09:02
+bottle	JUNK02	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:03
+ 	Time	Counts	Inc	EP
+	1	69125	69125	0
+	2	182811	113686	0
+	3	210177	27366	0
+	4	210984	807	0
+	5	211082	98	0
+	6	211158	76	0
+	7	211238	80	0
+	8	211306	68	0
+	9	211384	78	0
+	10	211433	49	1
+	11	211480	47	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.19	2301.13	35.000	25.00	50.00	1.02334	0.9	
+
+
+3C standard.mth run started 11/16/22  09:17
+bottle	JUNK03	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:18
+ 	Time	Counts	Inc	EP
+	1	68827	68827	0
+	2	181450	112623	0
+	3	210086	28636	0
+	4	211043	957	0
+	5	211127	84	0
+	6	211199	72	0
+	7	211266	67	0
+	8	211329	63	0
+	9	211383	54	0
+	10	211437	54	0
+	11	211471	34	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.10	2143.20	35.000	25.00	50.00	1.02334	1.5	
+
+
+3C standard.mth run started 11/16/22  09:32
+bottle	JUNK04	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:33
+ 	Time	Counts	Inc	EP
+	1	68316	68316	0
+	2	180340	112024	0
+	3	209890	29550	0
+	4	211103	1213	0
+	5	211193	90	0
+	6	211246	53	0
+	7	211311	65	0
+	8	211365	54	0
+	9	211418	53	0
+	10	211476	58	0
+	11	211509	33	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.48	2301.98	35.000	25.00	50.00	1.02334	2.0	
+
+
+3C standard.mth run started 11/16/22  09:49
+bottle	CRM-195-0134-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:50
+ 	Time	Counts	Inc	EP
+	1	64648	64648	0
+	2	167972	103324	0
+	3	190801	22829	0
+	4	191449	648	0
+	5	191509	60	0
+	6	191581	72	0
+	7	191631	50	1
+	8	191687	56	1
+	9	191732	45	2
+	10	191768	36	3
+	11	191827	59	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1937.15	2138.42	35.000	25.00	50.00	1.02334	2.5	
+
+
+3C standard.mth run started 11/16/22  10:04
+bottle	NUTSLAB01	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:05
+ 	Time	Counts	Inc	EP
+	1	64886	64886	0
+	2	172301	107415	0
+	3	200603	28302	0
+	4	201909	1306	0
+	5	201954	45	1
+	6	202019	65	1
+	7	202086	67	1
+	8	202122	36	2
+	9	202153	31	3
+	10	202207	54	3
+	11	202228	21	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2042.49	224.69	35.000	25.00	50.00	1.02334	3.0	
+
+
+3C abc testing.mth run started 11/16/22  10:18
+3C abc testing.mth run started 11/16/22  10:18
+3C abc testing.mth run started 11/16/22  10:20
+3C abc testing.mth run started 11/16/22  10:20
+3C fill cell with NaCl NS.mth run started 11/16/22  10:22
+3C drain cell.mth run started 11/16/22  10:22
+3C abc testing.mth run started 11/16/22  10:23
+3C standard.mth run started 11/16/22  10:24
+bottle	NUTSLAB02	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:25
+ 	Time	Counts	Inc	EP
+	1	64789	64789	0
+	2	171169	106380	0
+	3	200333	29164	0
+	4	201929	1596	0
+	5	202005	76	0
+	6	202071	66	0
+	7	202117	46	1
+	8	202153	36	2
+	9	202192	39	3
+	10	202238	46	4
+	11	202288	50	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2043.10	2284.00	35.000	25.00	50.00	1.02334	3.5	
+
+
+3C standard.mth run started 11/16/22  10:39
+bottle	SO289-40459	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:40
+ 	Time	Counts	Inc	EP
+	1	67739	67739	0
+	2	178902	111163	0
+	3	214213	35311	0
+	4	216980	2767	0
+	5	217054	74	0
+	6	217105	51	0
+	7	217142	37	1
+	8	217209	67	1
+	9	217241	32	2
+	10	217293	52	2
+	11	217317	24	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2195.30	2311.23	35.000	25.00	50.00	1.02334	4.0	
+
+
+3C standard.mth run started 11/16/22  10:54
+bottle	SO289-40540	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:55
+ 	Time	Counts	Inc	EP
+	1	63873	63873	0
+	2	166541	102668	0
+	3	194981	28440	0
+	4	196840	1859	0
+	5	196907	67	0
+	6	196950	43	1
+	7	197004	54	1
+	8	197039	35	2
+	9	197063	24	3
+	10	197102	39	4
+	11	197143	41	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1990.99	2221.64	35.000	25.00	50.00	1.02334	4.5	
+
+
+3C standard.mth run started 11/16/22  11:09
+bottle	64PE503-8-5-2-D	8	5	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:10
+ 	Time	Counts	Inc	EP
+	1	63735	63735	0
+	2	168872	105137	0
+	3	201136	32264	0
+	4	203838	2702	0
+	5	203900	62	0
+	6	203964	64	0
+	7	204018	54	0
+	8	204075	57	0
+	9	204121	46	1
+	10	204133	12	2
+	11	204191	58	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2062.37	2244.67	35.000	25.00	50.00	1.02334	5.0	
+
+
+3C standard.mth run started 11/16/22  11:24
+bottle	64PE503-13-6-5	13	6	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:25
+ 	Time	Counts	Inc	EP
+	1	62835	62835	0
+	2	167053	104218	0
+	3	200413	33360	0
+	4	203513	3100	0
+	5	203597	84	0
+	6	203632	35	1
+	7	203648	16	2
+	8	203688	40	3
+	9	203734	46	4
+	10	203757	23	5
+	11	203788	31	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2058.29	2243.49	35.000	25.00	50.00	1.02334	5.5	
+
+
+3C standard.mth run started 11/16/22  11:39
+bottle	SO289-41093	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:40
+ 	Time	Counts	Inc	EP
+	1	61666	61666	0
+	2	161752	100086	0
+	3	192799	31047	0
+	4	195675	2876	0
+	5	195758	83	0
+	6	195820	62	0
+	7	195872	52	0
+	8	195915	43	1
+	9	195965	50	2
+	10	196006	41	3
+	11	196033	27	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1979.75	2261.55	35.000	25.00	50.00	1.02334	6.0	
+
+
+3C standard.mth run started 11/16/22  11:55
+bottle	NUTSLAB03	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:56
+ 	Time	Counts	Inc	EP
+	1	60436	60436	0
+	2	162767	102331	0
+	3	197784	35017	0
+	4	201791	4007	0
+	5	201843	52	0
+	6	201884	41	1
+	7	201927	43	2
+	8	201968	41	3
+	9	201994	26	4
+	10	202050	56	4
+	11	202086	36	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2041.05	2284.33	35.000	25.00	50.00	1.02334	6.5	
+
+
+3C standard.mth run started 11/16/22  12:11
+bottle	SO289-41260	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:12
+ 	Time	Counts	Inc	EP
+	1	62704	62704	0
+	2	169575	106871	0
+	3	211864	42289	0
+	4	217984	6120	0
+	5	218060	76	0
+	6	218119	59	0
+	7	218150	31	1
+	8	218207	57	1
+	9	218239	32	2
+	10	218268	29	3
+	11	218297	29	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2205.23	2281.57	35.000	25.00	50.00	1.02334	7.1	
+
+
+3C standard.mth run started 11/16/22  12:28
+bottle	SO289-40991	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:29
+ 	Time	Counts	Inc	EP
+	1	61491	61491	0
+	2	161886	100395	0
+	3	197892	36006	0
+	4	202600	4708	0
+	5	202679	79	0
+	6	202712	33	1
+	7	202783	71	1
+	8	202823	40	2
+	9	202860	37	3
+	10	202888	28	4
+	11	202900	12	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2049.29	2209.26	35.000	25.00	50.00	1.02334	7.6	
+
+
+3C standard.mth run started 11/16/22  12:43
+bottle	SO289-40315	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:44
+ 	Time	Counts	Inc	EP
+	1	60793	60793	0
+	2	161483	100690	0
+	3	198791	37308	0
+	4	204430	5639	0
+	5	204469	39	1
+	6	204555	86	1
+	7	204564	9	2
+	8	204599	35	3
+	9	204639	40	4
+	10	204682	43	5
+	11	204705	23	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2067.57	2198.30	35.000	25.00	50.00	1.02334	8.1	
+
+
+3C standard.mth run started 11/16/22  12:57
+bottle	64PE503-17-3-2	17	3	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:59
+ 	Time	Counts	Inc	EP
+	1	59493	59493	0
+	2	157910	98417	0
+	3	194504	36594	0
+	4	200217	5713	0
+	5	200285	68	0
+	6	200341	56	0
+	7	200395	54	0
+	8	200448	53	0
+	9	200476	28	1
+	10	200529	53	1
+	11	200565	36	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2025.65	2042.31	35.000	25.00	50.00	1.02334	8.6	
+
+
+3C standard.mth run started 11/16/22  13:12
+bottle	64PE503-17-3-5	17	3	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:13
+ 	Time	Counts	Inc	EP
+	1	59273	59273	0
+	2	157240	97967	0
+	3	194264	37024	0
+	4	200246	5982	0
+	5	200315	69	0
+	6	200357	42	1
+	7	200404	47	2
+	8	200473	69	2
+	9	200502	29	3
+	10	200562	60	3
+	11	200577	15	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2025.77	2244.06	35.000	25.00	50.00	1.02334	9.1	
+
+
+3C standard.mth run started 11/16/22  13:27
+bottle	NUTSLAB04	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:28
+ 	Time	Counts	Inc	EP
+	1	57690	57690	0
+	2	156382	98692	0
+	3	194762	38380	0
+	4	201586	6824	0
+	5	201633	47	1
+	6	201692	59	1
+	7	201720	28	2
+	8	201774	54	2
+	9	201821	47	3
+	10	201821	0	3
+	11	201862	41	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2038.78	2283.46	35.000	25.00	50.00	1.02334	9.6	
+
+
+3C standard.mth run started 11/16/22  13:43
+bottle	SO289-40994	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:44
+ 	Time	Counts	Inc	EP
+	1	58574	58574	0
+	2	154115	95541	0
+	3	190169	36054	0
+	4	196435	6266	0
+	5	196483	48	1
+	6	196534	51	1
+	7	196579	45	2
+	8	196644	65	2
+	9	196644	0	2
+	10	196694	50	3
+	11	196738	44	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1986.89	2260.88	35.000	25.00	50.00	1.02334	10.1	
+
+
+3C standard.mth run started 11/16/22  13:59
+bottle	SO289-41015	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:00
+ 	Time	Counts	Inc	EP
+	1	59116	59116	0
+	2	155163	96047	0
+	3	193326	38163	0
+	4	200587	7261	0
+	5	200639	52	0
+	6	200694	55	0
+	7	200744	50	1
+	8	200792	48	2
+	9	200846	54	2
+	10	200871	25	3
+	11	200915	44	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2029.19	2228.58	35.000	25.00	50.00	1.02334	10.6	
+
+
+3C standard.mth run started 11/16/22  14:14
+bottle	SO289-41001	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:15
+ 	Time	Counts	Inc	EP
+	1	59400	59400	0
+	2	160170	100770	0
+	3	203577	43407	0
+	4	213358	9781	0
+	5	213442	84	0
+	6	213496	54	0
+	7	213547	51	0
+	8	213577	30	1
+	9	213619	42	2
+	10	213669	50	3
+	11	213714	45	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2158.81	2289.09	35.000	25.00	50.00	1.02334	11.1	
+
+
+3C standard.mth run started 11/16/22  14:28
+bottle	SO289-40987	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:29
+ 	Time	Counts	Inc	EP
+	1	60425	60425	0
+	2	159977	99552	0
+	3	202673	42696	0
+	4	212493	9820	0
+	5	212555	62	0
+	6	212590	35	1
+	7	212637	47	2
+	8	212689	52	2
+	9	212727	38	3
+	10	212764	37	4
+	11	212795	31	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2149.51	2266.49	35.000	25.00	50.00	1.02334	11.6	
+
+
+3C standard.mth run started 11/16/22  14:43
+bottle	SO289-40471	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:44
+ 	Time	Counts	Inc	EP
+	1	57989	57989	0
+	2	150068	92079	0
+	3	186767	36699	0
+	4	194556	7789	0
+	5	194598	42	1
+	6	194627	29	2
+	7	194694	67	2
+	8	194730	36	3
+	9	194761	31	4
+	10	194799	38	5
+	11	194824	25	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1967.50	2210.35	35.000	25.00	50.00	1.02334	12.1	
+
+
+3C standard.mth run started 11/16/22  14:58
+bottle	NUTSLAB05	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:59
+ 	Time	Counts	Inc	EP
+	1	55406	55406	0
+	2	151389	95983	0
+	3	191696	40307	0
+	4	201275	9579	0
+	5	201363	88	0
+	6	201363	0	0
+	7	201417	54	0
+	8	201450	33	1
+	9	201485	35	2
+	10	201512	27	3
+	11	201563	51	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2035.75	2284.65	35.000	25.00	50.00	1.02334	12.6	
+
+
+3C standard.mth run started 11/16/22  15:13
+bottle	SO289-40435	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:14
+ 	Time	Counts	Inc	EP
+	1	56694	56694	0
+	2	151400	94706	0
+	3	192520	41120	0
+	4	202701	10181	0
+	5	202897	196	0
+	6	202912	15	1
+	7	202970	58	1
+	8	203017	47	2
+	9	203053	36	3
+	10	203079	26	4
+	11	203112	33	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2051.44	2203.10	35.000	25.00	50.00	1.02334	13.1	
+
+
+3C standard.mth run started 11/16/22  15:27
+bottle	SO289-41040	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:28
+ 	Time	Counts	Inc	EP
+	1	55644	55644	0
+	2	146912	91268	0
+	3	185282	38370	0
+	4	194698	9416	0
+	5	194835	137	0
+	6	194854	19	1
+	7	194910	56	1
+	8	194939	29	2
+	9	194989	50	3
+	10	195035	46	4
+	11	195069	34	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1969.99	2261.27	35.000	25.00	50.00	1.02334	13.6	
+
+
+3C abc testing.mth run started 11/16/22  15:43
+3C abc testing.mth run started 11/16/22  15:44
+3C abc testing.mth run started 11/16/22  15:44
+3C abc testing.mth run started 11/16/22  15:44
+3C abc testing.mth run started 11/16/22  15:45
+3C abc testing.mth run started 11/16/22  15:45
+3C abc testing.mth run started 11/16/22  15:46
+3C abc testing.mth run started 11/16/22  15:46
+3C standard.mth run started 11/16/22  15:47
+bottle	SO289-41006	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:48
+ 	Time	Counts	Inc	EP
+	1	58604	58604	0
+	2	157298	98694	0
+	3	203968	46670	0
+	4	217100	13132	0
+	5	218204	1104	0
+	6	218216	12	1
+	7	218292	76	1
+	8	218317	25	2
+	9	218385	68	2
+	10	218440	55	2
+	11	218467	27	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2206.95	2327.61	35.000	25.00	50.00	1.02334	14.2	
+
+
+3C standard.mth run started 11/16/22  16:01
+bottle	SO289-40454	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:02
+ 	Time	Counts	Inc	EP
+	1	57669	57669	0
+	2	155477	97808	0
+	3	201747	46270	0
+	4	215049	13302	0
+	5	216246	1197	0
+	6	216250	4	1
+	7	216290	40	2
+	8	216352	62	2
+	9	216380	28	3
+	10	216429	49	4
+	11	216462	33	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2186.64	2313.87	35.000	25.00	50.00	1.02334	14.7	
+
+
+3C standard.mth run started 11/16/22  16:16
+bottle	64PE503-57-3-11	57	3	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:17
+ 	Time	Counts	Inc	EP
+	1	54992	54992	0
+	2	145879	90887	0
+	3	185584	39705	0
+	4	196529	10945	0
+	5	197134	605	0
+	6	197155	21	1
+	7	197214	59	1
+	8	197253	39	2
+	9	197289	36	3
+	10	197330	41	4
+	11	197358	28	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1993.17	2231.21	35.000	25.00	50.00	1.02334	15.2	
+
+
+3C standard.mth run started 11/16/22  16:32
+bottle	NUTSLAB06	16	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:33
+ 	Time	Counts	Inc	EP
+	1	53623	53623	0
+	2	145848	92225	0
+	3	188166	42318	0
+	4	200510	12344	0
+	5	201585	1075	0
+	6	201585	0	0
+	7	201588	3	1
+	8	201609	21	2
+	9	201661	52	2
+	10	201688	27	3
+	11	201735	47	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2037.50	2285.28	35.000	25.00	50.00	1.02334	15.7	
+
+
+3C standard.mth run started 11/16/22  16:48
+bottle	CRM-195-0286-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:49
+ 	Time	Counts	Inc	EP
+	1	52694	52694	0
+	2	140662	87968	0
+	3	178892	38230	0
+	4	189710	10818	0
+	5	190358	648	0
+	6	190358	0	0
+	7	190358	0	0
+	8	190389	31	1
+	9	190422	33	2
+	10	190422	0	2
+	11	190452	30	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1923.23	2139.66	35.000	25.00	50.00	1.02334	16.2	
+
+
+3C stirrer off.mth run started 11/16/22  17:41
+3C stirrer on.mth run started 11/17/22  09:12
+Cell "C_Nov17-22_0911" started Nov17-22_0911
+
+3C abc testing.mth run started 11/17/22  09:17
+3C abc testing.mth run started 11/17/22  09:17
+3C standard.mth run started 11/17/22  09:18
+bottle	JUNK01	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:19
+ 	Time	Counts	Inc	EP
+	1	67796	67796	0
+	2	181959	114163	0
+	3	211802	29843	0
+	4	212929	1127	0
+	5	213023	94	0
+	6	213084	61	0
+	7	213152	68	0
+	8	213222	70	0
+	9	213267	45	1
+	10	213324	57	1
+	11	213374	50	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2155.37	2307.98	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/17/22  09:32
+bottle	JUNK02	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:34
+ 	Time	Counts	Inc	EP
+	1	68360	68360	0
+	2	180791	112431	0
+	3	211394	30603	0
+	4	212678	1284	0
+	5	212753	75	0
+	6	212813	60	0
+	7	212886	73	0
+	8	212929	43	1
+	9	212980	51	1
+	10	213023	43	2
+	11	213051	28	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2152.10	2307.56	35.000	25.00	50.00	1.02334	1.1	
+
+
+3C abc testing.mth run started 11/17/22  09:50
+3C abc testing.mth run started 11/17/22  09:51
+3C abc testing.mth run started 11/17/22  09:51
+3C abc testing.mth run started 11/17/22  09:51
+3C abc testing.mth run started 11/17/22  09:52
+3C abc testing.mth run started 11/17/22  09:53
+3C abc testing.mth run started 11/17/22  09:53
+3C standard.mth run started 11/17/22  09:53
+bottle	JUNK03	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:54
+ 	Time	Counts	Inc	EP
+	1	67433	67433	0
+	2	179341	111908	0
+	3	211039	31698	0
+	4	212680	1641	0
+	5	212766	86	0
+	6	212843	77	0
+	7	212911	68	0
+	8	212971	60	0
+	9	213031	60	0
+	10	213083	52	0
+	11	213099	16	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2152.58	2308.07	35.000	25.00	50.00	1.02334	1.6	
+
+
+3C abc testing.mth run started 11/17/22  10:10
+3C standard.mth run started 11/17/22  10:10
+bottle	CRM-198-0551-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:11
+ 	Time	Counts	Inc	EP
+	1	64582	64582	0
+	2	166599	102017	0
+	3	191211	24612	0
+	4	192215	1004	0
+	5	192286	71	0
+	6	192352	66	0
+	7	192415	63	0
+	8	192477	62	0
+	9	192509	32	1
+	10	192560	51	1
+	11	192618	58	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1945.16	2127.15	35.000	25.00	50.00	1.02334	2.1	
+
+
+3C standard.mth run started 11/17/22  10:25
+bottle	NUTSLAB01	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:26
+ 	Time	Counts	Inc	EP
+	1	64194	64194	0
+	2	170353	106159	0
+	3	200334	29981	0
+	4	202010	1676	0
+	5	202075	65	0
+	6	202119	44	1
+	7	202168	49	2
+	8	202212	44	3
+	9	202239	27	4
+	10	202284	45	5
+	11	202323	39	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2043.45	2284.26	35.000	25.00	50.00	1.02334	2.6	
+
+
+3C abc testing.mth run started 11/17/22  10:54
+3C standard.mth run started 11/17/22  10:55
+bottle	SO289-40136	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:56
+ 	Time	Counts	Inc	EP
+	1	66533	66533	0
+	2	174756	108223	0
+	3	208783	34027	0
+	4	211214	2431	0
+	5	211299	85	0
+	6	211389	90	0
+	7	211451	62	0
+	8	211509	58	0
+	9	211570	61	0
+	10	211637	67	0
+	11	211668	31	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2138.09	2208.29	35.000	25.00	50.00	1.02334	3.1	
+
+
+3C standard.mth run started 11/17/22  11:09
+bottle	SO289-41173	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:10
+ 	Time	Counts	Inc	EP
+	1	64136	64136	0
+	2	168559	104423	0
+	3	198917	30358	0
+	4	201119	2202	0
+	5	201196	77	0
+	6	201263	67	0
+	7	201324	61	0
+	8	201366	42	1
+	9	201420	54	1
+	10	201465	45	2
+	11	201498	33	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2035.10	2233.24	35.000	25.00	50.00	1.02334	3.6	
+
+
+3C standard.mth run started 11/17/22  11:24
+bottle	SO289-41085	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:25
+ 	Time	Counts	Inc	EP
+	1	64325	64325	0
+	2	169081	104756	0
+	3	201766	32685	0
+	4	204591	2825	0
+	5	204669	78	0
+	6	204722	53	0
+	7	204765	43	1
+	8	204814	49	2
+	9	204878	64	2
+	10	204910	32	3
+	11	204935	25	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2069.90	2214.47	35.000	25.00	50.00	1.02334	4.1	
+
+
+3C standard.mth run started 11/17/22  11:39
+bottle	SO289-40200	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:40
+ 	Time	Counts	Inc	EP
+	1	64490	64490	0
+	2	171785	107295	0
+	3	209534	37749	0
+	4	213687	4153	0
+	5	213776	89	0
+	6	213825	49	1
+	7	213871	46	2
+	8	213919	48	3
+	9	213964	45	4
+	10	214006	42	5
+	11	214049	43	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2162.21	2204.90	35.000	25.00	50.00	1.02334	4.7	
+
+
+3C standard.mth run started 11/17/22  11:53
+bottle	SO289-40155	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:54
+ 	Time	Counts	Inc	EP
+	1	63626	63626	0
+	2	167120	103494	0
+	3	203239	36119	0
+	4	207381	4142	0
+	5	207457	76	0
+	6	207502	45	1
+	7	207560	58	1
+	8	207610	50	2
+	9	207651	41	3
+	10	207671	20	4
+	11	207700	29	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2097.91	2206.31	35.000	25.00	50.00	1.02334	5.2	
+
+
+3C standard.mth run started 11/17/22  12:07
+bottle	NUTSLAB02	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:08
+ 	Time	Counts	Inc	EP
+	1	60527	60527	0
+	2	162090	101563	0
+	3	197348	35258	0
+	4	201571	4223	0
+	5	201625	54	0
+	6	201655	30	1
+	7	201708	53	1
+	8	201745	37	2
+	9	201787	42	3
+	10	201815	28	4
+	11	201845	30	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2038.61	2284.41	35.000	25.00	50.00	1.02334	5.7	
+
+
+3C standard.mth run started 11/17/22  12:23
+bottle	SO289-41214	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:24
+ 	Time	Counts	Inc	EP
+	1	60572	60572	0
+	2	157772	97200	0
+	3	190471	32699	0
+	4	194372	3901	0
+	5	194434	62	0
+	6	194480	46	1
+	7	194524	44	2
+	8	194572	48	3
+	9	194627	55	3
+	10	194636	9	4
+	11	194664	28	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1965.88	2261.88	35.000	25.00	50.00	1.02334	6.2	
+
+
+3C standard.mth run started 11/17/22  12:38
+bottle	SO289-40184	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:39
+ 	Time	Counts	Inc	EP
+	1	62720	62720	0
+	2	167439	104719	0
+	3	209174	41735	0
+	4	215744	6570	0
+	5	215845	101	0
+	6	215893	48	1
+	7	215941	48	2
+	8	215999	58	2
+	9	216043	44	3
+	10	216081	38	4
+	11	216114	33	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2183.12	2265.15	35.000	25.00	50.00	1.02334	6.7	
+
+
+3C standard.mth run started 11/17/22  12:54
+bottle	64PE503-50-4-2	50	4	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:55
+ 	Time	Counts	Inc	EP
+	1	61537	61537	0
+	2	161424	99887	0
+	3	198674	37250	0
+	4	204278	5604	0
+	5	204346	68	0
+	6	204417	71	0
+	7	204460	43	1
+	8	204496	36	2
+	9	204569	73	2
+	10	204587	18	3
+	11	204629	42	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2066.80	2239.09	35.000	25.00	50.00	1.02334	7.2	
+
+
+3C standard.mth run started 11/17/22  13:09
+bottle	SO289-40190	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:10
+ 	Time	Counts	Inc	EP
+	1	60914	60914	0
+	2	161717	100803	0
+	3	200631	38914	0
+	4	207062	6431	0
+	5	207147	85	0
+	6	207221	74	0
+	7	207273	52	0
+	8	207313	40	1
+	9	207339	26	2
+	10	207373	34	3
+	11	207435	62	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2095.22	2208.14	35.000	25.00	50.00	1.02334	7.7	
+
+
+3C standard.mth run started 11/17/22  13:24
+bottle	SO289-40194	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:25
+ 	Time	Counts	Inc	EP
+	1	60307	60307	0
+	2	161467	101160	0
+	3	203254	41787	0
+	4	211090	7836	0
+	5	211166	76	0
+	6	211219	53	0
+	7	211288	69	0
+	8	211330	42	1
+	9	211344	14	2
+	10	211391	47	3
+	11	211441	50	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2135.79	2203.31	35.000	25.00	50.00	1.02334	8.3	
+
+
+3C standard.mth run started 11/17/22  13:38
+bottle	SO289-40836	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:39
+ 	Time	Counts	Inc	EP
+	1	58226	58226	0
+	2	155681	97455	0
+	3	194559	38878	0
+	4	201408	6849	0
+	5	201459	51	0
+	6	201522	63	0
+	7	201569	47	1
+	8	201605	36	2
+	9	201630	25	3
+	10	201650	20	4
+	11	201694	44	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2037.08	2284.19	35.000	25.00	50.00	1.02334	8.8	
+
+
+3C standard.mth run started 11/17/22  13:53
+bottle	64PE503-49-1-8	49	1	8	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:54
+ 	Time	Counts	Inc	EP
+	1	57157	57157	0
+	2	151615	94458	0
+	3	189593	37978	0
+	4	196882	7289	0
+	5	196975	93	0
+	6	196991	16	1
+	7	197068	77	1
+	8	197092	24	2
+	9	197117	25	3
+	10	197157	40	4
+	11	197200	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1991.57	2230.36	35.000	25.00	50.00	1.02334	9.3	
+
+
+3C standard.mth run started 11/17/22  14:09
+bottle	SO289-40836-S	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:10
+ 	Time	Counts	Inc	EP
+	1	57268	57268	0
+	2	149442	92174	0
+	3	185892	36450	0
+	4	192929	7037	0
+	5	192975	46	1
+	6	193035	60	1
+	7	193079	44	2
+	8	193145	66	2
+	9	193178	33	3
+	10	193194	16	4
+	11	193258	64	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1951.64	2258.25	35.000	25.00	50.00	1.02334	9.7	
+
+
+3C standard.mth run started 11/17/22  14:25
+bottle	SO289-40895	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:26
+ 	Time	Counts	Inc	EP
+	1	59145	59145	0
+	2	157937	98792	0
+	3	203603	45666	0
+	4	214800	11197	0
+	5	215242	442	0
+	6	215296	54	0
+	7	215339	43	1
+	8	215422	83	1
+	9	215431	9	2
+	10	215484	53	2
+	11	215506	22	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2176.96	2295.29	35.000	25.00	50.00	1.02334	10.3	
+
+
+3C standard.mth run started 11/17/22  14:40
+bottle	SO289-41259	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:41
+ 	Time	Counts	Inc	EP
+	1	58849	58849	0
+	2	158060	99211	0
+	3	203851	45791	0
+	4	215618	11767	0
+	5	216106	488	0
+	6	216158	52	0
+	7	216202	44	1
+	8	216227	25	2
+	9	216274	47	3
+	10	216307	33	4
+	11	216361	54	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2185.62	2307.32	35.000	25.00	50.00	1.02334	10.8	
+
+
+3C standard.mth run started 11/17/22  14:54
+bottle	64PE503-18-4-5	18	4	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:55
+ 	Time	Counts	Inc	EP
+	1	56353	56353	0
+	2	149577	93224	0
+	3	190328	40751	0
+	4	200229	9901	0
+	5	200462	233	0
+	6	200484	22	1
+	7	200543	59	1
+	8	200589	46	2
+	9	200634	45	3
+	10	200662	28	4
+	11	200680	18	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2026.81	2239.76	35.000	25.00	50.00	1.02334	11.3	
+
+
+3C standard.mth run started 11/17/22  15:09
+bottle	NUTSLAB04	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:10
+ 	Time	Counts	Inc	EP
+	1	54536	54536	0
+	2	148710	94174	0
+	3	190397	41687	0
+	4	201004	10607	0
+	5	201380	376	0
+	6	201401	21	1
+	7	201427	26	2
+	8	201500	73	2
+	9	201518	18	3
+	10	201572	54	3
+	11	201593	21	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2036.06	2284.75	35.000	25.00	50.00	1.02334	11.8	
+
+
+3C standard.mth run started 11/17/22  15:25
+bottle	SO289-41174	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:26
+ 	Time	Counts	Inc	EP
+	1	55493	55493	0
+	2	147312	91819	0
+	3	189012	41700	0
+	4	199999	10987	0
+	5	200518	519	0
+	6	200549	31	1
+	7	200595	46	2
+	8	200647	52	2
+	9	200673	26	3
+	10	200714	41	4
+	11	200740	26	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2027.42	2220.08	35.000	25.00	50.00	1.02334	12.3	
+
+
+3C standard.mth run started 11/17/22  15:40
+bottle	SO289-40185	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:41
+ 	Time	Counts	Inc	EP
+	1	56460	56460	0
+	2	151369	94909	0
+	3	196842	45473	0
+	4	209972	13130	0
+	5	211077	1105	0
+	6	211087	10	1
+	7	211167	80	1
+	8	211212	45	2
+	9	211251	39	3
+	10	211293	42	4
+	11	211336	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2134.73	2233.84	35.000	25.00	50.00	1.02334	12.8	
+
+
+3C standard.mth run started 11/17/22  15:54
+bottle	SO289-41211	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:55
+ 	Time	Counts	Inc	EP
+	1	55704	55704	0
+	2	146549	90845	0
+	3	187390	40841	0
+	4	198836	11446	0
+	5	199575	739	0
+	6	199589	14	1
+	7	199645	56	1
+	8	199696	51	1
+	9	199748	52	1
+	10	199779	31	2
+	11	199826	47	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2018.16	2275.25	35.000	25.00	50.00	1.02334	13.3	
+
+
+3C standard.mth run started 11/17/22  16:11
+bottle	64PE503-27-5-11	27	5	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:12
+ 	Time	Counts	Inc	EP
+	1	54995	54995	0
+	2	144487	89492	0
+	3	186504	42017	0
+	4	198495	11991	0
+	5	199498	1003	0
+	6	199519	21	1
+	7	199581	62	1
+	8	199656	75	1
+	9	199668	12	2
+	10	199697	29	3
+	11	199752	55	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2017.41	2237.79	35.000	25.00	50.00	1.02334	13.8	
+
+
+3C standard.mth run started 11/17/22  16:26
+bottle	SO289-40453	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:27
+ 	Time	Counts	Inc	EP
+	1	53660	53660	0
+	2	141876	88216	0
+	3	181719	39843	0
+	4	193350	11631	0
+	5	194234	884	0
+	6	194234	0	0
+	7	194291	57	0
+	8	194315	24	1
+	9	194385	70	1
+	10	194429	44	2
+	11	194473	44	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1963.95	2250.14	35.000	25.00	50.00	1.02334	14.3	
+
+
+3C standard.mth run started 11/17/22  16:41
+bottle	NUTSLAB05	17	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:42
+ 	Time	Counts	Inc	EP
+	1	52552	52552	0
+	2	142874	90322	0
+	3	186215	43341	0
+	4	199707	13492	0
+	5	201154	1447	0
+	6	201162	8	1
+	7	201187	25	2
+	8	201215	28	3
+	9	201273	58	3
+	10	201309	36	4
+	11	201343	34	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2033.53	2283.71	35.000	25.00	50.00	1.02334	14.8	
+
+
+3C standard.mth run started 11/17/22  16:56
+bottle	CRM-198-0119-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:57
+ 	Time	Counts	Inc	EP
+	1	52379	52379	0
+	2	138700	86321	0
+	3	178370	39670	0
+	4	190223	11853	0
+	5	191283	1060	0
+	6	191289	6	1
+	7	191337	48	2
+	8	191365	28	3
+	9	191410	45	4
+	10	191446	36	5
+	11	191486	40	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1933.70	2127.08	35.000	25.00	50.00	1.02334	15.3	
+
+
+3C stirrer on.mth run started 11/18/22  08:24
+Cell "C_Nov18-22_0811" started Nov18-22_0811
+
+3C abc testing.mth run started 11/18/22  08:26
+3C abc testing.mth run started 11/18/22  08:27
+3C abc testing.mth run started 11/18/22  08:27
+3C abc testing.mth run started 11/18/22  08:28
+3C standard.mth run started 11/18/22  08:29
+bottle	JUNK01	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:30
+ 	Time	Counts	Inc	EP
+	1	67860	67860	0
+	2	182605	114745	0
+	3	210998	28393	0
+	4	211979	981	0
+	5	212125	146	0
+	6	212228	103	0
+	7	212323	95	0
+	8	212410	87	0
+	9	212475	65	0
+	10	212540	65	0
+	11	212613	73	0
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2147.66	2306.22	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/18/22  08:45
+bottle	JUNK02	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:46
+ 	Time	Counts	Inc	EP
+	1	67570	67570	0
+	2	181081	113511	0
+	3	210542	29461	0
+	4	211698	1156	0
+	5	211785	87	0
+	6	211867	82	0
+	7	211941	74	0
+	8	211989	48	1
+	9	212047	58	1
+	10	212092	45	2
+	11	212120	28	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2142.67	2307.26	35.000	25.00	50.00	1.02334	1.1	
+
+
+3C standard.mth run started 11/18/22  09:00
+bottle	JUNK03	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:01
+ 	Time	Counts	Inc	EP
+	1	67173	67173	0
+	2	179613	112440	0
+	3	210189	30576	0
+	4	211508	1319	0
+	5	211557	49	1
+	6	211616	59	1
+	7	211670	54	1
+	8	211701	31	2
+	9	211741	40	3
+	10	211788	47	4
+	11	211821	33	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2139.64	2307.13	35.000	25.00	50.00	1.02334	1.6	
+
+
+3C standard.mth run started 11/18/22  09:16
+bottle	JUNK04	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:17
+ 	Time	Counts	Inc	EP
+	1	67267	67267	0
+	2	178793	111526	0
+	3	209974	31181	0
+	4	211558	1584	0
+	5	211645	87	0
+	6	211705	60	0
+	7	211770	65	0
+	8	211772	2	1
+	9	211825	53	1
+	10	211871	46	2
+	11	211912	41	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2140.56	2307.34	35.000	25.00	50.00	1.02334	2.1	
+
+
+3C standard.mth run started 11/18/22  09:32
+bottle	CRM-195-0406-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:33
+ 	Time	Counts	Inc	EP
+	1	63779	63779	0
+	2	165756	101977	0
+	3	190238	24482	0
+	4	191140	902	0
+	5	191217	77	0
+	6	191280	63	0
+	7	191339	59	0
+	8	191397	58	0
+	9	191431	34	1
+	10	191469	38	2
+	11	191515	46	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1933.99	2139.05	35.000	25.00	50.00	1.02334	2.6	
+
+
+3C standard.mth run started 11/18/22  09:48
+bottle	NUTSLAB01	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:49
+ 	Time	Counts	Inc	EP
+	1	63375	63375	0
+	2	170954	107579	0
+	3	200211	29257	0
+	4	201909	1698	0
+	5	201977	68	0
+	6	202039	62	0
+	7	202085	46	1
+	8	202108	23	2
+	9	202151	43	3
+	10	202178	27	4
+	11	202215	37	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2042.36	2284.13	35.000	25.00	50.00	1.02334	3.1	
+
+
+3C standard.mth run started 11/18/22  10:05
+bottle	SO289-40863	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:06
+ 	Time	Counts	Inc	EP
+	1	64842	64842	0
+	2	170623	105781	0
+	3	200476	29853	0
+	4	202481	2005	0
+	5	202540	59	0
+	6	202597	57	0
+	7	202662	65	0
+	8	202720	58	0
+	9	202744	24	1
+	10	202778	34	2
+	11	202830	52	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2048.59	2204.76	35.000	25.00	50.00	1.02334	3.6	
+
+
+3C standard.mth run started 11/18/22  10:20
+bottle	SO289-41310	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:21
+ 	Time	Counts	Inc	EP
+	1	62821	62821	0
+	2	162296	99475	0
+	3	188804	26508	0
+	4	190396	1592	0
+	5	190478	82	0
+	6	190530	52	0
+	7	190585	55	0
+	8	190609	24	1
+	9	190643	34	2
+	10	190687	44	3
+	11	190737	50	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1926.11	2256.30	35.000	25.00	50.00	1.02334	4.1	
+
+
+3C standard.mth run started 11/18/22  10:36
+bottle	64PE503-21-3-8	21	3	8	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:37
+ 	Time	Counts	Inc	EP
+	1	63390	63390	0
+	2	165870	102480	0
+	3	196235	30365	0
+	4	198642	2407	0
+	5	198705	63	0
+	6	198773	68	0
+	7	198821	48	1
+	8	198852	31	2
+	9	198901	49	3
+	10	198938	37	4
+	11	198972	34	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2009.51	2231.70	35.000	25.00	50.00	1.02334	4.6	
+
+
+3C standard.mth run started 11/18/22  10:52
+bottle	SO289-40851	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:53
+ 	Time	Counts	Inc	EP
+	1	62887	62887	0
+	2	166607	103720	0
+	3	198888	32281	0
+	4	201912	3024	0
+	5	201975	63	0
+	6	202058	83	0
+	7	202117	59	0
+	8	202166	49	1
+	9	202202	36	2
+	10	202249	47	3
+	11	202311	62	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2043.33	2204.06	35.000	25.00	50.00	1.02334	5.1	
+
+
+3C standard.mth run started 11/18/22  11:07
+bottle	SO289-40842	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:08
+ 	Time	Counts	Inc	EP
+	1	64243	64243	0
+	2	172061	107818	0
+	3	212204	40143	0
+	4	217259	5055	0
+	5	217373	114	0
+	6	217409	36	1
+	7	217471	62	1
+	8	217505	34	2
+	9	217556	51	2
+	10	217580	24	3
+	11	217631	51	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2198.48	2313.86	35.000	25.00	50.00	1.02334	5.6	
+
+
+3C standard.mth run started 11/18/22  11:21
+bottle	NUTSLAB02	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:22
+ 	Time	Counts	Inc	EP
+	1	60536	60536	0
+	2	162538	102002	0
+	3	197349	34811	0
+	4	201388	4039	0
+	5	201444	56	0
+	6	201486	42	1
+	7	201546	60	1
+	8	201577	31	2
+	9	201649	72	2
+	10	201649	0	2
+	11	201687	38	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2037.01	2284.46	35.000	25.00	50.00	1.02334	6.1	
+
+
+3C standard.mth run started 11/18/22  11:36
+bottle	SO289-40823	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:37
+ 	Time	Counts	Inc	EP
+	1	62186	62186	0
+	2	167020	104834	0
+	3	206479	39459	0
+	4	212045	5566	0
+	5	212103	58	0
+	6	212169	66	0
+	7	212210	41	1
+	8	212263	53	1
+	9	212308	45	2
+	10	212341	33	3
+	11	212376	35	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2145.26	2260.08	35.000	25.00	50.00	1.02334	6.7	
+
+
+3C standard.mth run started 11/18/22  11:51
+bottle	64PE503-23-3-8	23	3	8	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:52
+ 	Time	Counts	Inc	EP
+	1	60667	60667	0
+	2	160285	99618	0
+	3	195067	34782	0
+	4	199706	4639	0
+	5	199769	63	0
+	6	199807	38	1
+	7	199855	48	2
+	8	199892	37	3
+	9	199939	47	4
+	10	199957	18	5
+	11	199996	39	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2019.88	2238.06	35.000	25.00	50.00	1.02334	7.2	
+
+
+3C standard.mth run started 11/18/22  12:07
+bottle	SO289-41169	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:08
+ 	Time	Counts	Inc	EP
+	1	60466	60466	0
+	2	161402	100936	0
+	3	198850	37448	0
+	4	204635	5785	0
+	5	204707	72	0
+	6	204789	82	0
+	7	204791	2	1
+	8	204854	63	1
+	9	204875	21	2
+	10	204940	65	2
+	11	204964	24	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2070.20	2181.84	35.000	25.00	50.00	1.02334	7.7	
+
+
+3C standard.mth run started 11/18/22  12:21
+bottle	SO289-41192	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:22
+ 	Time	Counts	Inc	EP
+	1	58735	58735	0
+	2	152142	93407	0
+	3	183532	31390	0
+	4	187813	4281	0
+	5	187903	90	0
+	6	187911	8	1
+	7	187960	49	2
+	8	188012	52	2
+	9	188035	23	3
+	10	188082	47	4
+	11	188101	19	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1899.42	2209.12	35.000	25.00	50.00	1.02334	8.1	
+
+
+3C standard.mth run started 11/18/22  12:37
+bottle	SO289-40847	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:38
+ 	Time	Counts	Inc	EP
+	1	61010	61010	0
+	2	163200	102190	0
+	3	204211	41011	0
+	4	211692	7481	0
+	5	211745	53	0
+	6	211798	53	0
+	7	211842	44	1
+	8	211893	51	1
+	9	211909	16	2
+	10	211972	63	2
+	11	211984	12	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2141.29	2256.77	35.000	25.00	50.00	1.02334	8.7	
+
+
+3C standard.mth run started 11/18/22  12:52
+bottle	NUTSLAB03	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:53
+ 	Time	Counts	Inc	EP
+	1	57831	57831	0
+	2	156147	98316	0
+	3	194469	38322	0
+	4	201358	6889	0
+	5	201418	60	0
+	6	201491	73	0
+	7	201523	32	1
+	8	201547	24	2
+	9	201571	24	3
+	10	201620	49	4
+	11	201643	23	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2036.56	2284.08	35.000	25.00	50.00	1.02334	9.2	
+
+
+3C standard.mth run started 11/18/22  13:07
+bottle	64PE503-16-4-8	16	4	8	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:08
+ 	Time	Counts	Inc	EP
+	1	58132	58132	0
+	2	154813	96681	0
+	3	192942	38129	0
+	4	200161	7219	0
+	5	200229	68	0
+	6	200294	65	0
+	7	200349	55	0
+	8	200372	23	1
+	9	200423	51	1
+	10	200460	37	2
+	11	200508	48	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2025.07	2238.44	35.000	25.00	50.00	1.02334	9.7	
+
+
+3C standard.mth run started 11/18/22  13:23
+bottle	SO289-40086	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:24
+ 	Time	Counts	Inc	EP
+	1	60258	60258	0
+	2	160999	100741	0
+	3	203638	42639	0
+	4	213197	9559	0
+	5	213227	30	1
+	6	213296	69	1
+	7	213347	51	1
+	8	213404	57	1
+	9	213445	41	2
+	10	213474	29	3
+	11	213524	50	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2156.89	2239.26	35.000	25.00	50.00	1.02334	10.2	
+
+
+3C standard.mth run started 11/18/22  13:41
+bottle	SO289-41172	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:42
+ 	Time	Counts	Inc	EP
+	1	58432	58432	0
+	2	154341	95909	0
+	3	192986	38645	0
+	4	201053	8067	0
+	5	201108	55	0
+	6	201178	70	0
+	7	201208	30	1
+	8	201244	36	2
+	9	201318	74	2
+	10	201338	20	3
+	11	201408	70	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.18	2229.84	35.000	25.00	50.00	1.02334	10.7	
+
+
+3C standard.mth run started 11/18/22  13:56
+bottle	64PE503-61-6-2	61	6	2	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:57
+ 	Time	Counts	Inc	EP
+	1	58568	58568	0
+	2	155841	97273	0
+	3	195856	40015	0
+	4	204881	9025	0
+	5	204978	97	0
+	6	205031	53	0
+	7	205076	45	1
+	8	205112	36	2
+	9	205162	50	3
+	10	205218	56	3
+	11	205268	50	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2073.28	2240.60	35.000	25.00	50.00	1.02334	11.2	
+
+
+3C standard.mth run started 11/18/22  14:10
+bottle	SO289-40764	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:11
+ 	Time	Counts	Inc	EP
+	1	56660	56660	0
+	2	148228	91568	0
+	3	184180	35952	0
+	4	191885	7705	0
+	5	191951	66	0
+	6	191965	14	1
+	7	192008	43	2
+	8	192074	66	2
+	9	192108	34	3
+	10	192144	36	4
+	11	192187	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1940.80	2255.34	35.000	25.00	50.00	1.02334	11.7	
+
+
+3C standard.mth run started 11/18/22  14:26
+bottle	NUTSLAB04	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:27
+ 	Time	Counts	Inc	EP
+	1	56567	56567	0
+	2	151778	95211	0
+	3	191723	39945	0
+	4	201257	9534	0
+	5	201384	127	0
+	6	201413	29	1
+	7	201475	62	1
+	8	201486	11	2
+	9	201533	47	3
+	10	201570	37	4
+	11	201597	27	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2036.10	2284.43	35.000	25.00	50.00	1.02334	12.2	
+
+
+3C standard.mth run started 11/18/22  14:41
+bottle	SO289-41295	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:42
+ 	Time	Counts	Inc	EP
+	1	58456	58456	0
+	2	157865	99409	0
+	3	204058	46193	0
+	4	216531	12473	0
+	5	217382	851	0
+	6	217395	13	1
+	7	217462	67	1
+	8	217509	47	2
+	9	217550	41	3
+	10	217587	37	4
+	11	217634	47	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2198.51	2303.60	35.000	25.00	50.00	1.02334	12.7	
+
+
+3C standard.mth run started 11/18/22  14:56
+bottle	SO289-40070	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:57
+ 	Time	Counts	Inc	EP
+	1	55272	55272	0
+	2	145436	90164	0
+	3	182424	36988	0
+	4	191436	9012	0
+	5	191533	97	0
+	6	191538	5	1
+	7	191596	58	1
+	8	191637	41	2
+	9	191695	58	2
+	10	191718	23	3
+	11	191770	52	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1936.58	2212.55	35.000	25.00	50.00	1.02334	13.2	
+
+
+3C standard.mth run started 11/18/22  15:11
+bottle	64PE503-10-5-11	10	5	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:12
+ 	Time	Counts	Inc	EP
+	1	55608	55608	0
+	2	146889	91281	0
+	3	186134	39245	0
+	4	196525	10391	0
+	5	196921	396	0
+	6	196943	22	1
+	7	197008	65	1
+	8	197018	10	2
+	9	197070	52	2
+	10	197129	59	2
+	11	197159	30	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1991.15	2220.79	35.000	25.00	50.00	1.02334	13.7	
+
+
+3C standard.mth run started 11/18/22  15:26
+bottle	SO289-40410	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:27
+ 	Time	Counts	Inc	EP
+	1	57422	57422	0
+	2	156170	98748	0
+	3	201919	45749	0
+	4	215387	13468	0
+	5	216671	1284	0
+	6	216671	0	0
+	7	216720	49	1
+	8	216770	50	2
+	9	216791	21	3
+	10	216859	68	3
+	11	216881	22	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2190.89	2312.89	35.000	25.00	50.00	1.02334	14.2	
+
+
+3C standard.mth run started 11/18/22  15:40
+bottle	SO289-41167	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:41
+ 	Time	Counts	Inc	EP
+	1	55222	55222	0
+	2	145659	90437	0
+	3	185220	39561	0
+	4	195755	10535	0
+	5	196253	498	0
+	6	196253	0	0
+	7	196293	40	1
+	8	196337	44	2
+	9	196365	28	3
+	10	196402	37	4
+	11	196443	41	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1983.90	2266.44	35.000	25.00	50.00	1.02334	14.7	
+
+
+3C standard.mth run started 11/18/22  15:55
+bottle	SO289-41095	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:56
+ 	Time	Counts	Inc	EP
+	1	53947	53947	0
+	2	140127	86180	0
+	3	176852	36725	0
+	4	186797	9945	0
+	5	187241	444	0
+	6	187241	0	0
+	7	187295	54	0
+	8	187326	31	1
+	9	187380	54	1
+	10	187416	36	2
+	11	187464	48	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1892.97	2227.32	35.000	25.00	50.00	1.02334	15.2	
+
+
+3C standard.mth run started 11/18/22  16:11
+bottle	SO289-41150	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:12
+ 	Time	Counts	Inc	EP
+	1	56412	56412	0
+	2	151872	95460	0
+	3	197142	45270	0
+	4	211476	14334	0
+	5	213278	1802	0
+	6	213287	9	1
+	7	213358	71	1
+	8	213404	46	2
+	9	213407	3	3
+	10	213488	81	3
+	11	213496	8	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2156.60	2284.32	35.000	25.00	50.00	1.02334	15.7	
+
+
+3C standard.mth run started 11/18/22  16:26
+bottle	NUTSLAB05	18	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:27
+ 	Time	Counts	Inc	EP
+	1	53607	53607	0
+	2	144339	90732	0
+	3	186520	42181	0
+	4	199608	13088	0
+	5	201091	1483	0
+	6	201091	0	0
+	7	201101	10	1
+	8	201141	40	2
+	9	201176	35	3
+	10	201192	16	4
+	11	201239	47	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2032.47	2284.09	35.000	25.00	50.00	1.02334	16.2	
+
+
+3C standard.mth run started 11/18/22  16:42
+bottle	CRM-195-0421-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:43
+ 	Time	Counts	Inc	EP
+	1	52590	52590	0
+	2	139738	87148	0
+	3	177912	38174	0
+	4	189456	11544	0
+	5	190479	1023	0
+	6	190481	2	1
+	7	190518	37	2
+	8	190574	56	2
+	9	190587	13	3
+	10	190632	45	4
+	11	190640	8	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1925.13	2138.31	35.000	25.00	50.00	1.02334	16.7	
+
+
+Cell "C_Nov19-22_0811" started Nov19-22_0811
+
+3C standard.mth run started 11/19/22  08:53
+bottle	JUNK01	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 08:54
+ 	Time	Counts	Inc	EP
+	1	66974	66974	0
+	2	180570	113596	0
+	3	209682	29112	0
+	4	210914	1232	0
+	5	211065	151	0
+	6	211177	112	0
+	7	211278	101	0
+	8	211339	61	0
+	9	211425	86	0
+	10	211504	79	0
+	11	211546	42	1
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2136.86	2305.36	35.000	25.00	50.00	1.02334	0.5	
+
+
+3C standard.mth run started 11/19/22  09:08
+bottle	JUNK02	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:09
+ 	Time	Counts	Inc	EP
+	1	68694	68694	0
+	2	180483	111789	0
+	3	209370	28887	0
+	4	210607	1237	0
+	5	210698	91	0
+	6	210783	85	0
+	7	210842	59	0
+	8	210899	57	0
+	9	210963	64	0
+	10	211007	44	1
+	11	211048	41	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2131.81	2306.50	35.000	25.00	50.00	1.02334	1.1	
+
+
+3C standard.mth run started 11/19/22  09:23
+bottle	JUNK03	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:24
+ 	Time	Counts	Inc	EP
+	1	67034	67034	0
+	2	178557	111523	0
+	3	209016	30459	0
+	4	210581	1565	0
+	5	210662	81	0
+	6	210730	68	0
+	7	210787	57	0
+	8	210854	67	0
+	9	210903	49	1
+	10	210940	37	2
+	11	210991	51	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2131.24	2306.92	35.000	25.00	50.00	1.02334	1.6	
+
+
+3C standard.mth run started 11/19/22  09:39
+bottle	CRM-198-1041-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:40
+ 	Time	Counts	Inc	EP
+	1	63953	63953	0
+	2	166618	102665	0
+	3	190996	24378	0
+	4	191997	1001	0
+	5	192057	60	0
+	6	192117	60	0
+	7	192177	60	0
+	8	192228	51	0
+	9	192273	45	1
+	10	192301	28	2
+	11	192360	59	2
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1942.55	2125.01	35.000	25.00	50.00	1.02334	2.1	
+
+
+3C standard.mth run started 11/19/22  09:54
+bottle	NUTSLAB01	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 09:55
+ 	Time	Counts	Inc	EP
+	1	63035	63035	0
+	2	170927	107892	0
+	3	199898	28971	0
+	4	201640	1742	0
+	5	201705	65	0
+	6	201759	54	0
+	7	201805	46	1
+	8	201837	32	2
+	9	201885	48	3
+	10	201897	12	4
+	11	201933	36	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2039.50	2281.68	35.000	25.00	50.00	1.02334	2.6	
+
+
+3C standard.mth run started 11/19/22  10:09
+bottle	SO289-41292	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:10
+ 	Time	Counts	Inc	EP
+	1	65025	65025	0
+	2	177855	112830	0
+	3	214842	36987	0
+	4	218006	3164	0
+	5	218113	107	0
+	6	218166	53	0
+	7	218218	52	0
+	8	218261	43	1
+	9	218308	47	2
+	10	218350	42	3
+	11	218376	26	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2206.03	2315.06	35.000	25.00	50.00	1.02334	3.1	
+
+
+3C standard.mth run started 11/19/22  10:23
+bottle	SO289-41146	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:24
+ 	Time	Counts	Inc	EP
+	1	65328	65328	0
+	2	174922	109594	0
+	3	211033	36111	0
+	4	214408	3375	0
+	5	214465	57	0
+	6	214507	42	1
+	7	214576	69	1
+	8	214626	50	2
+	9	214635	9	3
+	10	214676	41	4
+	11	214717	41	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2168.97	2284.59	35.000	25.00	50.00	1.02334	3.6	
+
+
+3C standard.mth run started 11/19/22  10:38
+bottle	SO289-40098	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:39
+ 	Time	Counts	Inc	EP
+	1	64315	64315	0
+	2	172095	107780	0
+	3	208003	35908	0
+	4	211635	3632	0
+	5	211705	70	0
+	6	211754	49	1
+	7	211804	50	2
+	8	211838	34	3
+	9	211894	56	3
+	10	211931	37	4
+	11	211960	29	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2141.05	2201.92	35.000	25.00	50.00	1.02334	4.2	
+
+
+3C standard.mth run started 11/19/22  10:52
+bottle	64PE503-34-4-11	34	4	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 10:53
+ 	Time	Counts	Inc	EP
+	1	62684	62684	0
+	2	164883	102199	0
+	3	197124	32241	0
+	4	200291	3167	0
+	5	200336	45	1
+	6	200389	53	1
+	7	200447	58	1
+	8	200470	23	2
+	9	200504	34	3
+	10	200549	45	4
+	11	200588	39	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2025.88	2235.06	35.000	25.00	50.00	1.02334	4.7	
+
+
+3C standard.mth run started 11/19/22  11:07
+bottle	SO289-41226	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:08
+ 	Time	Counts	Inc	EP
+	1	62086	62086	0
+	2	163464	101378	0
+	3	195873	32409	0
+	4	199516	3643	0
+	5	199594	78	0
+	6	199639	45	1
+	7	199677	38	2
+	8	199714	37	3
+	9	199757	43	4
+	10	199791	34	5
+	11	199832	41	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2018.22	2247.96	35.000	25.00	50.00	1.02334	5.2	
+
+
+3C standard.mth run started 11/19/22  11:22
+bottle	NUTSLAB02	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:23
+ 	Time	Counts	Inc	EP
+	1	60505	60505	0
+	2	162504	101999	0
+	3	197119	34615	0
+	4	201425	4306	0
+	5	201469	44	1
+	6	201534	65	1
+	7	201552	18	2
+	8	201611	59	2
+	9	201631	20	3
+	10	201668	37	4
+	11	201711	43	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2037.25	2282.22	35.000	25.00	50.00	1.02334	5.7	
+
+
+3C standard.mth run started 11/19/22  11:37
+bottle	SO289-40231	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:38
+ 	Time	Counts	Inc	EP
+	1	61990	61990	0
+	2	165813	103823	0
+	3	203283	37470	0
+	4	208617	5334	0
+	5	208680	63	0
+	6	208748	68	0
+	7	208766	18	1
+	8	208845	79	1
+	9	208859	14	2
+	10	208891	32	3
+	11	208925	34	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2110.31	2189.60	35.000	25.00	50.00	1.02334	6.2	
+
+
+3C standard.mth run started 11/19/22  11:52
+bottle	64PE503-34-4-5-D	34	4	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 11:53
+ 	Time	Counts	Inc	EP
+	1	60731	60731	0
+	2	162380	101649	0
+	3	198913	36533	0
+	4	204061	5148	0
+	5	204135	74	0
+	6	204174	39	1
+	7	204203	29	2
+	8	204248	45	3
+	9	204276	28	4
+	10	204319	43	5
+	11	204352	33	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2064.00	2236.72	35.000	25.00	50.00	1.02334	6.7	
+
+
+3C standard.mth run started 11/19/22  12:06
+bottle	SO289-41276	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:07
+ 	Time	Counts	Inc	EP
+	1	63310	63310	0
+	2	168224	104914	0
+	3	208680	40456	0
+	4	215729	7049	0
+	5	215807	78	0
+	6	215841	34	1
+	7	215890	49	2
+	8	215924	34	3
+	9	215966	42	4
+	10	215993	27	5
+	11	216015	22	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2182.12	2302.13	35.000	25.00	50.00	1.02334	7.2	
+
+
+3C standard.mth run started 11/19/22  12:21
+bottle	SO289-40290	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:22
+ 	Time	Counts	Inc	EP
+	1	61598	61598	0
+	2	166007	104409	0
+	3	209060	43053	0
+	4	217049	7989	0
+	5	217130	81	0
+	6	217184	54	0
+	7	217250	66	0
+	8	217277	27	1
+	9	217321	44	2
+	10	217344	23	3
+	11	217397	53	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2196.11	2317.42	35.000	25.00	50.00	1.02334	7.8	
+
+
+3C standard.mth run started 11/19/22  12:35
+bottle	SO289-41225	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:36
+ 	Time	Counts	Inc	EP
+	1	59960	59960	0
+	2	157583	97623	0
+	3	193243	35660	0
+	4	199351	6108	0
+	5	199405	54	0
+	6	199410	5	1
+	7	199465	55	1
+	8	199500	35	2
+	9	199558	58	2
+	10	199573	15	3
+	11	199611	38	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2015.98	2245.60	35.000	25.00	50.00	1.02334	8.3	
+
+
+3C standard.mth run started 11/19/22  12:50
+bottle	NUTSLAB03	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 12:51
+ 	Time	Counts	Inc	EP
+	1	57116	57116	0
+	2	156008	98892	0
+	3	194024	38016	0
+	4	201228	7204	0
+	5	201290	62	0
+	6	201314	24	1
+	7	201349	35	2
+	8	201400	51	2
+	9	201409	9	3
+	10	201455	46	4
+	11	201487	32	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.98	2280.57	35.000	25.00	50.00	1.02334	8.8	
+
+
+3C standard.mth run started 11/19/22  13:05
+bottle	SO289-41152	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:06
+ 	Time	Counts	Inc	EP
+	1	60565	60565	0
+	2	162377	101812	0
+	3	204706	42329	0
+	4	213792	9086	0
+	5	213866	74	0
+	6	213907	41	1
+	7	213964	57	1
+	8	213982	18	2
+	9	214029	47	3
+	10	214031	2	4
+	11	214083	52	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2162.55	2277.19	35.000	25.00	50.00	1.02334	9.3	
+
+
+3C standard.mth run started 11/19/22  13:19
+bottle	SO289-40924	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:20
+ 	Time	Counts	Inc	EP
+	1	58079	58079	0
+	2	151871	93792	0
+	3	187648	35777	0
+	4	195032	7384	0
+	5	195074	42	1
+	6	195126	52	1
+	7	195168	42	2
+	8	195219	51	2
+	9	195245	26	3
+	10	195264	19	4
+	11	195309	45	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1972.42	2240.52	35.000	25.00	50.00	1.02334	9.8	
+
+
+3C standard.mth run started 11/19/22  13:35
+bottle	SO289-41074	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:36
+ 	Time	Counts	Inc	EP
+	1	59679	59679	0
+	2	160380	100701	0
+	3	203031	42651	0
+	4	213237	10206	0
+	5	213469	232	0
+	6	213486	17	1
+	7	213528	42	2
+	8	213576	48	3
+	9	213582	6	4
+	10	213644	62	4
+	11	213665	21	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2158.32	2283.98	35.000	25.00	50.00	1.02334	10.3	
+
+
+3C standard.mth run started 11/19/22  13:49
+bottle	SO289-41091	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 13:50
+ 	Time	Counts	Inc	EP
+	1	57116	57116	0
+	2	151087	93971	0
+	3	188332	37245	0
+	4	196878	8546	0
+	5	196944	66	0
+	6	196966	22	1
+	7	197027	61	1
+	8	197043	16	2
+	9	197088	45	3
+	10	197117	29	4
+	11	197139	22	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1990.95	2262.17	35.000	25.00	50.00	1.02334	10.8	
+
+
+3C standard.mth run started 11/19/22  14:04
+bottle	64PE503-16-4-5	16	4	5	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:05
+ 	Time	Counts	Inc	EP
+	1	57263	57263	0
+	2	151734	94471	0
+	3	190599	38865	0
+	4	199971	9372	0
+	5	200110	139	0
+	6	200126	16	1
+	7	200176	50	2
+	8	200241	65	2
+	9	200261	20	3
+	10	200284	23	4
+	11	200333	49	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2023.30	2236.84	35.000	25.00	50.00	1.02334	11.3	
+
+
+3C standard.mth run started 11/19/22  14:19
+bottle	SO289-40910	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:20
+ 	Time	Counts	Inc	EP
+	1	58859	58859	0
+	2	158574	99715	0
+	3	204047	45473	0
+	4	216588	12541	0
+	5	217509	921	0
+	6	217531	22	1
+	7	217597	66	1
+	8	217639	42	2
+	9	217677	38	3
+	10	217730	53	3
+	11	217759	29	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2199.78	2313.77	35.000	25.00	50.00	1.02334	11.9	
+
+
+3C standard.mth run started 11/19/22  14:33
+bottle	NUTSLAB04	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:34
+ 	Time	Counts	Inc	EP
+	1	54936	54936	0
+	2	149247	94311	0
+	3	189948	40701	0
+	4	200755	10807	0
+	5	201281	526	0
+	6	201281	0	0
+	7	201300	19	1
+	8	201344	44	2
+	9	201360	16	3
+	10	201386	26	4
+	11	201437	51	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2034.48	2281.67	35.000	25.00	50.00	1.02334	12.4	
+
+
+3C standard.mth run started 11/19/22  14:49
+bottle	SO289-41271	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 14:50
+ 	Time	Counts	Inc	EP
+	1	57142	57142	0
+	2	156389	99247	0
+	3	202866	46477	0
+	4	216490	13624	0
+	5	217867	1377	0
+	6	217896	29	1
+	7	217982	86	1
+	8	218000	18	2
+	9	218048	48	3
+	10	218076	28	4
+	11	218105	29	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2203.28	2315.19	35.000	25.00	50.00	1.02334	12.9	
+
+
+3C standard.mth run started 11/19/22  15:03
+bottle	64PE503-13-6-11	13	6	11	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:04
+ 	Time	Counts	Inc	EP
+	1	55721	55721	0
+	2	147899	92178	0
+	3	187713	39814	0
+	4	198707	10994	0
+	5	199386	679	0
+	6	199386	0	0
+	7	199398	12	1
+	8	199463	65	1
+	9	199478	15	2
+	10	199506	28	3
+	11	199556	50	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2015.43	2232.84	35.000	25.00	50.00	1.02334	13.4	
+
+
+3C standard.mth run started 11/19/22  15:18
+bottle	SO289-41253	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:19
+ 	Time	Counts	Inc	EP
+	1	57010	57010	0
+	2	154569	97559	0
+	3	200625	46056	0
+	4	214907	14282	0
+	5	216663	1756	0
+	6	216663	0	0
+	7	216711	48	1
+	8	216739	28	2
+	9	216775	36	3
+	10	216829	54	3
+	11	216880	51	3
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2190.88	2311.12	35.000	25.00	50.00	1.02334	14.0	
+
+
+3C standard.mth run started 11/19/22  15:34
+bottle	SO289-40756	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:35
+ 	Time	Counts	Inc	EP
+	1	55582	55582	0
+	2	147250	91668	0
+	3	188214	40964	0
+	4	200463	12249	0
+	5	201629	1166	0
+	6	201639	10	1
+	7	201674	35	2
+	8	201716	42	3
+	9	201720	4	4
+	10	201773	53	4
+	11	201798	25	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2038.13	2195.43	35.000	25.00	50.00	1.02334	14.5	
+
+
+3C standard.mth run started 11/19/22  15:48
+bottle	SO289-41155	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 15:49
+ 	Time	Counts	Inc	EP
+	1	56929	56929	0
+	2	154556	97627	0
+	3	201307	46751	0
+	4	216368	15061	0
+	5	218524	2156	0
+	6	218539	15	1
+	7	218580	41	2
+	8	218609	29	3
+	9	218655	46	4
+	10	218675	20	5
+	11	218689	14	6
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2209.20	2313.66	35.000	25.00	50.00	1.02334	15.0	
+
+
+3C standard.mth run started 11/19/22  16:02
+bottle	SO289-41221	0	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:03
+ 	Time	Counts	Inc	EP
+	1	54513	54513	0
+	2	146793	92280	0
+	3	189841	43048	0
+	4	203774	13933	0
+	5	205690	1916	0
+	6	205692	2	1
+	7	205703	11	2
+	8	205770	67	2
+	9	205791	21	3
+	10	205836	45	4
+	11	205877	41	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2079.44	2218.71	35.000	25.00	50.00	1.02334	15.5	
+
+
+3C standard.mth run started 11/19/22  16:16
+bottle	NUTSLAB05	19	11	22	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:18
+ 	Time	Counts	Inc	EP
+	1	53061	53061	0
+	2	143822	90761	0
+	3	185838	42016	0
+	4	199302	13464	0
+	5	201063	1761	0
+	6	201074	11	1
+	7	201074	0	1
+	8	201104	30	2
+	9	201136	32	3
+	10	201151	15	4
+	11	201165	14	5
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	2031.72	2281.11	35.000	25.00	50.00	1.02334	16.0	
+
+
+3C do nothing.mth run started 11/19/22  16:32
+3C standard.mth run started 11/19/22  16:32
+bottle	CRM-198-0862-01	666	0	0	0	0.00	0.00	35.000	4.000	0.00	0.0
+Begin titration at 16:33
+ 	Time	Counts	Inc	EP
+	1	51345	51345	0
+	2	137513	86168	0
+	3	177000	39487	0
+	4	189777	12777	0
+	5	191392	1615	0
+	6	191392	0	0
+	7	191392	0	0
+	8	191432	40	1
+	9	191477	45	2
+	10	191481	4	3
+	11	191505	24	4
+ 	CT	Salt	pip. T	blank	density	TCT	comment	
+ 	1933.89	2123.80	35.000	25.00	50.00	1.02334	16.5	
+
+
