@@ -1,0 +1,70 @@
+0	1	0	reset all valves		*** ALK interpretor starts reading from here ***
+0	7	0	reset all valves
+0	8	0	reset all valves
+0	2	0	reset all ALK valves
+0	3	0	reset all ALK valves
+0	4	0	reset all ALK valves
+0	5	0	reset all ALK valves
+0	12	0	reset all ALK valves
+0	17	0	reset stirrer
+0	18	0	reset cell valve
+0	19	0	reset pump 2
+0	20	0	reset pump 2
+0	21	0	reset pump 1 (not used)
+0	22	0	reset pump 1 (not used)
+0	23	0	reset some other stuff 
+0	34	15	Display "rinsing titration cell"
+1	18	1	TEST SERVO - Open cell valve
+1	18	0	TEST SERVO - Close cell valve
+1	18	1	TEST SERVO - Open cell valve
+1	18	0	TEST SERVO - Close cell valve
+1	18	1	CELL draining. Open cell valve
+26	20	1	CELL draining. Pump OUT ON			*** CELL DRAIN 1 START
+1	20	0	stop draining cell
+1	12	1	connect cell to NaCl
+7	19	1	start filling cell with NaCl 		*** CELL FILL 1 START
+5	17	1	stirrer on
+1	1	1	switch to ALK
+5	8	1	line rinse ALK *** ALK LINE RINSE
+0	2	1	ALK pipette rinse *** ALK pipette rinse 1
+3	4	1	relieve pressure at top of DIC pipette
+1	8	0	ALK pipette rinse stop
+0	5	1	gas to top of ALK pipette
+0	4	0	gas to top of ALK pipette
+1	17	0	stirrer off
+1	19	0	stop pumping NaCl to cell
+1	12	0	switch from NaCl to waste
+5	20	1	drain cell
+0	5	0	gas off
+0	4	1	relieve pressure
+2	8	1	sample in *** ALK pipette rinse 2
+1	8	0	ALK pipette rinse stop
+0	5	1	gas to top of ALK pipette
+8	4	0	gas to top of ALK pipette
+0	5	0	gas off
+1	4	1	relieve pressure
+10	8	1	pump sample into ALK pipette *** fill ALK pipette for real
+1	20	0	stop draining cell
+1	12	1	switch from waste to NaCl				
+7	19	1	pump IN on *** extra time so stirrer doesn't splash water				
+18	17	1	stirrer on (adjust time!)				
+1	17	0	stirrer off				
+1	19	0	wait until cell full, pump off	
+1	12	0	switch from NaCl to waste
+32	20	1	drain cell
+1	20	0	cell drain complete
+1	18	0	close cell valve
+1	18	1	CELL draining. Open cell valve
+1S	18	0	close cell valve
+1	8	0	stop pumping sample through
+1	4	0	pressure at top of pipette
+1	3	1	pipette to cell
+1	2	0	finished with valve 2
+45	5	1	open N2
+1	5	0	pipette should be empty, close N2
+0	3	0	finished with valve 3
+1	17	1	stirrer on
+0	34	17	TITRATE ALK. Display "titrating AT"
+0	28	0	TITRATE ALK. Start TITRATION
+0	34	0	Display: ""
+0	30	0	ALK part complete
