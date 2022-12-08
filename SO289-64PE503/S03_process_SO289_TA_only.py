@@ -97,3 +97,9 @@ calk.plot.titrant_molinity(
 calk.plot.alkalinity_offset(
     dbs, figure_fname="figs/alkalinity_offset.png", show_bad=False
 )
+
+# Demote dbs to a standard DataFrame
+dbs = pd.DataFrame(dbs)
+
+# Save to .csv
+dbs.to_csv("data/SO289-TA_only_results.csv")
