@@ -83,3 +83,6 @@ dbs.loc[
     (dbs["analysis_datetime"].dt.day >= 3) & (dbs["analysis_datetime"].dt.month == 12),
     "analysis_batch",
 ] = 2
+
+# Select which TA CRMs to use/avoid for calibration
+dbs["reference_good"] = ~np.isnan(dbs.alkalinity_certified)
