@@ -72,3 +72,14 @@ dbs["total_ammonium"] = dbs["total_ammonium"].fillna(0)
 # Assign alkalinity metadata
 dbs["analyte_volume"] = 98.865  # TA pipette volume in ml
 dbs["file_path"] = "data/64PE503_SO289_2022/"
+
+# Assign TA acid batches
+dbs["analysis_batch"] = 0
+dbs.loc[
+    (dbs["analysis_datetime"].dt.day >= 24) & (dbs["analysis_datetime"].dt.month == 11),
+    "analysis_batch",
+] = 1
+dbs.loc[
+    (dbs["analysis_datetime"].dt.day >= 3) & (dbs["analysis_datetime"].dt.month == 12),
+    "analysis_batch",
+] = 2
