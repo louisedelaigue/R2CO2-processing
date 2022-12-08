@@ -86,3 +86,14 @@ dbs.loc[
 
 # Select which TA CRMs to use/avoid for calibration
 dbs["reference_good"] = ~np.isnan(dbs.alkalinity_certified)
+
+# Calibrate and solve alkalinity and plot calibration
+calk.io.get_VINDTA_filenames(dbs)
+calk.dataset.calibrate(dbs)
+calk.dataset.solve(dbs)
+calk.plot.titrant_molinity(
+    dbs, figure_fname="figs/titrant_molinity.png", show_bad=False
+)
+calk.plot.alkalinity_offset(
+    dbs, figure_fname="figs/alkalinity_offset.png", show_bad=False
+)
