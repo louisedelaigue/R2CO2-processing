@@ -68,3 +68,7 @@ dbs["salinity"] = dbs["salinity"].fillna(35)
 dbs["total_phosphate"] = dbs["total_phosphate"].fillna(0)
 dbs["total_silicate"] = dbs["total_silicate"].fillna(0)
 dbs["total_ammonium"] = dbs["total_ammonium"].fillna(0)
+
+# Assign alkalinity metadata
+dbs["analyte_volume"] = 98.865  # TA pipette volume in ml
+dbs["file_path"] = "data/64PE503_SO289_2022/"
