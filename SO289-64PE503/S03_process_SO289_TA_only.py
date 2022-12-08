@@ -73,6 +73,10 @@ dbs.loc[
     "analysis_batch",
 ] = 1
 dbs.loc[
+    (dbs["analysis_datetime"].dt.day >= 1) & (dbs["analysis_datetime"].dt.month == 12),
+    "analysis_batch",
+] = 1
+dbs.loc[
     (dbs["analysis_datetime"].dt.day >= 3) & (dbs["analysis_datetime"].dt.month == 12),
     "analysis_batch",
 ] = 2
