@@ -52,7 +52,12 @@ for b in crm_batches:
         dbs.loc[L, "total_phosphate"] = 0.67  # micromol/kg-sw
         dbs.loc[L, "total_silicate"] = 3.8  # micromol/kg-sw
         dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw
+        
+# Assign metadata for samples
+meta = pd.read_excel("data/TA_ONLY/SO289_NaOH.xlsx")
 
+
+#%%
 # Assign temperature = 25.0 for VINDTA analysis temperature
 dbs["temperature_override"] = 25.0
 
