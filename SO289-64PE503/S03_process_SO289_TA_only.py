@@ -91,7 +91,7 @@ for s in ae_samples:
 
 # Drop experiment 8 because of contamination
 L = dbs["exp_number"] == 8
-dbs = dbs[L]
+dbs = dbs[~L]
 
 # Create a list of experiments
 experiments = list(meta["Exp."].unique())
