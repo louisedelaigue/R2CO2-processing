@@ -9,7 +9,7 @@ logfile = ks.read_logfile(
     ],
 )
 
-dbs = ks.read_dbs("data/TA_ONLY/SO289_TA_only.dbs", logfile=logfile)
+dbs = ks.read_dbs("data/TA_ONLY/SO289_TA_only.dbs") # why no need for logfile?!
 
 # Convert datetime to datenum
 dbs["analysis_datenum"] = mdates.date2num(dbs["analysis_datetime"])
@@ -53,19 +53,65 @@ for b in crm_batches:
         dbs.loc[L, "total_silicate"] = 3.8  # micromol/kg-sw
         dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw
         
-# Assign metadata for samples
-meta = pd.read_excel("data/TA_ONLY/SO289_NaOH.xlsx")
+# Assign metadata for SO289/UWS samples
+L = dbs.bottle.str.startswith(("SO289"))
+dbs.loc[L, "salinity"] = dbs["salinity"].fillna(35)
+dbs.loc[L, "total_phosphate"] = dbs["total_phosphate"].fillna(0)
+dbs.loc[L, "total_silicate"] = dbs["total_silicate"].fillna(0)
+dbs.loc[L, "total_ammonium"] = dbs["total_ammonium"].fillna(0)
 
+print("/!\ \n CAREFUL: NEED TO ADD SO289 METADATA! \n /!\ ")
 
-#%%
+# Assign metadata for alkalinity experiement samples
+meta = pd.read_excel("data/TA_ONLY/SO289_NaOH.xlsx", na_values="<LOD")
+
+# Calculate sample density
+meta["density"] = calk.density.seawater_1atm_MP81(25, meta["Salinity"])
+
+# Convert nutrients from nM to umol/kg
+meta["ton"] = (meta["TON (nM)"] * 0.001) / meta["density"] # from nM to umol/L, then divide by density to umol/kg
+meta["total_phosphate"] = (meta["Phosphate (nM)"] * 0.001) / meta["density"] # from nM to umol/L, then divide by density to umol/kg
+meta["total_silicate"] = (meta["Silicate (nM)"] * 0.001) / meta["density"] # from nM to umol/L, then divide by density to umol/kg
+
+# Isolate alkalinity experiment
+L = dbs.bottle.str.startswith("AE")
+
+# Create a list of samples
+ae_samples = list(dbs[L].bottle.unique())
+
+# Assign experiment number based on sample name
+for s in ae_samples:
+    if len(s.split("-")) == 3:
+        experiment = s.split("-")[1]
+        dbs.loc[dbs["bottle"]==s, "exp_number"] = int(experiment[3])
+        
+    if len(s.split("-")) == 4:
+        experiment = s.split("-")[2]
+        dbs.loc[dbs["bottle"]==s, "exp_number"] = int(experiment[1])
+
+# Create a list of experiments
+experiments = list(meta["Exp."].unique())
+
+for e in experiments:  
+    dbs.loc[dbs["exp_number"]==e, "sample_date"] = meta.loc[meta["Exp."]==e, "Date"].item()
+    dbs.loc[dbs["exp_number"]==e, "time"] = meta.loc[meta["Exp."]==e, "Time"].item()
+    dbs.loc[dbs["exp_number"]==e, "latitude"] = meta.loc[meta["Exp."]==e, "Lat"].item()
+    dbs.loc[dbs["exp_number"]==e, "longitude"] = meta.loc[meta["Exp."]==e, "Lon"].item()
+    dbs.loc[dbs["exp_number"]==e, "temperature"] = meta.loc[meta["Exp."]==e, "SST"].item()
+    dbs.loc[dbs["exp_number"]==e, "salinity"] = meta.loc[meta["Exp."]==e, "Salinity"].item()
+    dbs.loc[dbs["exp_number"]==e, "ton"] = meta.loc[meta["Exp."]==e, "ton"].item()
+    dbs.loc[dbs["exp_number"]==e, "total_phosphate"] = meta.loc[meta["Exp."]==e, "total_phosphate"].item()
+    dbs.loc[dbs["exp_number"]==e, "total_silicate"] = meta.loc[meta["Exp."]==e, "total_silicate"].item()
+
 # Assign temperature = 25.0 for VINDTA analysis temperature
 dbs["temperature_override"] = 25.0
 
-# Assign metadata for junks
-dbs["salinity"] = dbs["salinity"].fillna(35)
-dbs["total_phosphate"] = dbs["total_phosphate"].fillna(0)
-dbs["total_silicate"] = dbs["total_silicate"].fillna(0)
-dbs["total_ammonium"] = dbs["total_ammonium"].fillna(0)
+# Assign metadata for junks, nutswater and storage test samples
+L = dbs.bottle.str.startswith(("JUNK", "NUTS", "ST"))
+dbs.loc[L, "salinity"] = dbs["salinity"].fillna(35)
+dbs.loc[L, "total_phosphate"] = dbs["total_phosphate"].fillna(0)
+dbs.loc[L, "total_silicate"] = dbs["total_silicate"].fillna(0)
+dbs.loc[L, "total_ammonium"] = dbs["total_ammonium"].fillna(0)
 
 # Assign alkalinity metadata
 dbs["analyte_volume"] = 98.865  # TA pipette volume in ml
