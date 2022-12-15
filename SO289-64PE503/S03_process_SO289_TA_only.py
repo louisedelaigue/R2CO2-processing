@@ -89,6 +89,10 @@ for s in ae_samples:
         experiment = s.split("-")[2]
         dbs.loc[dbs["bottle"]==s, "exp_number"] = int(experiment[1])
 
+# Drop experiment 8 because of contamination
+L = dbs["exp_number"] == 8
+dbs = dbs[L]
+
 # Create a list of experiments
 experiments = list(meta["Exp."].unique())
 
