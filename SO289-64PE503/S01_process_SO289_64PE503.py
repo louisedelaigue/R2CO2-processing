@@ -16,7 +16,7 @@ from matplotlib import pyplot as plt
 
 logfile = ksv.read_logfile("data/logfile.bak", methods="3C standard")
 
-dbs = ks.read_dbs("data/64PE503_SO289_2022.dbs") # no need for logfile anymore?
+dbs = ks.read_dbs("data/64PE503_SO289_2022.dbs")
 
 # Fix datetime issue in .dbs samples
 dbs.loc[dbs["bottle"] == "SO289-41297", "analysis_datetime"] = "2022-10-21 11:58:00"
@@ -316,11 +316,6 @@ dbs.loc[
     dbs.crm & dbs.bottle.str.endswith("-02"), "k_dic_good"
 ] = False  # remove CRMs used twice for DIC calibration
 
-# Assign analysis temperature, if it's not 25 °C
-dbs["temperature_analysis_dic"] = 23.0
-
-# Assign dbs["salinity"] here too, if it's not always 35
-
 sessions = ksv.blank_correction(
     dbs,
     logfile,
@@ -352,12 +347,14 @@ dbs.loc[L, "analysis_datetime"] = dbs["analysis_datetime"] - DateOffset(hours=1)
 dbs.loc[dbs["bottle"] == "CRM-189-0897", "bottle"] = "CRM-189-0897-01"
 dbs.loc[dbs["bottle"] == "64PE503-65-2-1", "bottle"] = "64PE503-65-1-2"
 dbs.loc[dbs["bottle"] == "46PE503-20-4-5", "bottle"] = "64PE503-20-4-5"
+dbs.loc[dbs["bottle"] == "SO289-40836", "bottle"] = "NUTSLAB03"
+dbs.loc[dbs["bottle"] == "SO289-40836-S", "bottle"] = "SO289-40836"
 
 # Demote dbs to a standard DataFrame
 dbs = pd.DataFrame(dbs)
 
 # Save to .csv
-dbs.to_csv("data/SO289-64PE503_results.csv")
+dbs.to_csv("data/SO289-64PE503_results.csv", index=False)
 
 # === PLOT NUTS FOR EACH "REAL" ANALYSIS DAY
 # Prepare colours and markers

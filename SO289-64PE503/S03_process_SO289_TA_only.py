@@ -9,7 +9,7 @@ logfile = ks.read_logfile(
     ],
 )
 
-dbs = ks.read_dbs("data/TA_ONLY/SO289_TA_only.dbs") # why no need for logfile?!
+dbs = ks.read_dbs("data/TA_ONLY/SO289_TA_only.dbs")
 
 # Convert datetime to datenum
 dbs["analysis_datenum"] = mdates.date2num(dbs["analysis_datetime"])
@@ -53,14 +53,35 @@ for b in crm_batches:
         dbs.loc[L, "total_silicate"] = 3.8  # micromol/kg-sw
         dbs.loc[L, "total_ammonium"] = 0  # micromol/kg-sw
         
-# Assign metadata for SO289/UWS samples
-L = dbs.bottle.str.startswith(("SO289"))
-dbs.loc[L, "salinity"] = dbs["salinity"].fillna(35)
-dbs.loc[L, "total_phosphate"] = dbs["total_phosphate"].fillna(0)
-dbs.loc[L, "total_silicate"] = dbs["total_silicate"].fillna(0)
-dbs.loc[L, "total_ammonium"] = dbs["total_ammonium"].fillna(0)
+# Assign metadata values for SO289 bottle samples
+so289_metadata = pd.read_csv("data/SO289_CTD_data.csv")
+so289_metadata["bottle"] = ["SO289-" + str(s) for s in so289_metadata["bottle"]]
+so289_samples = list(so289_metadata["bottle"])
 
-print("/!\ \n CAREFUL: NEED TO ADD SO289 METADATA! \n /!\ ")
+for s in so289_samples:
+    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata.loc[
+        so289_metadata["bottle"] == s, "salinity"
+    ].values
+    dbs.loc[dbs["bottle"] == s, "total_phosphate"] = so289_metadata.loc[
+        so289_metadata["bottle"] == s, "phosphate"
+    ].values
+    dbs.loc[dbs["bottle"] == s, "total_silicate"] = so289_metadata.loc[
+        so289_metadata["bottle"] == s, "silicate"
+    ].values
+    
+# Assign metadata for SO289/ UWS samples
+so289_metadata = pd.read_csv("data/TA_ONLY/uws_S06_match_samples_SMB_sal_temp.csv")
+so289_samples = list(so289_metadata["bottle"])
+
+for s in so289_samples:
+    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata.loc[
+        so289_metadata["bottle"] == s, "SBE45_sal"
+    ].values
+    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata.loc[
+        so289_metadata["bottle"] == s, "SBE38_water_temp"
+    ].values
+
+print("/!\ \n CAREFUL: MISSING METADATA FOR 3 SO289 UWS SAMPLES \n /!\ ")
 
 # Assign metadata for alkalinity experiement samples
 meta = pd.read_excel("data/TA_ONLY/SO289_NaOH.xlsx", na_values="<LOD")

@@ -59,6 +59,9 @@ for s in samples:
     df.loc[df["bottle"] == s, "dic_corrected"] = corrected_dic.loc[
         corrected_dic["bottle"] == s, "dic_corrected"
     ]
+    
+# Save to .csv
+df.to_csv("data/SO289-64PE503_results_recalibrated.csv", index=False)
 
 # === PLOT
 # Create a column with hours and minutes
