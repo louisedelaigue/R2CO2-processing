@@ -1,18 +1,22 @@
 import numpy as np, pandas as pd, koolstof as ks, calkulate as calk
+from koolstof import vindta as ksv
 import copy, itertools
 from pandas.tseries.offsets import DateOffset
 import matplotlib.dates as mdates
 from matplotlib import pyplot as plt
 
 # Import logfile and dbs file
-logfile = ks.read_logfile(
-    "data/logfile.bak",
-    methods=[
-        "3C standard",
-    ],
-)
+# logfile = ks.read_logfile(
+#     "data/logfile.bak",
+#     methods=[
+#         "3C standard",
+#     ],
+# )
 
-dbs = ks.read_dbs("data/64PE503_SO289_2022.dbs", logfile=logfile)
+
+logfile = ksv.read_logfile("data/logfile.bak", methods="3C standard")
+
+dbs = ks.read_dbs("data/64PE503_SO289_2022.dbs") # no need for logfile anymore?
 
 # Fix datetime issue in .dbs samples
 dbs.loc[dbs["bottle"] == "SO289-41297", "analysis_datetime"] = "2022-10-21 11:58:00"
@@ -307,20 +311,37 @@ dbs.loc[
 ] = False
 
 # Select which DIC CRMs to use/avoid for calibration --- only fresh bottles
-dbs["k_dic_good"] = dbs.crm & dbs.bottle.str.startswith("CRM")
+dbs["k_dic_good"] = ~dbs.dic_certified.isnull()
 dbs.loc[
     dbs.crm & dbs.bottle.str.endswith("-02"), "k_dic_good"
 ] = False  # remove CRMs used twice for DIC calibration
 
-# Get blanks
-dbs.get_blank_corrections()
-dbs.plot_blanks(figure_path="figs/dic_blanks/")
+# Assign analysis temperature, if it's not 25 °C
+dbs["temperature_analysis_dic"] = 23.0
 
-# Calibrate DIC and calibration
-dbs.calibrate_dic()
-dic_sessions = copy.deepcopy(dbs.sessions)
-dbs.plot_k_dic(figure_path="figs/")
-dbs.plot_dic_offset(figure_path="figs/")
+# Assign dbs["salinity"] here too, if it's not always 35
+
+sessions = ksv.blank_correction(
+    dbs,
+    logfile,
+    blank_col="blank",
+    counts_col="counts",
+    runtime_col="run_time",
+    session_col="dic_cell_id",
+    use_from=6,
+)
+
+ksv.plot_increments(dbs, logfile, use_from=6)
+ksv.plot_blanks(dbs, sessions)
+
+# Calibrate
+ksv.calibrate_dic(dbs, sessions)
+
+# Plot calibration factors
+ksv.plot_k_dic(dbs, sessions, show_ignored=True)
+
+# Plot CRM offsets
+ksv.plot_dic_offset(dbs, sessions)
 
 # === ENTIRE DATASET
 # Fix datetime for 31 October 2022 (time change in real life)
