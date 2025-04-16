@@ -1,7 +1,7 @@
 import pandas as pd, numpy as np, koolstof as ks, calkulate as calk
 import matplotlib.dates as mdates
 
-# Import logfile and dbs file
+# Import logfile and dbs file765t4rfgedvc 56tyrghujugytferdtyujikhhgfdcvxb nmbvc
 logfile = ks.read_logfile(
     "data/TA_ONLY/logfile.bak",
     methods=[
@@ -68,18 +68,16 @@ for s in so289_samples:
     dbs.loc[dbs["bottle"] == s, "total_silicate"] = so289_metadata.loc[
         so289_metadata["bottle"] == s, "silicate"
     ].values
-    
-# Assign metadata for SO289/ UWS samples
-so289_metadata = pd.read_csv("data/TA_ONLY/uws_S06_match_samples_SMB_sal_temp.csv")
-so289_samples = list(so289_metadata["bottle"])
 
-for s in so289_samples:
-    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata.loc[
-        so289_metadata["bottle"] == s, "SBE45_sal"
+# Assign metadata for SO289/ UWS samples
+so289_metadata_uws = pd.read_csv("data/TA_ONLY/uws_S06_match_samples_SMB_sal_temp.csv")
+so289_samples_uws = list(so289_metadata_uws["bottle"])
+
+for s in so289_samples_uws:
+    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata_uws.loc[
+        so289_metadata_uws["bottle"] == s, "SBE45_sal"
     ].values
-    dbs.loc[dbs["bottle"] == s, "salinity"] = so289_metadata.loc[
-        so289_metadata["bottle"] == s, "SBE38_water_temp"
-    ].values
+    
 
 print("/!\ \n CAREFUL: MISSING METADATA FOR 3 SO289 UWS SAMPLES \n /!\ ")
 
